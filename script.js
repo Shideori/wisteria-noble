@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "3.0.0"
+    "version": "4.0.0"
   },
   "collections": [
     {
@@ -710,9 +710,933 @@ const embeddedOutfitData = {
       "englishName": "Noble Fantasy Outfits",
       "symbol": "⚜",
       "accentColor": "#8f82b6",
-      "description": "侯爵、公爵、騎士、王子などをテーマにした貴族衣装コレクション。",
+      "description": "王侯、公爵、騎士、紳士などをテーマにした格式高い貴族衣装コレクション。",
       "comingSoonMessage": "貴族ファンタジー衣装は現在準備中です。公開までしばらくお待ちください。",
-      "series": []
+      "series": [
+        {
+          "id": "royal-sovereign",
+          "name": "Royal Sovereign",
+          "symbol": "👑",
+          "accentColor": "#d8bd70",
+          "description": "王国を統べる君主の威厳と気品を纏う、最高位のロイヤルシリーズ。",
+          "motif": "王冠・王家の紋章・勲章",
+          "material": "ベルベット・金刺繍・白毛皮",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "王侯貴族の正装（上半身）",
+              "prompts": [
+                "military tailcoat",
+                "high collar",
+                "double-breasted jacket",
+                "gold embroidery"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "王侯貴族のスラックス",
+              "prompts": [
+                "tailored trousers",
+                "gold side stripes",
+                "formal noble pants",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "王侯貴族の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "gold buckle shoes",
+                "luxury dress shoes",
+                "royal footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "王家のロイヤルマント",
+              "prompts": [
+                "royal cape",
+                "fur mantle",
+                "gold trim",
+                "velvet cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "王家のブローチ・勲章",
+              "prompts": [
+                "royal brooch",
+                "gold medal",
+                "jeweled insignia",
+                "royal crest"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "王侯貴族の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ceremonial sword",
+                "gold epaulettes",
+                "signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rose-marquis",
+          "name": "Rose Marquis",
+          "symbol": "🌹",
+          "accentColor": "#c9788f",
+          "description": "薔薇とベルベットが彩る、優雅で知性あふれる侯爵シリーズ。",
+          "motif": "薔薇・侯爵家の紋章・蔦",
+          "material": "ベルベット・金刺繍・宝石",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "薔薇侯爵の正装（上半身）",
+              "prompts": [
+                "rose embroidered tailcoat",
+                "high collar",
+                "velvet noble jacket",
+                "gold embroidery"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "薔薇侯爵のスラックス",
+              "prompts": [
+                "tailored trousers",
+                "velvet pants",
+                "formal noble trousers",
+                "gold side stripes"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "薔薇侯爵の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "rose buckle shoes",
+                "luxury dress shoes",
+                "velvet footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "侯爵家の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "velvet mantle",
+                "rose embroidery",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "侯爵家のブローチ・勲章",
+              "prompts": [
+                "rose brooch",
+                "gold insignia",
+                "family crest",
+                "jeweled medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "薔薇侯爵の装備・小物",
+              "prompts": [
+                "black gloves",
+                "decorative rapier",
+                "pocket watch",
+                "signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moon-regent",
+          "name": "Moon Regent",
+          "symbol": "🌙",
+          "accentColor": "#9ab2e8",
+          "description": "月光と星々に導かれる、神秘と叡智を宿す摂政シリーズ。",
+          "motif": "月・星・天体紋章",
+          "material": "銀糸・ベルベット・ムーンストーン",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "月光の摂政礼装（上半身）",
+              "prompts": [
+                "high collar tailcoat",
+                "silver embroidery",
+                "celestial noble jacket",
+                "double-breasted coat"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "月光のスラックス",
+              "prompts": [
+                "tailored trousers",
+                "silver side stripes",
+                "formal noble pants",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "月光の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "silver buckle shoes",
+                "luxury dress shoes",
+                "moonlit footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "月光の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "star embroidery",
+                "silver trim",
+                "velvet mantle"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "天体のブローチ・勲章",
+              "prompts": [
+                "moon brooch",
+                "star insignia",
+                "silver crest",
+                "celestial medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "月光の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ornamental sword",
+                "moon pocket watch",
+                "silver signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forest-warden",
+          "name": "Forest Warden",
+          "symbol": "🌿",
+          "accentColor": "#7eb58a",
+          "description": "森と自然を護る使命を背負う、誇り高き守護者シリーズ。",
+          "motif": "葉・蔦・森の紋章",
+          "material": "革・毛皮・エメラルド",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "森の守護者礼装（上半身）",
+              "prompts": [
+                "forest noble jacket",
+                "leather tailcoat",
+                "high collar",
+                "leaf embroidery"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "森の守護者トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "leather trimmed pants",
+                "forest noble trousers",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "森の守護者ロングブーツ",
+              "prompts": [
+                "leather knee boots",
+                "forest riding boots",
+                "gold buckle boots",
+                "noble boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "守護者の両肩マント",
+              "prompts": [
+                "double shoulder cape",
+                "fur mantle",
+                "leaf embroidery",
+                "forest cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "森の紋章ブローチ・勲章",
+              "prompts": [
+                "leaf brooch",
+                "forest insignia",
+                "emerald crest",
+                "nature medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "森の守護者の装備・小物",
+              "prompts": [
+                "leather gloves",
+                "ornamental longsword",
+                "emerald signet ring",
+                "hunting belt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ice-monarch",
+          "name": "Ice Monarch",
+          "symbol": "❄️",
+          "accentColor": "#b8e2f5",
+          "description": "氷雪帝国を統べる、冷静沈着で威厳あふれる君主シリーズ。",
+          "motif": "雪の結晶・氷柱・帝国紋章",
+          "material": "白毛皮・銀刺繍・氷晶",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "氷雪皇帝礼装（上半身）",
+              "prompts": [
+                "fur-lined tailcoat",
+                "high collar",
+                "silver embroidery",
+                "ice crystal noble jacket"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "氷雪皇帝トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "silver trimmed pants",
+                "formal noble trousers",
+                "winter noble fit"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "氷雪皇帝ロングブーツ",
+              "prompts": [
+                "fur-lined knee boots",
+                "polished leather boots",
+                "silver buckle boots",
+                "winter royal boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "氷雪帝国の両肩マント",
+              "prompts": [
+                "double shoulder cape",
+                "white fur mantle",
+                "snowflake embroidery",
+                "ice crystal cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "氷雪帝国のブローチ・勲章",
+              "prompts": [
+                "snowflake brooch",
+                "silver insignia",
+                "ice crystal crest",
+                "royal medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "氷雪皇帝の装備・小物",
+              "prompts": [
+                "white leather gloves",
+                "ceremonial greatsword",
+                "crystal signet ring",
+                "silver shoulder guards"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "butterfly-count",
+          "name": "Butterfly Count",
+          "symbol": "🦋",
+          "accentColor": "#c7a4e8",
+          "description": "蝶のような優雅さと芸術性を纏う、気品あふれる伯爵シリーズ。",
+          "motif": "蝶・翅・伯爵家の紋章",
+          "material": "ベルベット・金刺繍・アメジスト",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "蝶伯爵の礼装（上半身）",
+              "prompts": [
+                "butterfly embroidered tailcoat",
+                "high collar",
+                "velvet noble jacket",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "蝶伯爵のスラックス",
+              "prompts": [
+                "tailored trousers",
+                "elegant noble pants",
+                "velvet trousers",
+                "gold side stripes"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "蝶伯爵の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "butterfly buckle shoes",
+                "luxury dress shoes",
+                "elegant footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "蝶伯爵の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "butterfly embroidery",
+                "velvet mantle",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "蝶のブローチ・勲章",
+              "prompts": [
+                "butterfly brooch",
+                "gold insignia",
+                "jeweled crest",
+                "crystal medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "蝶伯爵の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ornamental rapier",
+                "butterfly pocket watch",
+                "amethyst signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "holy-paladin",
+          "name": "Holy Paladin",
+          "symbol": "🤍",
+          "accentColor": "#eee7cf",
+          "description": "神聖なる使命を胸に、人々を守り導く聖騎士シリーズ。",
+          "motif": "聖印・光輪・騎士団紋章",
+          "material": "白革・金刺繍・聖なる金属",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "聖騎士団長礼装（上半身）",
+              "prompts": [
+                "white military coat",
+                "high collar",
+                "gold embroidery",
+                "holy knight armor trim"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "聖騎士団長トラウザーズ",
+              "prompts": [
+                "tailored white trousers",
+                "gold side stripes",
+                "formal knight pants",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "聖騎士団長ロングブーツ",
+              "prompts": [
+                "white leather knee boots",
+                "gold buckle boots",
+                "holy knight boots",
+                "polished riding boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "聖騎士団長の両肩マント",
+              "prompts": [
+                "double shoulder cape",
+                "white mantle",
+                "gold trim",
+                "holy cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "聖騎士団のブローチ・勲章",
+              "prompts": [
+                "holy brooch",
+                "gold insignia",
+                "sacred crest",
+                "knight medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "聖騎士団長の装備・小物",
+              "prompts": [
+                "white gloves",
+                "holy sword",
+                "gold shoulder guards",
+                "signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dark-sovereign",
+          "name": "Dark Sovereign",
+          "symbol": "🖤",
+          "accentColor": "#665a73",
+          "description": "闇をも従える圧倒的な威厳を放つ、漆黒の支配者シリーズ。",
+          "motif": "黒王冠・漆黒の紋章・夜",
+          "material": "黒ベルベット・オニキス・黒革",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "漆黒の君主礼装（上半身）",
+              "prompts": [
+                "black military tailcoat",
+                "high collar",
+                "black velvet jacket",
+                "onyx embroidery"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "漆黒の君主トラウザーズ",
+              "prompts": [
+                "tailored black trousers",
+                "onyx side stripes",
+                "formal noble pants",
+                "velvet trim"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "漆黒の君主ロングブーツ",
+              "prompts": [
+                "black leather knee boots",
+                "onyx buckle boots",
+                "armored riding boots",
+                "dark royal boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "漆黒の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "black velvet mantle",
+                "onyx embroidery",
+                "fur trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "漆黒のブローチ・勲章",
+              "prompts": [
+                "onyx brooch",
+                "black insignia",
+                "obsidian crest",
+                "dark royal medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "漆黒の君主の装備・小物",
+              "prompts": [
+                "black leather gloves",
+                "ornamental greatsword",
+                "obsidian signet ring",
+                "black shoulder armor"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "celestial-emperor",
+          "name": "Celestial Emperor",
+          "symbol": "🌌",
+          "accentColor": "#8797d8",
+          "description": "天空と星々の加護を受けた、壮麗なる皇帝シリーズ。",
+          "motif": "星座・天球・皇帝紋章",
+          "material": "金刺繍・星晶石・ベルベット",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "天空皇帝礼装（上半身）",
+              "prompts": [
+                "celestial military tailcoat",
+                "high collar",
+                "gold embroidery",
+                "constellation noble jacket"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "天空皇帝トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "gold side stripes",
+                "formal imperial pants",
+                "celestial trim"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "天空皇帝の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "gold buckle shoes",
+                "imperial dress shoes",
+                "celestial footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "天空皇帝の両肩マント",
+              "prompts": [
+                "double shoulder cape",
+                "constellation embroidery",
+                "royal mantle",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "天空帝国のブローチ・勲章",
+              "prompts": [
+                "constellation brooch",
+                "celestial insignia",
+                "gold imperial crest",
+                "star medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "天空皇帝の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ceremonial saber",
+                "celestial signet ring",
+                "astral pocket watch"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "victorian-nobleman",
+          "name": "Victorian Nobleman",
+          "symbol": "🎩",
+          "accentColor": "#b89876",
+          "description": "英国貴族の伝統と気品を受け継ぐ、格式高き紳士シリーズ。",
+          "motif": "シルクハット・カメオ・英国紋章",
+          "material": "ウール・ベルベット・金属装飾",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "英国紳士の礼装（上半身）",
+              "prompts": [
+                "victorian tailcoat",
+                "high collar",
+                "double-breasted jacket",
+                "gold embroidery"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "英国紳士のスラックス",
+              "prompts": [
+                "tailored trousers",
+                "formal noble pants",
+                "elegant fit",
+                "pressed trousers"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "英国紳士の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "button dress shoes",
+                "luxury gentleman footwear",
+                "classic leather shoes"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "英国紳士の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "velvet mantle",
+                "gold trim",
+                "classic noble cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "英国紳士のブローチ・勲章",
+              "prompts": [
+                "cameo brooch",
+                "family insignia",
+                "gold crest",
+                "gentleman medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "英国紳士の装備・小物",
+              "prompts": [
+                "white gloves",
+                "walking cane",
+                "pocket watch",
+                "cufflinks"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "crystal-duke",
+          "name": "Crystal Duke",
+          "symbol": "💎",
+          "accentColor": "#a9d9ea",
+          "description": "宝石の輝きを纏う、華麗で気品あふれる公爵シリーズ。",
+          "motif": "宝石・公爵家の紋章・結晶",
+          "material": "クリスタル・ダイヤモンド・ベルベット",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "宝石公爵礼装（上半身）",
+              "prompts": [
+                "crystal embroidered tailcoat",
+                "high collar",
+                "velvet noble jacket",
+                "gem embellishments"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "宝石公爵トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "formal noble pants",
+                "crystal side stripes",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "宝石公爵の革靴",
+              "prompts": [
+                "polished leather shoes",
+                "crystal buckle shoes",
+                "luxury dress shoes",
+                "gemstone footwear"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "宝石公爵の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "velvet mantle",
+                "crystal embroidery",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "公爵家のブローチ・勲章",
+              "prompts": [
+                "crystal brooch",
+                "jeweled insignia",
+                "diamond crest",
+                "royal medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "宝石公爵の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ceremonial saber",
+                "diamond cufflinks",
+                "gem signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ocean-sovereign",
+          "name": "Ocean Sovereign",
+          "symbol": "🌊",
+          "accentColor": "#6db7cf",
+          "description": "大海原を統べる威厳と誇りを纏う、海洋君主シリーズ。",
+          "motif": "波・錨・海洋帝国紋章",
+          "material": "真珠・アクアマリン・金刺繍",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "海洋君主礼装（上半身）",
+              "prompts": [
+                "naval tailcoat",
+                "high collar",
+                "gold embroidery",
+                "wave embroidered jacket"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "海洋君主トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "naval formal pants",
+                "gold side stripes",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "海洋君主ロングブーツ",
+              "prompts": [
+                "polished riding boots",
+                "leather knee boots",
+                "gold buckle boots",
+                "naval officer boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "海洋君主の片肩マント",
+              "prompts": [
+                "single shoulder cape",
+                "wave embroidery",
+                "velvet mantle",
+                "gold trim"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "海洋帝国のブローチ・勲章",
+              "prompts": [
+                "anchor brooch",
+                "wave insignia",
+                "pearl crest",
+                "naval medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "海洋君主の装備・小物",
+              "prompts": [
+                "white gloves",
+                "ceremonial saber",
+                "captain telescope",
+                "aquamarine signet ring"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scarlet-monarch",
+          "name": "Scarlet Monarch",
+          "symbol": "🔥",
+          "accentColor": "#d76256",
+          "description": "紅蓮の炎と覇道をその身に宿す、情熱と威厳の覇王シリーズ。",
+          "motif": "紅蓮・炎・帝国紋章",
+          "material": "ルビー・黒革・金",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "紅蓮覇王礼装（上半身）",
+              "prompts": [
+                "crimson military tailcoat",
+                "high collar",
+                "gold embroidery",
+                "ruby noble jacket"
+              ]
+            },
+            {
+              "id": "trousers",
+              "name": "紅蓮覇王トラウザーズ",
+              "prompts": [
+                "tailored trousers",
+                "crimson side stripes",
+                "formal imperial pants",
+                "elegant fit"
+              ]
+            },
+            {
+              "id": "boots",
+              "name": "紅蓮覇王ロングブーツ",
+              "prompts": [
+                "black leather knee boots",
+                "gold buckle boots",
+                "ruby armored boots",
+                "imperial riding boots"
+              ]
+            },
+            {
+              "id": "cape",
+              "name": "紅蓮帝国の両肩マント",
+              "prompts": [
+                "double shoulder cape",
+                "fur mantle",
+                "flame embroidery",
+                "royal crimson cloak"
+              ]
+            },
+            {
+              "id": "insignia",
+              "name": "紅蓮帝国のブローチ・勲章",
+              "prompts": [
+                "ruby brooch",
+                "imperial insignia",
+                "flame crest",
+                "gold medal"
+              ]
+            },
+            {
+              "id": "equipment",
+              "name": "紅蓮覇王の装備・小物",
+              "prompts": [
+                "black leather gloves",
+                "ceremonial greatsword",
+                "ruby signet ring",
+                "gold shoulder guards"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 };
