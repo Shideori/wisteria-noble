@@ -1,28 +1,28 @@
 # Wisteria Noble - Fantasy Outfit Builder
 
-## ファイル構成
+GitHub Pagesで公開するためのアップロード用ファイルです。
 
-- `index.html`：ページ構造
-- `style.css`：ゲームUI風デザインとレスポンシブ対応
-- `script.js`：JSON読み込み、シリーズ展開、コピー、プロンプト選択
-- `outfits.json`：衣装シリーズとカテゴリデータ
+## アップロードするファイル
 
-## ローカル確認
+- index.html
+- style.css
+- script.js
+- outfits.json
+- README.md
 
-`fetch()` でJSONを読み込むため、HTMLファイルを直接ダブルクリックせず、
-簡易Webサーバー経由で確認してください。
+## GitHub Pagesの設定
 
-### VS Code
-Live Server 拡張機能で `index.html` を開く。
+1. GitHubで新しいリポジトリを作成
+2. 上記5ファイルをリポジトリ直下へアップロード
+3. Settings → Pages を開く
+4. Sourceで「Deploy from a branch」を選択
+5. Branchを「main」、フォルダを「/root」に設定
+6. Saveを押す
 
-### Python
-```bash
-python -m http.server 8000
-```
+## 収録シリーズ
 
-その後、ブラウザで `http://localhost:8000` を開く。
-
-## GitHub Pages
-
-リポジトリ直下に4ファイルを配置し、GitHub Pagesの公開元を
-`Deploy from a branch` / `main` / `/root` に設定してください。
+- Royal Princess
+- Rose Duchess
+- Moon Empress
+- Forest Fairy
+- Ice Queen

@@ -24,32 +24,235 @@ let toastTimer = null;
 
 document.addEventListener("DOMContentLoaded", init);
 
+const embeddedOutfitData = {
+  "site": {
+    "projectName": "Wisteria Noble",
+    "siteName": "Fantasy Outfit Builder",
+    "version": "1.0.0"
+  },
+  "series": [
+    {
+      "id": "royal-princess",
+      "name": "Royal Princess",
+      "symbol": "♔",
+      "accentColor": "#cdb7ff",
+      "description": "王道の気品と可憐さを備えた、宮廷の姫君を思わせる衣装シリーズ。",
+      "categories": [
+        {
+          "id": "dress",
+          "name": "ドレス",
+          "prompt": "elegant royal princess dress, layered ball gown, refined silhouette, luxurious fabric"
+        },
+        {
+          "id": "bodice",
+          "name": "ボディス",
+          "prompt": "ornate fitted bodice, delicate gold embroidery, pearl accents, lace trim"
+        },
+        {
+          "id": "sleeves",
+          "name": "袖",
+          "prompt": "soft puff sleeves, translucent lace cuffs, graceful ribbon details"
+        },
+        {
+          "id": "accessories",
+          "name": "装飾品",
+          "prompt": "small jeweled tiara, pearl choker, elegant earrings, royal brooch"
+        },
+        {
+          "id": "footwear",
+          "name": "靴",
+          "prompt": "decorative princess heels, satin ribbons, gold filigree ornaments"
+        },
+        {
+          "id": "details",
+          "name": "仕上げ",
+          "prompt": "regal fantasy fashion, soft sparkle, noble atmosphere, intricate craftsmanship"
+        }
+      ]
+    },
+    {
+      "id": "rose-duchess",
+      "name": "Rose Duchess",
+      "symbol": "✿",
+      "accentColor": "#d98aa8",
+      "description": "深紅の薔薇と成熟した優雅さを纏う、公爵夫人のための華麗なシリーズ。",
+      "categories": [
+        {
+          "id": "dress",
+          "name": "ドレス",
+          "prompt": "deep crimson duchess gown, elegant mermaid silhouette, layered rose petal skirt"
+        },
+        {
+          "id": "corset",
+          "name": "コルセット",
+          "prompt": "luxurious black and burgundy corset, gold vine embroidery, gemstone clasps"
+        },
+        {
+          "id": "sleeves",
+          "name": "袖",
+          "prompt": "dramatic off-shoulder sleeves, sheer black lace, rose embroidery"
+        },
+        {
+          "id": "accessories",
+          "name": "装飾品",
+          "prompt": "rose-shaped hair ornament, ruby necklace, black lace gloves, antique earrings"
+        },
+        {
+          "id": "footwear",
+          "name": "靴",
+          "prompt": "burgundy high heels, rose ornaments, delicate ankle straps"
+        },
+        {
+          "id": "details",
+          "name": "仕上げ",
+          "prompt": "aristocratic gothic romance, rose motif, sophisticated elegance, rich textures"
+        }
+      ]
+    },
+    {
+      "id": "moon-empress",
+      "name": "Moon Empress",
+      "symbol": "☾",
+      "accentColor": "#9eb9f4",
+      "description": "月光と星々の神秘を宿す、静謐で威厳ある女帝の衣装シリーズ。",
+      "categories": [
+        {
+          "id": "dress",
+          "name": "ドレス",
+          "prompt": "celestial moon empress gown, flowing midnight blue layers, silver gradient fabric"
+        },
+        {
+          "id": "bodice",
+          "name": "ボディス",
+          "prompt": "structured celestial bodice, crescent moon patterns, silver thread embroidery"
+        },
+        {
+          "id": "sleeves",
+          "name": "袖",
+          "prompt": "long translucent sleeves, starry veil fabric, glowing silver cuffs"
+        },
+        {
+          "id": "accessories",
+          "name": "装飾品",
+          "prompt": "crescent crown, moonstone necklace, star earrings, celestial armlets"
+        },
+        {
+          "id": "footwear",
+          "name": "靴",
+          "prompt": "silver celestial sandals, moonstone decorations, luminous ribbon straps"
+        },
+        {
+          "id": "details",
+          "name": "仕上げ",
+          "prompt": "ethereal moonlight, cosmic elegance, subtle glow, mystical imperial presence"
+        }
+      ]
+    },
+    {
+      "id": "forest-fairy",
+      "name": "Forest Fairy",
+      "symbol": "❧",
+      "accentColor": "#8fd0a7",
+      "description": "森の光と植物の生命力を取り入れた、軽やかで幻想的な妖精シリーズ。",
+      "categories": [
+        {
+          "id": "dress",
+          "name": "ドレス",
+          "prompt": "forest fairy dress, layered leaf-shaped skirt, soft green translucent fabric"
+        },
+        {
+          "id": "bodice",
+          "name": "ボディス",
+          "prompt": "natural vine-wrapped bodice, tiny flower details, moss-inspired texture"
+        },
+        {
+          "id": "sleeves",
+          "name": "袖",
+          "prompt": "petal sleeves, sheer leaf-pattern fabric, delicate floral cuffs"
+        },
+        {
+          "id": "accessories",
+          "name": "装飾品",
+          "prompt": "flower crown, crystal dew necklace, vine bracelets, leaf earrings"
+        },
+        {
+          "id": "wings",
+          "name": "羽",
+          "prompt": "delicate translucent fairy wings, iridescent veins, soft green glow"
+        },
+        {
+          "id": "details",
+          "name": "仕上げ",
+          "prompt": "enchanted forest atmosphere, floating pollen lights, organic fantasy details"
+        }
+      ]
+    },
+    {
+      "id": "ice-queen",
+      "name": "Ice Queen",
+      "symbol": "❄",
+      "accentColor": "#b9e7ff",
+      "description": "氷晶と雪の輝きを纏う、冷たく気高い女王の衣装シリーズ。",
+      "categories": [
+        {
+          "id": "tiara",
+          "name": "氷雪の女王ティアラ",
+          "prompt": "ice crystal tiara, snowflake hair ornament, crystal crown, silver hair chain"
+        },
+        {
+          "id": "bodice",
+          "name": "氷雪の女王ドレス（上半身）",
+          "prompt": "crystal corset, high collar, sheer long sleeves, snowflake embroidery"
+        },
+        {
+          "id": "skirt",
+          "name": "氷晶レイヤースカート",
+          "prompt": "layered translucent skirt, crystal overskirt, flowing long skirt, icicle hem"
+        },
+        {
+          "id": "decorations",
+          "name": "雪の結晶と氷晶の装飾",
+          "prompt": "snowflake embroidery, crystal decorations, silver embellishments, frost patterns"
+        },
+        {
+          "id": "accessories",
+          "name": "氷雪の女王アクセサリー",
+          "prompt": "sheer gloves, crystal earrings, snowflake choker, silver brooch"
+        }
+      ]
+    }
+  ]
+};
+
 async function init() {
   bindStaticEvents();
 
   try {
-    const response = await fetch("./outfits.json");
+    let data = embeddedOutfitData;
 
-    if (!response.ok) {
-      throw new Error(`衣装データの読み込みに失敗しました: ${response.status}`);
+    if (location.protocol !== "file:") {
+      try {
+        const response = await fetch("./outfits.json", { cache: "no-store" });
+        if (response.ok) {
+          data = await response.json();
+        }
+      } catch (fetchError) {
+        console.warn("outfits.json の読み込みに失敗したため、内蔵データを使用します。", fetchError);
+      }
     }
 
-    const data = await response.json();
-
     if (!Array.isArray(data.series)) {
-      throw new Error("outfits.json のデータ形式が正しくありません。");
+      throw new Error("衣装データの形式が正しくありません。");
     }
 
     appState.outfits = data.series;
     renderSeries();
     updateSelectedPromptUI();
-
     elements.statusMessage.hidden = true;
   } catch (error) {
     console.error(error);
     elements.statusMessage.hidden = false;
-    elements.statusMessage.textContent =
-      "衣装データを読み込めませんでした。ローカル確認時はWebサーバー経由で開いてください。";
+    elements.statusMessage.textContent = "衣装データを表示できませんでした。";
   }
 }
 
