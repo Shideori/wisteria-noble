@@ -160,6 +160,40 @@
           "prompt": "enchanted forest atmosphere, floating pollen lights, organic fantasy details"
         }
       ]
+    },
+    {
+      "id": "ice-queen",
+      "name": "Ice Queen",
+      "symbol": "❄",
+      "accentColor": "#b9e7ff",
+      "description": "氷晶と雪の輝きを纏う、冷たく気高い女王の衣装シリーズ。",
+      "categories": [
+        {
+          "id": "tiara",
+          "name": "氷雪の女王ティアラ",
+          "prompt": "ice crystal tiara, snowflake hair ornament, crystal crown, silver hair chain"
+        },
+        {
+          "id": "bodice",
+          "name": "氷雪の女王ドレス（上半身）",
+          "prompt": "crystal corset, high collar, sheer long sleeves, snowflake embroidery"
+        },
+        {
+          "id": "skirt",
+          "name": "氷晶レイヤースカート",
+          "prompt": "layered translucent skirt, crystal overskirt, flowing long skirt, icicle hem"
+        },
+        {
+          "id": "decorations",
+          "name": "雪の結晶と氷晶の装飾",
+          "prompt": "snowflake embroidery, crystal decorations, silver embellishments, frost patterns"
+        },
+        {
+          "id": "accessories",
+          "name": "氷雪の女王アクセサリー",
+          "prompt": "sheer gloves, crystal earrings, snowflake choker, silver brooch"
+        }
+      ]
     }
   ]
 }
