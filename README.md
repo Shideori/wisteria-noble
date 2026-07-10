@@ -1,29 +1,27 @@
-# Wisteria Noble - Fantasy Outfit Builder
+# Wisteria Noble - Hierarchical Collection Edition
 
-GitHub Pagesへアップロードする完成版です。
+## データ構造
 
-## 収録シリーズ（13種類）
+```text
+collections
+└─ series
+   └─ categories
+      └─ prompts
+```
 
-- Royal Princess
-- Rose Duchess
-- Moon Empress
-- Forest Fairy
-- Ice Queen
-- Butterfly Noble
-- Holy Maiden
-- Dark Aristocrat
-- Celestial Queen
-- Victorian Lady
-- Crystal Noble
-- Ocean Princess
-- Scarlet Queen
+## 現在のコレクション
 
-各シリーズに世界観紹介文、主役モチーフ、主役素材を収録しています。
-Ice Queenは重複せず、6番目のカテゴリとしてシューズを追加しています。
+- 令嬢ファンタジー衣装
+  - 13シリーズ収録
+- 貴族ファンタジー衣装
+  - 現在は `series: []` のためCOMING SOON表示
 
-## GitHubへのアップロード
+`貴族ファンタジー衣装` の `series` 配列へシリーズを追加すると、
+COMING SOON表示は自動で解除され、通常のコレクションカードとして開けます。
 
-ZIPを解凍し、以下の5ファイルをリポジトリ直下へ上書きしてください。
+## GitHub Pages
+
+ZIPを解凍し、以下のファイルをリポジトリ直下へアップロードしてください。
 
 - index.html
 - style.css

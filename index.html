@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   >
-  <link rel="stylesheet" href="./style.css?v=20260710-all-series">
+  <link rel="stylesheet" href="./style.css?v=20260710-hierarchical">
 </head>
 <body>
   <div class="background-decoration background-decoration--one" aria-hidden="true"></div>
@@ -22,7 +22,7 @@
 
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="brand" href="#" aria-label="Fantasy Outfit Builder トップへ">
+      <a class="brand" href="#" id="brandHomeLink" aria-label="Fantasy Outfit Builder トップへ">
         <span class="brand__crest" aria-hidden="true">WN</span>
         <span class="brand__text">
           <span class="brand__project">Wisteria Noble</span>
@@ -48,24 +48,27 @@
       <p class="hero__eyebrow">Create your noble fantasy attire</p>
       <h1 class="hero__title" id="heroTitle">幻想衣装を、自由に組み合わせる。</h1>
       <p class="hero__description">
-        シリーズとカテゴリを選び、PixAIなどで使える衣装プロンプトを組み立ててコピーできます。
+        大分類から衣装シリーズを選び、カテゴリごとのプロンプトを組み合わせてコピーできます。
       </p>
     </section>
 
-    <section class="builder-section" aria-labelledby="seriesTitle">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="現在位置"></nav>
+
+    <section class="builder-section" aria-labelledby="sectionTitle">
       <div class="section-heading">
         <div>
-          <p class="section-heading__eyebrow">Outfit Collection</p>
-          <h2 class="section-heading__title" id="seriesTitle">衣装シリーズ</h2>
+          <p class="section-heading__eyebrow" id="sectionEyebrow">Outfit Collections</p>
+          <h2 class="section-heading__title" id="sectionTitle">衣装コレクション</h2>
         </div>
-        <p class="section-heading__note">シリーズを選ぶとカテゴリが展開します</p>
+        <p class="section-heading__note" id="sectionNote">大分類を選択してください</p>
       </div>
 
       <div class="status-message" id="statusMessage" role="status" aria-live="polite">
         衣装データを読み込んでいます。
       </div>
 
-      <div class="series-grid" id="seriesGrid"></div>
+      <div id="collectionView" class="collection-grid"></div>
+      <div id="seriesView" class="series-grid" hidden></div>
     </section>
   </main>
 
@@ -126,9 +129,9 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <footer class="site-footer">
-    <p>Wisteria Noble — Fantasy Outfit Builder<br><small>All Series Update 2026.07.10</small></p>
+    <p>Wisteria Noble — Fantasy Outfit Builder<br><small>Hierarchical Collection Update 2026.07.10</small></p>
   </footer>
 
-  <script src="./script.js?v=20260710-all-series" defer></script>
+  <script src="./script.js?v=20260710-hierarchical" defer></script>
 </body>
 </html>
