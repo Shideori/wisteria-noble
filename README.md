@@ -1,28 +1,32 @@
 # Wisteria Noble - Fantasy Outfit Builder
 
-GitHub Pagesで公開するためのアップロード用ファイルです。
+GitHub Pagesへアップロードする完成版です。
 
-## アップロードするファイル
-
-- index.html
-- style.css
-- script.js
-- outfits.json
-- README.md
-
-## GitHub Pagesの設定
-
-1. GitHubで新しいリポジトリを作成
-2. 上記5ファイルをリポジトリ直下へアップロード
-3. Settings → Pages を開く
-4. Sourceで「Deploy from a branch」を選択
-5. Branchを「main」、フォルダを「/root」に設定
-6. Saveを押す
-
-## 収録シリーズ
+## 収録シリーズ（13種類）
 
 - Royal Princess
 - Rose Duchess
 - Moon Empress
 - Forest Fairy
 - Ice Queen
+- Butterfly Noble
+- Holy Maiden
+- Dark Aristocrat
+- Celestial Queen
+- Victorian Lady
+- Crystal Noble
+- Ocean Princess
+- Scarlet Queen
+
+各シリーズに世界観紹介文、主役モチーフ、主役素材を収録しています。
+Ice Queenは重複せず、6番目のカテゴリとしてシューズを追加しています。
+
+## GitHubへのアップロード
+
+ZIPを解凍し、以下の5ファイルをリポジトリ直下へ上書きしてください。
+
+- index.html
+- style.css
+- script.js
+- outfits.json
+- README.md
