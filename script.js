@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "4.0.0"
+    "version": "5.0.0"
   },
   "collections": [
     {
@@ -1632,6 +1632,555 @@ const embeddedOutfitData = {
                 "ceremonial greatsword",
                 "ruby signet ring",
                 "gold shoulder guards"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruit-prompts",
+      "name": "フルーツプロンプト",
+      "englishName": "Fruit Prompt Collection",
+      "symbol": "🍓",
+      "accentColor": "#ef8aa2",
+      "description": "果実の色彩とモチーフを取り入れた、女性用・男性用の衣装プロンプトコレクション。",
+      "series": [
+        {
+          "id": "strawberry-fraise",
+          "name": "Strawberry Fraise",
+          "symbol": "🍓",
+          "accentColor": "#e66f8d",
+          "description": "苺の甘酸っぱさと可憐な華やかさを纏う、フリルとレースに彩られた甘美なロリータシリーズ。",
+          "motif": "苺・葉・リボン",
+          "material": "白レース・パール・サテン",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜苺の甘ロリドレス・上半身",
+              "prompts": [
+                "(strawberry-red and soft pink lolita bodice:1.4)",
+                "white lace blouse with puff sleeves",
+                "layered chest frills and ribbon bows",
+                "strawberry embroidery and pearl buttons",
+                "dark green leaf-shaped collar accents"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜苺の可愛い貴族服・上半身",
+              "prompts": [
+                "(strawberry-red aristocratic tailcoat:1.4)",
+                "soft pink waistcoat with white lace trim",
+                "ivory high-collar shirt with layered lace jabot",
+                "crimson ribbon bows and pearl buttons",
+                "small dark green leaf embroidery"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜苺の甘ロリスカート・靴",
+              "prompts": [
+                "strawberry-red tiered ruffle skirt",
+                "soft pink and white lace petticoat",
+                "scalloped hem with strawberry motifs",
+                "red ribbon Mary Jane shoes",
+                "white lace ankle socks"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜苺の貴族ハーフパンツ・靴",
+              "prompts": [
+                "deep strawberry-red tailored shorts",
+                "soft pink side ribbons and lace accents",
+                "white frilled knee-high socks",
+                "red leather buckle shoes",
+                "gold strawberry shoe ornaments"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜苺の甘ロリアクセサリー・小物",
+              "prompts": [
+                "large strawberry ribbon headpiece",
+                "white lace headdress with green leaves",
+                "strawberry pearl choker",
+                "lace wrist cuffs with red bows",
+                "strawberry-shaped mini handbag"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜苺の貴族アクセサリー・小物",
+              "prompts": [
+                "strawberry-red miniature top hat with lace",
+                "crimson cravat with strawberry jewel",
+                "white lace gloves with red ribbon cuffs",
+                "gold strawberry crest brooch",
+                "small red shoulder cape with pink frills"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "violet-grape",
+          "name": "Violet Grape",
+          "symbol": "🍇",
+          "accentColor": "#8660b5",
+          "description": "深い葡萄色と蔓の装飾が織りなす、冷ややかな気品と優雅さを宿すクールロリータシリーズ。",
+          "motif": "葡萄・蔓・葡萄葉",
+          "material": "紫レース・アメジスト・ベルベット",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜葡萄のクールフリルワンピース・上半身",
+              "prompts": [
+                "(grape-violet fitted dress bodice:1.4)",
+                "plum lace blouse with puff sleeves",
+                "layered violet chest frills and ribbon bows",
+                "grape cluster embroidery across the bodice",
+                "dark purple grape-leaf collar"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜葡萄のクール貴族服・上半身",
+              "prompts": [
+                "(grape-violet aristocratic tailcoat:1.4)",
+                "plum waistcoat with lavender lace trim",
+                "ivory high-collar shirt with violet frilled jabot",
+                "grape cluster embroidery across the chest",
+                "dark purple grape-leaf lapels"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜葡萄のクールフリルスカート・靴",
+              "prompts": [
+                "deep grape-purple tiered ruffle skirt",
+                "lavender lace underskirt with asymmetrical layers",
+                "grape cluster appliques and vine decorations",
+                "violet ribbon platform shoes",
+                "plum lace ankle socks with grape charms"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜葡萄の貴族ロングパンツ・ロングブーツ",
+              "prompts": [
+                "deep grape-purple tailored long trousers",
+                "lavender side ribbons and grapevine embroidery",
+                "fitted plum-colored leg silhouette",
+                "deep violet knee-high leather boots",
+                "silver grape cluster boot ornaments"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜葡萄のクールアクセサリー・小物",
+              "prompts": [
+                "grape cluster and vine hair ornament",
+                "purple grape-shaped lace headdress",
+                "violet gemstone choker with grape pendant",
+                "plum lace gloves with grapevine ribbons",
+                "grape cluster-shaped handbag with green leaf handle"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜葡萄の貴族アクセサリー・小物",
+              "prompts": [
+                "grape cluster and vine hair ornament",
+                "violet cravat with grape gemstone brooch",
+                "plum lace gloves with vine cuffs",
+                "silver grapevine waist chain",
+                "grape-shaped shoulder bag with leaf strap"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "peach-dream",
+          "name": "Peach Dream",
+          "symbol": "🍑",
+          "accentColor": "#f2a7b8",
+          "description": "淡い桃色と幾重ものフリルに包まれた、夢のような甘さと愛らしさあふれる夢かわロリータシリーズ。",
+          "motif": "桃・桃花・大きなリボン",
+          "material": "白レース・パール・シフォン",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜桃柄の夢かわフリルロリータドレス・上半身",
+              "prompts": [
+                "(peach-pink lolita bodice covered in peach patterns:1.4)",
+                "white lace blouse with oversized puff sleeves and triple-layered frills",
+                "dense cascading chest ruffles with pastel pink ribbon bows",
+                "peach fruit embroidery and tiny peach blossom appliques",
+                "ruffled peach-leaf collar with pearls and lace trim"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜桃柄の夢かわ男性ロリータ服・上半身",
+              "prompts": [
+                "(peach-pink male lolita blouse with peach patterns:1.4)",
+                "white lace shirt with oversized puff sleeves and triple-layered frills",
+                "peach-pink suspenders decorated with bows and pearl buttons",
+                "dense chest ruffles with peach fruit embroidery",
+                "ruffled high collar with peach blossom appliques"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜桃柄の夢かわボリュームスカート・靴",
+              "prompts": [
+                "extra-voluminous peach-patterned tiered ruffle skirt",
+                "multiple layers of white and blush lace petticoats",
+                "scalloped frill hem with peach fruit prints and blossom appliques",
+                "peach-pink platform shoes covered in bows and lace",
+                "white triple-frilled ankle socks with peach charms"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜桃柄の夢かわかぼちゃパンツ・靴",
+              "prompts": [
+                "peach-pink suspender pumpkin shorts with peach prints",
+                "extra-puffy bloomers with multiple layered lace hems",
+                "white triple-frilled knee-high socks with pastel bows",
+                "peach-pink platform buckle shoes covered in lace",
+                "peach charms and oversized ribbon shoe decorations"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜桃の夢かわフリルアクセサリー・小物",
+              "prompts": [
+                "large peach-shaped ribbon headdress with cascading lace frills",
+                "peach fruit and blossom hair ornaments with pearl chains",
+                "pastel peach choker with layered ruffles and miniature bows",
+                "white lace wrist cuffs with abundant frills and peach ribbons",
+                "peach-shaped handbag covered in lace, bows, and leaf decorations"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜桃の夢かわ男性ロリータアクセサリー・小物",
+              "prompts": [
+                "large peach and blossom hair ornament with cascading ribbons",
+                "peach-pink ribbon choker with layered lace frills",
+                "white lace wrist cuffs with abundant ruffles and bows",
+                "pearl waist chain with peach-shaped charms",
+                "peach-shaped shoulder bag covered in lace and frills"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cherry-rouge",
+          "name": "Cherry Rouge",
+          "symbol": "🍒",
+          "accentColor": "#d94a65",
+          "description": "鮮やかなさくらんぼ色と小悪魔的な可愛らしさを纏う、元気で少しボーイッシュなチェリーシリーズ。",
+          "motif": "双子さくらんぼ・ハート・葉",
+          "material": "赤リボン・白レース・エナメル",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜さくらんぼの可愛いボーイッシュトップス・上半身",
+              "prompts": [
+                "(cherry-red cute boyish top:1.4)",
+                "white lace blouse with puff sleeves and ribbon details",
+                "short cherry-red vest with frills and heart buttons",
+                "cherry embroidery and twin cherry bow accents",
+                "red and pink collar with green leaf trim"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜さくらんぼの可愛いトップス・上半身",
+              "prompts": [
+                "(white shirt with cherry-red corset:1.4)",
+                "white high-collar blouse with soft frills",
+                "fitted cherry-red corset with ribbon lacing",
+                "cherry embroidery and twin cherry accents",
+                "red collar details with small green leaf trim"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜さくらんぼのショートパンツ・靴",
+              "prompts": [
+                "cherry-red frilled short pants",
+                "layered lace hem bloomers style shorts",
+                "white thigh-high socks with cherry ribbon accents",
+                "red platform strap shoes with cherry charms",
+                "small cherry motifs and green leaf decorations"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜さくらんぼのロングパンツ・靴",
+              "prompts": [
+                "cherry-red tailored long pants",
+                "slim silhouette with lace-trimmed hems",
+                "white socks with cherry ribbon details",
+                "red leather strap shoes with cherry charms",
+                "small cherry motifs and green leaf decorations"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜さくらんぼのアクセサリー・小物",
+              "prompts": [
+                "cherry-shaped earrings",
+                "cherry pendant choker",
+                "large cherry ribbon hair accessory",
+                "lace wrist cuffs with red bows",
+                "cherry-shaped mini handbag"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜さくらんぼのアクセサリー・小物",
+              "prompts": [
+                "cherry pendant choker",
+                "cherry-themed hair accessory",
+                "white lace gloves with red ribbon cuffs",
+                "cherry crest brooch",
+                "cherry-shaped shoulder bag"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scarlet-apple",
+          "name": "Scarlet Apple",
+          "symbol": "🍎",
+          "accentColor": "#c94343",
+          "description": "林檎を思わせる丸いシルエットと鮮やかな赤が彩る、クラシカルで愛らしいアップルシリーズ。",
+          "motif": "林檎・林檎の花・葉",
+          "material": "赤サテン・白レース・金具",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜林檎のバルーンロリータトップス・上半身",
+              "prompts": [
+                "(apple-red fitted lolita bodice:1.4)",
+                "ivory blouse with rounded puff sleeves",
+                "layered chest frills with red ribbon bows",
+                "apple embroidery and tiny blossom details",
+                "dark green leaf-shaped collar accents"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜林檎のスペンサージャケット・上半身",
+              "prompts": [
+                "(apple-red spencer jacket:1.4)",
+                "dark green fitted waistcoat",
+                "white high-collar shirt with soft frills",
+                "gold apple embroidery and brass buttons",
+                "apple-shaped brooch with green leaf detail"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜林檎の丸型バルーンミニスカート・靴",
+              "prompts": [
+                "(very round apple-shaped balloon mini skirt:1.4)",
+                "bright apple-red fabric with subtle apple patterns",
+                "strongly puffed spherical silhouette with gathered hem",
+                "white frilled bloomers beneath the mini skirt",
+                "red strap shoes with gold apple charms"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜林檎のロングパンツ・ロングブーツ",
+              "prompts": [
+                "white tailored long trousers",
+                "slim straight-leg silhouette",
+                "brown knee-high leather boots",
+                "gold buckle and apple charm decorations",
+                "dark green boot straps with leaf motifs"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜林檎のアクセサリー・小物",
+              "prompts": [
+                "apple-inspired red beret with leaf and stem decorations",
+                "red apple-shaped earrings",
+                "green ribbon choker with apple pendant",
+                "white lace wrist cuffs with red bows",
+                "apple-shaped handbag with dark green leaf handle"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜林檎のアクセサリー・小物",
+              "prompts": [
+                "small apple-inspired red beret with leaf decoration",
+                "apple-shaped brooch with green leaves",
+                "red ribbon cravat with gold apple pendant",
+                "brown leather gloves with green cuffs",
+                "gold apple-chain waist accessory"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "citrus-orange",
+          "name": "Citrus Orange",
+          "symbol": "🍊",
+          "accentColor": "#ef9a3e",
+          "description": "陽だまりのようなオレンジ色と軽やかなシアー素材が彩る、爽やかで遊び心あふれるシトラスシリーズ。",
+          "motif": "ミカン・輪切り・柑橘の花",
+          "material": "シアー生地・白リボン・金具",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜ミカンのフリルロリータトップス・上半身",
+              "prompts": [
+                "(orange-colored fitted lolita bodice:1.4)",
+                "white blouse with rounded puff sleeves",
+                "layered chest frills with orange ribbon bows",
+                "citrus blossom embroidery and pearl buttons",
+                "small green leaf-shaped collar accents"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜ミカンの可愛いトップス・上半身",
+              "prompts": [
+                "(white shirt with orange accents:1.4)",
+                "white high-collar shirt",
+                "soft frill details on the front",
+                "orange ribbon tie",
+                "small citrus embroidery and leaf details"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜ミカン輪切り柄のフリルスカート・靴",
+              "prompts": [
+                "(full circular skirt with a flat orange slice pattern:1.4)",
+                "stylized citrus wheel graphic covering the entire skirt",
+                "bright orange segments outlined with white curved lines",
+                "multiple layers of white and pale orange underskirt frills",
+                "orange strap shoes with citrus slice charms"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜ミカンのハイウエストパンツ・靴",
+              "prompts": [
+                "orange high-waisted trousers",
+                "slim straight-leg silhouette",
+                "subtle citrus-patterned details",
+                "brown leather shoes",
+                "gold citrus charm decorations"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜ミカンのアクセサリー・小物",
+              "prompts": [
+                "simple orange-colored headband without frills",
+                "large orange ribbon attached to the headband",
+                "orange slice-shaped earrings",
+                "white ribbon choker with citrus pendant",
+                "orange-shaped handbag with green leaf handle"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜ミカンのアクセサリー・小物",
+              "prompts": [
+                "orange slice earrings",
+                "long sheer orange stole draped around the body",
+                "light translucent fabric with soft citrus tint",
+                "citrus slice brooch with green leaf detail",
+                "orange ribbon tie pin"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lemon-chiffon",
+          "name": "Lemon Chiffon",
+          "symbol": "🍋",
+          "accentColor": "#e8d65a",
+          "description": "レモンイエローと白の爽やかな彩りを纏う、軽快でスポーティーなボーイッシュシリーズ。",
+          "motif": "レモン・輪切り・柑橘の花",
+          "material": "白コットン・シフォン・黄色リボン",
+          "categories": [
+            {
+              "id": "female-upper",
+              "name": "① 女性用｜レモンのボーイッシュトップス・上半身",
+              "prompts": [
+                "(lemon-yellow sleeveless high-neck blouse:1.4)",
+                "white frilled blouse design with lemon-colored trim",
+                "layered front frills and soft ribbon details",
+                "lemon embroidery and tiny citrus blossom accents",
+                "fresh yellow and white color palette"
+              ]
+            },
+            {
+              "id": "male-upper",
+              "name": "② 男性用｜レモンのスポーティトップス・上半身",
+              "prompts": [
+                "(white short-sleeved shirt with sporty lemon styling:1.4)",
+                "white short-sleeved dress shirt",
+                "lemon-yellow necktie",
+                "sporty clean silhouette with lemon trim",
+                "lemon embroidery and tiny citrus accents"
+              ]
+            },
+            {
+              "id": "female-bottom",
+              "name": "③ 女性用｜レモンのハーフパンツ・靴",
+              "prompts": [
+                "lemon-yellow tailored half pants",
+                "soft frilled hems with citrus accents",
+                "white knee socks with yellow ribbon details",
+                "lemon-colored strap shoes",
+                "small lemon slice shoe charms"
+              ]
+            },
+            {
+              "id": "male-bottom",
+              "name": "④ 男性用｜レモンのハーフパンツ・靴",
+              "prompts": [
+                "lemon-yellow tailored half pants",
+                "sporty fitted silhouette",
+                "white knee socks with yellow details",
+                "lemon-colored leather shoes",
+                "small lemon slice shoe charms"
+              ]
+            },
+            {
+              "id": "female-accessories",
+              "name": "⑤ 女性用｜レモンのアクセサリー・小物",
+              "prompts": [
+                "lemon-yellow ribbon choker",
+                "lemon slice hairpins",
+                "citrus-themed earrings",
+                "white lace wrist cuffs with yellow bows",
+                "small lemon-shaped handbag"
+              ]
+            },
+            {
+              "id": "male-accessories",
+              "name": "⑥ 男性用｜レモンのスポーティアクセサリー・小物",
+              "prompts": [
+                "lemon-yellow necktie",
+                "lemon-yellow wristbands",
+                "lemon slice earrings",
+                "citrus-themed brooch",
+                "small lemon-shaped shoulder bag"
               ]
             }
           ]
