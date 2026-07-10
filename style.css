@@ -46,7 +46,7 @@ body {
     radial-gradient(circle at top left, rgba(124, 99, 199, 0.20), transparent 34rem),
     radial-gradient(circle at 85% 22%, rgba(224, 192, 111, 0.09), transparent 28rem),
     linear-gradient(145deg, #070a16 0%, #0b1022 50%, #090d1c 100%);
-  font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
 }
 
 body.is-panel-open {
@@ -217,7 +217,7 @@ a {
 .hero__title {
   max-width: 900px;
   margin: 0 auto;
-  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif;
   font-size: clamp(2rem, 6vw, 4.7rem);
   font-weight: 600;
   line-height: 1.2;
@@ -262,7 +262,7 @@ a {
 
 .section-heading__title {
   margin: 0;
-  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif;
   font-size: clamp(1.7rem, 4vw, 2.5rem);
   font-weight: 600;
 }
@@ -557,7 +557,7 @@ a {
 
 .prompt-panel__title {
   margin: 0;
-  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif;
   font-size: 1.48rem;
 }
 
