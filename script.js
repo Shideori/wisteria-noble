@@ -228,18 +228,7 @@ async function init() {
   bindStaticEvents();
 
   try {
-    let data = embeddedOutfitData;
-
-    if (location.protocol !== "file:") {
-      try {
-        const response = await fetch("./outfits.json", { cache: "no-store" });
-        if (response.ok) {
-          data = await response.json();
-        }
-      } catch (fetchError) {
-        console.warn("outfits.json の読み込みに失敗したため、内蔵データを使用します。", fetchError);
-      }
-    }
+    const data = embeddedOutfitData;
 
     if (!Array.isArray(data.series)) {
       throw new Error("衣装データの形式が正しくありません。");
