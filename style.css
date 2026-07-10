@@ -37,6 +37,7 @@ html {
 }
 
 body {
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
@@ -132,7 +133,7 @@ a {
   background:
     linear-gradient(145deg, rgba(224, 192, 111, 0.14), rgba(185, 163, 244, 0.10));
   box-shadow: inset 0 0 18px rgba(224, 192, 111, 0.08);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.76rem;
   letter-spacing: 0.09em;
 }
@@ -145,7 +146,7 @@ a {
 
 .brand__project {
   color: var(--color-gold);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -153,7 +154,7 @@ a {
 
 .brand__title {
   margin-top: 4px;
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: clamp(0.9rem, 2vw, 1.12rem);
   font-weight: 600;
 }
@@ -208,7 +209,7 @@ a {
 .prompt-panel__eyebrow {
   margin: 0 0 12px;
   color: var(--color-gold);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.76rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -217,7 +218,7 @@ a {
 .hero__title {
   max-width: 900px;
   margin: 0 auto;
-  font-family: "Cinzel", "Noto Sans JP", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: clamp(2rem, 6vw, 4.7rem);
   font-weight: 600;
   line-height: 1.2;
@@ -262,7 +263,7 @@ a {
 
 .section-heading__title {
   margin: 0;
-  font-family: "Cinzel", "Noto Sans JP", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: clamp(1.7rem, 4vw, 2.5rem);
   font-weight: 600;
 }
@@ -358,7 +359,7 @@ a {
   display: block;
   margin-bottom: 7px;
   color: var(--color-gold);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.7rem;
   letter-spacing: 0.19em;
   text-transform: uppercase;
@@ -366,7 +367,7 @@ a {
 
 .series-card__title {
   margin: 0;
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: clamp(1.35rem, 3vw, 2rem);
   font-weight: 600;
 }
@@ -592,7 +593,7 @@ a {
 
 .prompt-panel__title {
   margin: 0;
-  font-family: "Cinzel", "Noto Sans JP", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 1.48rem;
 }
 
@@ -781,7 +782,7 @@ a {
 .site-footer {
   padding: 0 16px 34px;
   color: rgba(185, 191, 210, 0.62);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-align: center;
@@ -1042,14 +1043,14 @@ a {
 .collection-card__number {
   margin-bottom: 10px;
   color: var(--color-gold);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 
 .collection-card__title {
-  font-family: "Cinzel", "Noto Serif JP", "Yu Mincho", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: clamp(1.45rem, 3vw, 2.2rem);
   font-weight: 600;
   line-height: 1.35;
@@ -1058,7 +1059,7 @@ a {
 .collection-card__english {
   margin-top: 5px;
   color: var(--color-wisteria);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.78rem;
   letter-spacing: 0.12em;
 }
@@ -1079,7 +1080,7 @@ a {
   border-radius: 999px;
   color: var(--color-gold-light);
   background: rgba(224, 192, 111, 0.06);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
   font-size: 0.7rem;
   letter-spacing: 0.12em;
 }
@@ -1149,4 +1150,34 @@ a {
   .collection-card__description {
     font-size: 0.84rem;
   }
+}
+
+
+/* 全画面の表示フォントを明朝体へ統一 */
+body,
+button,
+input,
+select,
+label,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+small,
+strong,
+nav,
+header,
+footer {
+  font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
+}
+
+/* プロンプト本文のみ可読性のため等幅フォントを維持 */
+.category-card__prompt,
+.prompt-output {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
