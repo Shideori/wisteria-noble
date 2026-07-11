@@ -1,3 +1,3 @@
-# Wisteria Noble - Dot Bit Update
+# Wisteria Noble - Arcane Familiar Update
 
-新カテゴリー「Dot Bit」を追加したGitHub Pages用完成版です。
+新カテゴリー「Arcane Familiar」追加版です。
