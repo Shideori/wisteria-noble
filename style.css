@@ -1181,3 +1181,14 @@ footer {
 .prompt-output {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
+
+.category-card__note {
+  margin: 10px 0 0;
+  padding: 9px 11px;
+  border-left: 2px solid var(--color-gold);
+  border-radius: 6px;
+  color: var(--color-gold-light);
+  background: rgba(224, 192, 111, 0.06);
+  font-size: 0.76rem;
+  line-height: 1.6;
+}

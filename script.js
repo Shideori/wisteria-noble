@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "5.0.0"
+    "version": "6.0.0"
   },
   "collections": [
     {
@@ -2186,6 +2186,497 @@ const embeddedOutfitData = {
           ]
         }
       ]
+    },
+    {
+      "id": "dot-bit",
+      "name": "Dot Bit",
+      "englishName": "Dot Bit Cyber Collection",
+      "symbol": "👾",
+      "accentColor": "#8ee5ff",
+      "description": "ドット、ピクセル、コード、グリッチをモチーフにしたサイバー衣装プロンプトコレクション。",
+      "note": "※男女兼用です。上半身のプロンプトに色指定を入れてください。",
+      "series": [
+        {
+          "id": "virus-byte",
+          "name": "Virus Byte",
+          "symbol": "🦠",
+          "accentColor": "#72e0a1",
+          "description": "侵食するウイルスコードと警告表示を纏う、危うく毒々しい魅力を放つダークサイバーシリーズ。",
+          "motif": "ウイルス警告・バイオハザード・データ侵食",
+          "material": "テックファブリック・発光ライン・透明パネル",
+          "categories": [
+            {
+              "id": "long-sleeve-upper",
+              "name": "① ウイルスバイトの長袖トップス・上半身",
+              "prompts": [
+                "[main color] long-sleeve cyber jacket with asymmetrical front zip",
+                "[sub color] fitted high-neck inner top with structured shoulder design",
+                "[accent color] virus warning patches with pixel-corruption trim and glowing data lines"
+              ]
+            },
+            {
+              "id": "short-sleeve-upper",
+              "name": "② ウイルスバイトの半袖トップス・上半身",
+              "prompts": [
+                "[main color] short-sleeve cyber tech shirt with asymmetrical hem",
+                "[sub color] mock-neck undershirt with digital contamination graphics",
+                "[accent color] warning labels with glitch piping and luminous code stitches"
+              ]
+            },
+            {
+              "id": "sleeveless-upper",
+              "name": "③ ウイルスバイトのノースリーブトップス・上半身",
+              "prompts": [
+                "[main color] sleeveless virus cyber top with sharp silhouette",
+                "[sub color] fitted high-collar torso panel with translucent tech inserts",
+                "[accent color] biohazard icon accents with pixel erosion motifs and glowing seam lines"
+              ]
+            },
+            {
+              "id": "hood",
+              "name": "④ ウイルスバイトのフード追加",
+              "prompts": [
+                "detachable cyber hood with angular silhouette",
+                "layered tech fabric with digital contamination lining",
+                "virus symbols with pixel-glitch accents and floating data fragments"
+              ]
+            },
+            {
+              "id": "skirt",
+              "name": "⑤ ウイルスバイトのスカート・下半身",
+              "prompts": [
+                "asymmetrical cyber skirt with layered pleats",
+                "structured tech panels with utility belt details",
+                "pixel-corruption hem with warning tags and glowing data accents"
+              ]
+            },
+            {
+              "id": "long-pants",
+              "name": "⑥ ウイルスバイトのロングパンツ・下半身",
+              "prompts": [
+                "slim cyber long pants with asymmetrical cargo pockets",
+                "segmented knee panels with sleek techwear styling",
+                "virus labels with pixel erosion and glowing seam details"
+              ]
+            },
+            {
+              "id": "short-pants",
+              "name": "⑦ ウイルスバイトのショートパンツ・下半身",
+              "prompts": [
+                "fitted cyber short pants with asymmetrical front panel",
+                "layered belt design with clean futuristic styling",
+                "data corruption print with glitch trim and warning code details"
+              ]
+            },
+            {
+              "id": "half-pants",
+              "name": "⑧ ウイルスバイトのハーフパンツ・下半身",
+              "prompts": [
+                "knee-length cyber half pants with relaxed silhouette",
+                "angular utility pockets with structured techwear styling",
+                "virus scan labels with pixel panels and retro digital textures"
+              ]
+            },
+            {
+              "id": "high-cut-sneakers",
+              "name": "⑨ ウイルスバイトのハイカットスニーカー",
+              "prompts": [
+                "high-cut cyber sneakers with thick futuristic soles",
+                "angular layered panels with sporty unisex styling",
+                "pixel-lit outsole with digital markings and glitch accents"
+              ]
+            },
+            {
+              "id": "sandals",
+              "name": "⑩ ウイルスバイトのサンダルタイプ",
+              "prompts": [
+                "cyber tech sandals with thick segmented soles",
+                "layered buckle straps with futuristic open styling",
+                "digital warning icons with glowing lines and glitch-edged details"
+              ]
+            },
+            {
+              "id": "mask",
+              "name": "⑪ ウイルスバイトのマスク追加",
+              "prompts": [
+                "half-face cyber mask with sleek respirator shape",
+                "side filter parts with fitted high-tech contours",
+                "virus symbols with pixel display accents and glowing warning lines"
+              ],
+              "note": "※口元の表情指定を外すとやりやすいです"
+            },
+            {
+              "id": "accessories",
+              "name": "⑫ ウイルスバイトのアクセサリー・小物",
+              "prompts": [
+                "cyber utility belt with hanging data tags",
+                "asymmetrical wrist guards with digital capsule charms",
+                "corrupted pixel ornaments with warning motifs and floating data pieces"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "firewall-aegis",
+          "name": "Firewall Aegis",
+          "symbol": "🔐",
+          "accentColor": "#72b8ff",
+          "description": "認証コードと防壁モチーフが彩る、堅牢さと洗練された機能美を宿すセキュリティサイバーシリーズ。",
+          "motif": "鍵・防壁・認証コード",
+          "material": "強化テック素材・発光回路・装甲パネル",
+          "categories": [
+            {
+              "id": "long-sleeve-upper",
+              "name": "① ファイアウォールイージスの長袖トップス・上半身",
+              "prompts": [
+                "[main color] long-sleeve cyber security jacket with clean geometric panels",
+                "[sub color] fitted high-neck inner top with reinforced shoulder structure",
+                "[accent color] firewall emblems with luminous circuit lines and lock symbols"
+              ]
+            },
+            {
+              "id": "short-sleeve-upper",
+              "name": "② ファイアウォールイージスの半袖トップス・上半身",
+              "prompts": [
+                "[main color] short-sleeve cyber security shirt with structured silhouette",
+                "[sub color] layered mock-neck undershirt with digital grid pattern",
+                "[accent color] authentication marks with glowing code strips and shield details"
+              ]
+            },
+            {
+              "id": "sleeveless-upper",
+              "name": "③ ファイアウォールイージスのノースリーブトップス・上半身",
+              "prompts": [
+                "[main color] sleeveless cyber security top with armored chest panels",
+                "[sub color] fitted high-collar inner layer with sleek technical texture",
+                "[accent color] lock icons with firewall lines and luminous defense indicators"
+              ]
+            },
+            {
+              "id": "hood",
+              "name": "④ ファイアウォールイージスのフード追加",
+              "prompts": [
+                "detachable cyber hood with clean protective silhouette",
+                "layered technical lining with digital grid texture",
+                "shield symbols with authentication marks and glowing circuit trim"
+              ]
+            },
+            {
+              "id": "skirt",
+              "name": "⑤ ファイアウォールイージスのスカート・下半身",
+              "prompts": [
+                "structured cyber skirt with geometric layered panels",
+                "utility belt details with secure lock-shaped fasteners",
+                "digital grid hem with shield emblems and luminous circuit accents"
+              ]
+            },
+            {
+              "id": "long-pants",
+              "name": "⑥ ファイアウォールイージスのロングパンツ・下半身",
+              "prompts": [
+                "tapered cyber long pants with reinforced knee panels",
+                "organized utility pockets with clean security uniform styling",
+                "firewall lines with lock symbols and glowing authentication details"
+              ]
+            },
+            {
+              "id": "short-pants",
+              "name": "⑦ ファイアウォールイージスのショートパンツ・下半身",
+              "prompts": [
+                "structured cyber short pants with symmetrical panel design",
+                "secure utility belt with compact technical pockets",
+                "digital grid accents with lock marks and luminous shield details"
+              ]
+            },
+            {
+              "id": "half-pants",
+              "name": "⑧ ファイアウォールイージスのハーフパンツ・下半身",
+              "prompts": [
+                "knee-length cyber half pants with clean protective silhouette",
+                "reinforced side panels with organized utility pocket details",
+                "authentication symbols with circuit lines and digital shield accents"
+              ]
+            },
+            {
+              "id": "high-cut-sneakers",
+              "name": "⑨ ファイアウォールイージスのハイカットスニーカー",
+              "prompts": [
+                "high-cut cyber sneakers with reinforced protective soles",
+                "clean geometric panels with secure ankle strap design",
+                "glowing circuit edges with lock symbols and digital shield markings"
+              ]
+            },
+            {
+              "id": "sandals",
+              "name": "⑩ ファイアウォールイージスのサンダルタイプ",
+              "prompts": [
+                "cyber security sandals with reinforced segmented soles",
+                "adjustable technical straps with secure buckle structure",
+                "authentication icons with luminous circuit lines and shield details"
+              ]
+            },
+            {
+              "id": "mask",
+              "name": "⑪ ファイアウォールイージスのマスク追加",
+              "prompts": [
+                "half-face cyber security mask with sleek protective shape",
+                "fitted side panels with compact digital filter structure",
+                "lock symbols with authentication display and luminous firewall lines"
+              ],
+              "note": "※口元の表情指定を外すとやりやすいです"
+            },
+            {
+              "id": "accessories",
+              "name": "⑫ ファイアウォールイージスのアクセサリー・小物",
+              "prompts": [
+                "cyber security belt with authentication card holders",
+                "reinforced wrist guards with compact digital shield modules",
+                "lock-shaped charms with firewall emblems and glowing circuit details"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arcade-pixel",
+          "name": "Arcade Pixel",
+          "symbol": "🕹️",
+          "accentColor": "#ffcf5d",
+          "description": "コインやスコア、ピクセルアイコンを散りばめた、レトロゲームの楽しさあふれるポップサイバーシリーズ。",
+          "motif": "コイン・スコア・ピクセルスター",
+          "material": "ブロックパネル・発光ボタン・デジタルプリント",
+          "categories": [
+            {
+              "id": "long-sleeve-upper",
+              "name": "① アーケードピクセルの長袖トップス・上半身",
+              "prompts": [
+                "[main color] long-sleeve arcade cyber jacket with block-shaped panel design",
+                "[sub color] fitted high-neck inner top with retro game screen patterns",
+                "[accent color] pixel stars with score icons and glowing button motifs"
+              ]
+            },
+            {
+              "id": "short-sleeve-upper",
+              "name": "② アーケードピクセルの半袖トップス・上半身",
+              "prompts": [
+                "[main color] short-sleeve arcade tech shirt with playful geometric silhouette",
+                "[sub color] layered mock-neck undershirt with checkerboard pixel graphics",
+                "[accent color] game icons with luminous score lines and coin-shaped details"
+              ]
+            },
+            {
+              "id": "sleeveless-upper",
+              "name": "③ アーケードピクセルのノースリーブトップス・上半身",
+              "prompts": [
+                "[main color] sleeveless arcade cyber top with compact block paneling",
+                "[sub color] fitted high-collar inner layer with pixel grid texture",
+                "[accent color] life icons with glowing stars and retro button symbols"
+              ]
+            },
+            {
+              "id": "hood",
+              "name": "④ アーケードピクセルのフード追加",
+              "prompts": [
+                "detachable arcade hood with rounded pixel-block silhouette",
+                "checkerboard lining with retro game screen texture",
+                "pixel stars with score marks and glowing coin details"
+              ]
+            },
+            {
+              "id": "skirt",
+              "name": "⑤ アーケードピクセルのスカート・下半身",
+              "prompts": [
+                "layered cyber skirt with square pleats and block-shaped panels",
+                "arcade belt details with coin slots and game-button fasteners",
+                "pixel heart hem with score icons and glowing checker accents"
+              ]
+            },
+            {
+              "id": "long-pants",
+              "name": "⑥ アーケードピクセルのロングパンツ・下半身",
+              "prompts": [
+                "straight cyber long pants with pixel-block side panels",
+                "arcade utility pockets with game screen and score display details",
+                "checkerboard lines with glowing stars and coin-shaped accents"
+              ]
+            },
+            {
+              "id": "short-pants",
+              "name": "⑦ アーケードピクセルのショートパンツ・下半身",
+              "prompts": [
+                "compact cyber short pants with playful block-shaped paneling",
+                "arcade belt design with button motifs and coin pocket details",
+                "pixel hearts with score numbers and luminous checker trim"
+              ]
+            },
+            {
+              "id": "half-pants",
+              "name": "⑧ アーケードピクセルのハーフパンツ・下半身",
+              "prompts": [
+                "knee-length cyber half pants with relaxed arcade silhouette",
+                "square utility pockets with retro game interface details",
+                "pixel stars with coin icons and glowing score-line accents"
+              ]
+            },
+            {
+              "id": "high-cut-sneakers",
+              "name": "⑨ アーケードピクセルのハイカットスニーカー",
+              "prompts": [
+                "high-cut arcade sneakers with chunky pixel-shaped soles",
+                "layered square panels with retro controller button details",
+                "glowing checker edges with coin icons and pixel star markings"
+              ]
+            },
+            {
+              "id": "sandals",
+              "name": "⑩ アーケードピクセルのサンダルタイプ",
+              "prompts": [
+                "arcade cyber sandals with thick block-shaped soles",
+                "layered straps with game-button and checkerboard details",
+                "pixel hearts with glowing coin symbols and score display accents"
+              ]
+            },
+            {
+              "id": "mask",
+              "name": "⑪ アーケードピクセルのマスク追加",
+              "prompts": [
+                "half-face arcade mask with compact pixel-block shape",
+                "side panels with retro game screen and button details",
+                "glowing score display with pixel stars and coin symbols"
+              ],
+              "note": "※口元の表情指定を外すとやりやすいです"
+            },
+            {
+              "id": "accessories",
+              "name": "⑫ アーケードピクセルのアクセサリー・小物",
+              "prompts": [
+                "arcade utility belt with coin holders and game-card charms",
+                "pixel wristbands with controller button and score display details",
+                "floating pixel hearts with star icons and luminous game tokens"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glitch-phantom",
+          "name": "Glitch Phantom",
+          "symbol": "👾",
+          "accentColor": "#d17cff",
+          "description": "乱れた信号とRGBノイズが揺らめく、幻影のような不安定さと神秘を纏うグリッチサイバーシリーズ。",
+          "motif": "RGB分離・ノイズ・壊れた信号",
+          "material": "透明パネル・ホログラム・発光ピクセル",
+          "categories": [
+            {
+              "id": "long-sleeve-upper",
+              "name": "① グリッチファントムの長袖トップス・上半身",
+              "prompts": [
+                "[main color] long-sleeve glitch cyber jacket with asymmetrical layered panels",
+                "[sub color] fitted high-neck inner top with distorted digital textures",
+                "[accent color] RGB split lines with broken pixel patterns and phantom signals"
+              ]
+            },
+            {
+              "id": "short-sleeve-upper",
+              "name": "② グリッチファントムの半袖トップス・上半身",
+              "prompts": [
+                "[main color] short-sleeve glitch tech shirt with uneven geometric hem",
+                "[sub color] layered mock-neck undershirt with static-noise graphics",
+                "[accent color] fragmented code marks with chromatic distortion and flickering pixels"
+              ]
+            },
+            {
+              "id": "sleeveless-upper",
+              "name": "③ グリッチファントムのノースリーブトップス・上半身",
+              "prompts": [
+                "[main color] sleeveless glitch cyber top with fractured panel structure",
+                "[sub color] fitted high-collar inner layer with translucent error-screen texture",
+                "[accent color] ghostly pixel trails with RGB separation and broken signal motifs"
+              ]
+            },
+            {
+              "id": "hood",
+              "name": "④ グリッチファントムのフード追加",
+              "prompts": [
+                "detachable cyber hood with distorted asymmetrical silhouette",
+                "translucent inner lining with static-noise screen texture",
+                "broken pixel edges with ghostly signal trails and flickering data marks"
+              ]
+            },
+            {
+              "id": "skirt",
+              "name": "⑤ グリッチファントムのスカート・下半身",
+              "prompts": [
+                "asymmetrical cyber skirt with fragmented layered panels",
+                "distorted hemline with translucent glitch fabric sections",
+                "RGB split patterns with floating pixel shards and phantom data trails"
+              ]
+            },
+            {
+              "id": "long-pants",
+              "name": "⑥ グリッチファントムのロングパンツ・下半身",
+              "prompts": [
+                "slim cyber long pants with uneven segmented panels",
+                "distorted knee sections with translucent static-texture inserts",
+                "broken code lines with RGB separation and flickering pixel details"
+              ]
+            },
+            {
+              "id": "short-pants",
+              "name": "⑦ グリッチファントムのショートパンツ・下半身",
+              "prompts": [
+                "asymmetrical cyber short pants with fractured front panel",
+                "layered belt design with hanging error-screen tabs",
+                "static-noise graphics with floating pixel fragments and chromatic glitch trim"
+              ]
+            },
+            {
+              "id": "half-pants",
+              "name": "⑧ グリッチファントムのハーフパンツ・下半身",
+              "prompts": [
+                "knee-length cyber half pants with irregular layered silhouette",
+                "distorted utility pockets with broken digital panel details",
+                "ghost signal markings with RGB split lines and scattered pixel effects"
+              ]
+            },
+            {
+              "id": "high-cut-sneakers",
+              "name": "⑨ グリッチファントムのハイカットスニーカー",
+              "prompts": [
+                "high-cut cyber sneakers with fractured geometric soles",
+                "asymmetrical layered panels with translucent glitch inserts",
+                "flickering pixel edges with RGB distortion and broken signal markings"
+              ]
+            },
+            {
+              "id": "sandals",
+              "name": "⑩ グリッチファントムのサンダルタイプ",
+              "prompts": [
+                "cyber sandals with uneven segmented soles",
+                "asymmetrical translucent straps with static-screen texture",
+                "broken pixel accents with ghost signal lines and chromatic distortion"
+              ]
+            },
+            {
+              "id": "mask",
+              "name": "⑪ グリッチファントムのマスク追加",
+              "prompts": [
+                "half-face cyber mask with fractured asymmetrical shape",
+                "translucent side panels with static-noise display texture",
+                "glitching eye-line details with RGB split signals and broken pixel effects"
+              ],
+              "note": "※口元の表情指定を外すとやりやすいです"
+            },
+            {
+              "id": "accessories",
+              "name": "⑫ グリッチファントムのアクセサリー・小物",
+              "prompts": [
+                "asymmetrical cyber belt with hanging corrupted data tags",
+                "translucent wrist guards with static-screen and error-code details",
+                "floating pixel shards with ghostly signal charms and RGB distortion effects"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 };
@@ -2370,7 +2861,7 @@ function showSeriesView(collectionId) {
   elements.seriesView.hidden = false;
   elements.sectionEyebrow.textContent = collection.englishName || "Outfit Series";
   elements.sectionTitle.textContent = collection.name;
-  elements.sectionNote.textContent = "シリーズを選ぶと衣装カテゴリが展開します";
+  elements.sectionNote.textContent = collection.note || "シリーズを選ぶと衣装カテゴリが展開します";
   renderBreadcrumb(collection);
   window.scrollTo({ top: document.querySelector(".builder-section").offsetTop - 90, behavior: "smooth" });
 }
@@ -2463,6 +2954,7 @@ function createCategoryCard(collection, series, category) {
     <div class="category-card__top">
       <h4 class="category-card__name">${escapeHTML(category.name)}</h4>
     </div>
+    ${category.note ? `<p class="category-card__note">${escapeHTML(category.note)}</p>` : ""}
     <p class="category-card__prompt">${escapeHTML(promptText)}</p>
     <div class="category-card__actions">
       <button
