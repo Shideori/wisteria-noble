@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "7.0.0"
+    "version": "8.0.0"
   },
   "collections": [
     {
@@ -3658,6 +3658,1268 @@ const embeddedOutfitData = {
                 "small crackling sparks around the body",
                 "electric glow on the tail feathers",
                 "cute magical thunder effect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ladies-summer-collection",
+      "name": "Ladies’ Summer Collection",
+      "englishName": "Ladies’ Summer Collection",
+      "symbol": "👙",
+      "accentColor": "#f09ab5",
+      "description": "女性向けの幻想的な水着とリゾートスタイルを集めたサマーコレクション。",
+      "series": [
+        {
+          "id": "tropical-hibiscus",
+          "name": "Tropical Hibiscus",
+          "symbol": "🌺",
+          "accentColor": "#ef7f8f",
+          "description": "南国の花々と鮮やかな色彩を纏う、太陽のような明るさと開放感に満ちたトロピカルビキニシリーズ。",
+          "motif": "ハイビスカス・ヤシの葉・南国の花",
+          "material": "シアー素材・ビーズ・貝殻",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] tropical frilled bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "halter-neck bikini top with layered frills",
+                "soft sweetheart neckline",
+                "side-tie bikini bottoms with a cute and lively tropical silhouette"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "sheer floral pareo wrapped lightly around the waist",
+                "soft translucent beach fabric fluttering in the sea breeze"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light short beach shawl",
+                "airy translucent shoulder fabric with tropical softness"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "hibiscus flowers, palm-leaf motifs, colorful bead accessories",
+                "large tropical flower hair ornament, floral bracelets and shell earrings"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with floral anklets",
+                "light beach sandals with tropical decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marine-sailor",
+          "name": "Marine Sailor",
+          "symbol": "🌊",
+          "accentColor": "#6ea8d9",
+          "description": "白と紺のマリンカラーにセーラーの意匠を取り入れた、爽やかで可愛らしいマリンビキニシリーズ。",
+          "motif": "セーラーカラー・錨・舵輪",
+          "material": "ストライプ生地・パール・ロープ",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] sailor-style bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "sailor-collar bikini top with striped trim",
+                "large ribbon at the chest",
+                "high-waisted bikini bottoms with a cute marine-inspired silhouette"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "short pleated swim skirt attached around the waist",
+                "soft layered fabric with striped nautical accents"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short translucent sailor cape",
+                "light decorative shoulder cloth flowing behind the body"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "anchor charms, ship-wheel motifs, pearl accessories",
+                "mini sailor hat, ribbon hair ornament and rope-style bracelets"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "white strappy sandals with navy ribbon details",
+                "anchor-themed anklet"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aqua-mermaid",
+          "name": "Aqua Mermaid",
+          "symbol": "🫧",
+          "accentColor": "#74d2df",
+          "description": "真珠や貝殻、水のきらめきを散りばめた、海の幻想美を軽やかに纏うアクアビキニシリーズ。",
+          "motif": "貝殻・真珠・泡・ヒレ",
+          "material": "パール・クリスタル・シアー素材",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] mermaid-inspired bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "elegant bikini top with shell-inspired shaping and pearl trim",
+                "fitted bikini bottoms with subtle scale-like patterns",
+                "soft aquatic color gradients and delicate fin-like decorative accents",
+                "fantasy-inspired swimwear design while clearly remaining a normal bikini"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "light translucent pareo wrapped around the waist",
+                "flowing watery fabric with soft wave-like movement",
+                "fin-inspired drape details used only as decoration"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "sheer aquatic shawl draped lightly over the arms or shoulders",
+                "soft floating fabric with a graceful ocean-like impression"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "pearls, seashells, crystal droplets and bubble motifs",
+                "shell hair ornament, pearl accessories and ocean-themed earrings"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with pearl anklets",
+                "delicate ocean-inspired ankle decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal-poolside",
+          "name": "Royal Poolside",
+          "symbol": "👑",
+          "accentColor": "#d5b15f",
+          "description": "宝石と金装飾に彩られた、王族の優雅な夏の休暇を思わせる気品あふれるワンピース水着シリーズ。",
+          "motif": "王冠・王家の紋章・宝石",
+          "material": "金装飾・シフォン・パール",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] elegant royal one-piece swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "refined one-piece swimsuit with a structured sweetheart neckline",
+                "off-shoulder draped straps and an elegant fitted silhouette",
+                "gold embroidered edging and subtle jeweled details",
+                "luxurious royal-inspired swimwear while clearly remaining a functional swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "soft sheer waist drape gathered elegantly around one hip",
+                "light chiffon fabric with gold-trimmed edges",
+                "graceful asymmetrical folds enhancing the noble silhouette"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "long translucent poolside robe with wide flowing sleeves",
+                "light chiffon fabric and an elegant open-front design",
+                "delicate train-like hem moving softly behind the body"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "gold filigree ornaments, gemstones, pearl chains and royal crest motifs",
+                "small jeweled tiara, elegant earrings and refined bracelets",
+                "delicate gold hair ornaments without excessive ceremonial decoration"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "gold-trimmed elegant sandals",
+                "delicate jeweled anklets and refined ankle decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moonlit-lagoon",
+          "name": "Moonlit Lagoon",
+          "symbol": "🌙",
+          "accentColor": "#7887c9",
+          "description": "月光と星々が映る夜の海をイメージした、静かな神秘と幻想美を宿すレオタードスタイルの水着シリーズ。",
+          "motif": "三日月・星・夜の海",
+          "material": "銀縁・シアー素材・クリスタル",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] moonlit one-piece swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "sleek one-piece swimwear with a graceful leotard-like silhouette",
+                "asymmetrical neckline inspired by the crescent moon",
+                "silver-edged translucent details and a calm elegant shape",
+                "starry gradient accents and refined night-ocean fantasy while clearly remaining a swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "long transparent waist drape in a midnight blue tone",
+                "soft star-speckled sheer fabric flowing lightly around the hips",
+                "moonlit layered folds with a quiet and graceful impression"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light translucent shoulder veil",
+                "long floating fabric resembling the night sky",
+                "soft airy drape with delicate celestial elegance"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "crescent moon charms, star motifs, silver chains and crystal accents",
+                "moon hair ornament, celestial earrings and delicate bracelets",
+                "refined glowing details without becoming overly costume-like"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with silver anklets",
+                "small star-inspired ankle decorations and subtle luminous accents"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pirate-mermaid",
+          "name": "Pirate Mermaid",
+          "symbol": "🏴‍☠️",
+          "accentColor": "#b46b5b",
+          "description": "海賊の冒険心と海辺の華やかさを組み合わせた、自由で少しワイルドなパイレーツビキニシリーズ。",
+          "motif": "海賊旗・金貨・宝箱",
+          "material": "レザー風素材・金属飾り・シアー布",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] pirate-inspired bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "lace-up bikini top with corset-inspired details",
+                "asymmetrical shoulder straps and a bold fitted silhouette",
+                "side-tie bikini bottoms with subtle gold trim",
+                "adventurous pirate styling while clearly remaining a practical swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "layered waist drape with slightly uneven edges",
+                "light sash tied loosely around one hip",
+                "soft flowing fabric inspired by a pirate flag without becoming overly rugged"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short lightweight shoulder shawl",
+                "small open-front beach vest or cropped pirate-style cover-up",
+                "airy fabric suitable for a summer resort setting"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "gold coin charms, treasure-inspired jewels, shell ornaments and decorative belts",
+                "small pirate hat, feather hair accessory and hoop earrings",
+                "rope bracelets and subtle nautical motifs"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with coin anklets",
+                "decorative leather-style ankle straps and small gold charms"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "celestial-swimwear",
+          "name": "Celestial Swimwear",
+          "symbol": "✨",
+          "accentColor": "#a998ea",
+          "description": "星々と天の川の輝きを纏う、壮麗で幻想的な天体モチーフのビキニシリーズ。",
+          "motif": "星座・天の川・惑星",
+          "material": "銀鎖・クリスタル・シアー素材",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] celestial bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "asymmetrical bikini top with elegant star-inspired shaping",
+                "high-waisted bikini bottoms with delicate constellation patterns",
+                "shimmering galaxy gradients and refined silver edging",
+                "fantasy celestial styling while clearly remaining a wearable swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "long translucent cosmic pareo wrapped lightly around the waist",
+                "flowing galaxy-patterned fabric trailing softly like the Milky Way",
+                "delicate layered folds with scattered starlight details"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light celestial veil draped over the shoulders and arms",
+                "soft transparent fabric with subtle sparkling accents",
+                "airy floating movement inspired by the night sky"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "star charms, planet motifs, crystals and fine silver chains",
+                "celestial hair ornament, star-shaped earrings and orbit-inspired bracelets",
+                "refined glowing details without becoming overly ceremonial"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "silver strappy sandals with small crystal stars",
+                "glowing constellation anklets and delicate celestial accents"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "midnight-bikini",
+          "name": "Midnight Bikini",
+          "symbol": "🖤",
+          "accentColor": "#5f5b70",
+          "description": "漆黒の水着にシルバーの輝きを添えた、都会的で洗練された大人のナイトビキニシリーズ。",
+          "motif": "漆黒・銀鎖・夜のリゾート",
+          "material": "黒シアー素材・銀金具・黒宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "black elegant bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "sleek bikini top with refined crossing straps",
+                "fitted high-leg bikini bottoms with double side straps",
+                "subtle metallic edging and a sophisticated mature silhouette",
+                "luxurious night-resort styling while clearly remaining a wearable swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "asymmetrical sheer black waist drape",
+                "soft translucent fabric layered lightly around one hip",
+                "elegant flowing folds with subtle silver details"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "long transparent black beach robe with an open front",
+                "wide flowing sleeves and a graceful lightweight hem",
+                "refined resort cover-up suitable for a nighttime poolside setting"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "silver chains, black gemstones, metallic rings and delicate crystal accents",
+                "sleek hair ornament, elegant earrings and stylish sunglasses",
+                "minimal refined accessories without excessive decoration"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "black strappy sandals",
+                "silver chain anklets and subtle gemstone ankle details"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sakura-seaside",
+          "name": "Sakura Seaside",
+          "symbol": "🌸",
+          "accentColor": "#e5a6b9",
+          "description": "桜と和装の優雅な意匠を水着に取り入れた、涼やかで上品な和風ビキニシリーズ。",
+          "motif": "桜・和紐・扇",
+          "material": "シアー羽織・飾り紐・鈴",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] Japanese-inspired bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "cross-over bikini top inspired by a kimono collar",
+                "high-waisted bikini bottoms with elegant floral trim",
+                "soft curved lines and a refined feminine silhouette",
+                "traditional Japanese-inspired styling while clearly remaining a wearable swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "short layered waist drape inspired by kimono panels",
+                "light sheer fabric with delicate sakura patterns",
+                "soft obi-like folds gathered neatly around one side of the waist"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short translucent summer haori worn loosely over the shoulders",
+                "light flowing sleeves and an open-front design",
+                "airy fabric suitable for a warm seaside setting"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "sakura flower motifs, decorative cords, small bells and ribbon accents",
+                "kanzashi hair ornament, delicate earrings and a small folding fan accessory",
+                "refined Japanese details without becoming overly ceremonial"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "traditional-inspired sandals with light straps",
+                "sakura-patterned ankle ribbons and delicate floral anklets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sea-dragon-princess",
+          "name": "Sea Dragon Princess",
+          "symbol": "🐉",
+          "accentColor": "#58b6c7",
+          "description": "海龍の鱗やヒレ、宝石のきらめきを纏う、力強さと神秘的な美しさをあわせ持つドラゴンビキニシリーズ。",
+          "motif": "海龍・鱗・ヒレ・角",
+          "material": "宝石・シアー素材・鱗装飾",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] sea-dragon inspired bikini swimsuit"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 水着デザイン",
+              "prompts": [
+                "bikini top with scale-inspired texture and elegant fin-like edges",
+                "fitted bikini bottoms with subtle dragon-themed shaping",
+                "fantasy aquatic detailing and a bold graceful silhouette",
+                "sea-dragon styling while clearly remaining a wearable swimsuit"
+              ]
+            },
+            {
+              "id": "stole",
+              "name": "③ ストールデザイン",
+              "prompts": [
+                "long translucent waist drape inspired by flowing fins",
+                "layered fabric extending softly from the hips like a dragon tail",
+                "light aquatic movement with refined fantasy elegance"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "translucent shoulder cape with fin-inspired shapes",
+                "soft floating fabric draped behind the body",
+                "light fantasy cover-up with an oceanic dragon atmosphere"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "sea-dragon horn motifs, scale ornaments, glowing gemstones and claw-inspired accents",
+                "fin-shaped hair ornament, crystal earrings and decorative arm accessories",
+                "fantasy details that remain elegant rather than overly armored"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with scale-patterned anklets",
+                "small fin-like ankle decorations and delicate gemstone accents"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gentlemens-summer-collection",
+      "name": "Gentlemen’s Summer Collection",
+      "englishName": "Gentlemen’s Summer Collection",
+      "symbol": "🩳",
+      "accentColor": "#7aa9d6",
+      "description": "男性向けの幻想的なスイムウェアとリゾートスタイルを集めたサマーコレクション。",
+      "series": [
+        {
+          "id": "tropical-surfer",
+          "name": "Tropical Surfer",
+          "symbol": "🌺",
+          "accentColor": "#ef8f57",
+          "description": "南国の花々と鮮やかな色彩を取り入れた、明るく開放感あふれるトロピカルサーフ水着シリーズ。",
+          "motif": "ハイビスカス・ヤシの葉・サーフ",
+          "material": "ボードショーツ生地・木製ビーズ・貝殻",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] tropical board shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine beach style",
+                "fully exposed torso with a relaxed and healthy summer silhouette",
+                "open tropical mood with no top, no vest, no bikini-like upper design"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "knee-length board shorts with hibiscus and palm-leaf patterns",
+                "comfortable drawstring waist",
+                "light sporty silhouette with clean side slits",
+                "bright tropical surf style while clearly remaining practical men's swimwear"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light open tropical shirt worn loosely over the shoulders or left open",
+                "thin breathable fabric moving naturally in the sea breeze",
+                "casual resort layering that keeps the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "hibiscus motifs, palm-leaf details and colorful tropical accents",
+                "wooden bead necklace, relaxed bracelets and stylish sunglasses",
+                "small tropical flower accent and subtle beach accessories"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "simple beach sandals",
+                "woven ankle bracelet and subtle shell decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marine-captain",
+          "name": "Marine Captain",
+          "symbol": "🌊",
+          "accentColor": "#527fae",
+          "description": "白と紺のマリンカラーに船長の意匠を取り入れた、爽やかで端正なマリンスイムウェアシリーズ。",
+          "motif": "錨・舵輪・船長帽",
+          "material": "マリン生地・金属ボタン・ロープ",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] marine-inspired swim trunks"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine nautical style",
+                "fully exposed torso with a clean and refined silhouette",
+                "broad sailor-inspired collar detail or light open naval styling",
+                "no bikini-like upper design, keeping a clearly masculine summer look"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "mid-thigh swim trunks with crisp side stripes",
+                "comfortable drawstring waist and tailored marine styling",
+                "clean practical silhouette with a captain-inspired nautical impression"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short lightweight naval jacket worn open or draped loosely over the shoulders",
+                "small shoulder cape or decorative sailor cloth with navy edging",
+                "breathable fabric that keeps the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "anchor emblems, ship-wheel motifs, rope details and metallic buttons",
+                "captain-style sailor cap, compass pendant and refined wristbands",
+                "subtle naval decorations without becoming a formal military uniform"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "white marine sandals with navy straps",
+                "simple rope anklet and small anchor charm"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ocean-prince",
+          "name": "Ocean Prince",
+          "symbol": "🫧",
+          "accentColor": "#68c4d8",
+          "description": "真珠や波、貝殻のきらめきを纏う、気品と幻想感をあわせ持つ海の王子モチーフの水着シリーズ。",
+          "motif": "真珠・波・貝殻・王冠",
+          "material": "パール・クリスタル・シアー素材",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] elegant ocean-inspired swim shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine beach style",
+                "fully exposed torso with a clean and refined silhouette",
+                "princely ocean-themed styling with no fish tail, no mermaid body, no bikini-like upper design",
+                "clearly human male swimwear with subtle marine fantasy details"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim shorts with subtle wave and scale-inspired patterns",
+                "structured waistband with pearl-like accents",
+                "clean princely silhouette while clearly remaining practical men's swimwear"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light translucent shoulder drape or short open aquatic cape",
+                "soft flowing waist cloth inspired by sea currents",
+                "minimal elegant fabric that keeps the chest fully exposed and does not resemble a mermaid tail"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "pearls, shell motifs, crystal droplets and wave-shaped ornaments",
+                "ocean gemstone necklace, refined armlets and a small crown-inspired head accessory",
+                "elegant royal details with a marine fantasy atmosphere"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with silver or pearl anklets",
+                "subtle ocean-themed ankle decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal-vacation",
+          "name": "Royal Vacation",
+          "symbol": "👑",
+          "accentColor": "#d2ae58",
+          "description": "金装飾と宝石の輝きに彩られた、王族の優雅な夏の休暇を思わせる高級リゾート水着シリーズ。",
+          "motif": "王冠・王家の紋章・宝石",
+          "material": "金装飾・シアー素材・パール",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] elegant royal swim shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine resort style",
+                "fully exposed torso with a refined and confident silhouette",
+                "subtle gold-trimmed shoulder detail without covering the chest"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "tailored mid-thigh swim shorts with gold embroidered side trim",
+                "structured waistband with a small royal crest",
+                "clean luxurious silhouette while clearly remaining practical swimwear"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light open-front resort robe draped loosely over the shoulders",
+                "soft sheer fabric with gold-edged details",
+                "short decorative waist sash"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "gold filigree, gemstones, pearl accents and royal crest motifs",
+                "small crown-inspired headpiece, elegant necklace and refined wrist cuffs"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "luxurious dark sandals with gold details",
+                "delicate jeweled ankle ornaments"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moonlit-swimmer",
+          "name": "Moonlit Swimmer",
+          "symbol": "🌙",
+          "accentColor": "#7584c6",
+          "description": "月光と星々が映る夜の海をイメージした、静かな神秘と気品を宿すナイトスイムウェアシリーズ。",
+          "motif": "三日月・星・夜の海",
+          "material": "銀鎖・シアー素材・クリスタル",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] moonlit swim trunks"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine night-beach style",
+                "fully exposed torso with a calm and elegant silhouette",
+                "subtle silver shoulder accents and a refined moonlit atmosphere"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim trunks with a deep midnight gradient",
+                "delicate constellation and crescent patterns",
+                "clean streamlined silhouette while clearly remaining practical swimwear"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light translucent shoulder drape or short open veil",
+                "soft sheer fabric flowing gently like moonlight on water",
+                "minimal elegant fabric that keeps the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "crescent moon charms, star motifs, silver chains and crystal accents",
+                "moon-inspired necklace, refined armlets and a small celestial head accessory"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with silver anklets",
+                "subtle star-themed ankle decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pirate-beach",
+          "name": "Pirate Beach",
+          "symbol": "⚓",
+          "accentColor": "#9d6a4f",
+          "description": "海賊の冒険心と海辺の開放感を組み合わせた、自由でワイルドなパイレーツ水着シリーズ。",
+          "motif": "海賊旗・金貨・ロープ",
+          "material": "レザー風素材・金属飾り・軽量布",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] pirate-inspired swim shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine beach style",
+                "fully exposed torso with a bold and adventurous silhouette",
+                "rugged pirate-inspired styling with no upper-body swimwear"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "mid-thigh swim shorts with layered asymmetrical details",
+                "wide belt-like waistband and subtle weathered trim",
+                "practical masculine swimwear with a free-spirited pirate atmosphere"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short open-front pirate vest or light shoulder cloth",
+                "soft fabric draped loosely at the waist",
+                "light flowing layers that keep the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "gold coin charms, rope details, shell ornaments and treasure-inspired accents",
+                "small pirate hat or bandana, hoop earring and layered necklaces"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with leather-style ankle straps",
+                "small coin or rope anklet decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "celestial-swimmer",
+          "name": "Celestial Swimmer",
+          "symbol": "✨",
+          "accentColor": "#9c90df",
+          "description": "星々と天の川のきらめきを纏う、幻想的で壮麗な天体モチーフのスイムウェアシリーズ。",
+          "motif": "星座・天の川・惑星",
+          "material": "銀鎖・クリスタル・シアー素材",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] celestial swim shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine beach style",
+                "fully exposed torso with a refined and graceful silhouette",
+                "subtle celestial accents and a luminous night-sky atmosphere"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim shorts with constellation patterns and soft galaxy gradients",
+                "structured waistband with delicate star-inspired details",
+                "clean elegant silhouette while clearly remaining practical swimwear"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light translucent shoulder drape or short open veil",
+                "soft sheer fabric floating lightly around the waist and legs",
+                "minimal airy layers that keep the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "star charms, planet motifs, crystals and fine silver chains",
+                "celestial necklace, refined armlets and a small star-inspired head accessory"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with silver anklets",
+                "subtle constellation-themed ankle decorations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "midnight-resort",
+          "name": "Midnight Resort",
+          "symbol": "🖤",
+          "accentColor": "#565463",
+          "description": "漆黒を基調にシルバーの輝きを添えた、都会的で洗練された大人のナイトリゾート水着シリーズ。",
+          "motif": "漆黒・銀鎖・ナイトリゾート",
+          "material": "黒生地・銀金具・黒宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "(black tailored swim shorts:1.4)"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine night-resort style",
+                "fully exposed torso with a sleek and mature silhouette",
+                "black upper-body accents and black decorative details"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim shorts with subtle metallic side details",
+                "clean structured waistband and elegant modern lines",
+                "sophisticated masculine swimwear with a luxurious nighttime mood"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "long black resort stole draped loosely around the shoulders",
+                "soft lightweight fabric flowing along both sides of the body",
+                "open styling that keeps the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "silver necklace, black gemstone earring, refined rings and wrist accessories",
+                "stylish sunglasses and minimal metallic details"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "black resort sandals",
+                "simple silver ankle chain"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "samurai-seaside",
+          "name": "Samurai Seaside",
+          "symbol": "🌸",
+          "accentColor": "#bf8e9e",
+          "description": "桜と和の意匠を現代的な水着へ取り入れた、涼やかで凛々しい和風スイムウェアシリーズ。",
+          "motif": "桜・和紐・家紋",
+          "material": "軽量羽織・組紐・金属飾り",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] Japanese-inspired swim trunks"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine seaside style",
+                "fully exposed torso with a clean athletic silhouette",
+                "subtle Japanese-inspired accents around the shoulders and chest",
+                "clearly modern men's swimwear"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim trunks with delicate sakura and wave patterns",
+                "simple drawstring waistband with decorative cord details",
+                "clean practical silhouette without hakama-like panels"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "short lightweight summer haori worn open over the shoulders",
+                "wide flowing sleeves and subtle sakura patterns",
+                "thin breathable fabric that keeps the chest fully exposed"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "small sakura crest, braided cords and refined metallic ornaments",
+                "simple hair accessory, Japanese-style necklace and decorative wristbands",
+                "no armor, no sword"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "traditional-inspired beach sandals",
+                "braided ankle cord with a small sakura charm"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sea-dragon-warrior",
+          "name": "Sea Dragon Warrior",
+          "symbol": "🐉",
+          "accentColor": "#4aa8bd",
+          "description": "海龍の鱗やヒレ、宝石の輝きを纏う、力強さと幻想的な存在感をあわせ持つドラゴン水着シリーズ。",
+          "motif": "海龍・鱗・ヒレ・長い尾",
+          "material": "宝石・シアー素材・鱗装飾",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 水着の基本形",
+              "prompts": [
+                "[main color] sea-dragon inspired swim shorts"
+              ]
+            },
+            {
+              "id": "upper",
+              "name": "② 上半身デザイン",
+              "prompts": [
+                "bare-chested masculine beach style",
+                "fully exposed torso with a strong and athletic silhouette",
+                "subtle dragon-inspired accents around one shoulder and chest",
+                "clearly modern men's swimwear with powerful fantasy details"
+              ]
+            },
+            {
+              "id": "lower",
+              "name": "③ 下半身デザイン",
+              "prompts": [
+                "fitted mid-thigh swim shorts with scale-inspired patterns",
+                "structured waistband with gemstone accents",
+                "clean powerful silhouette with aquatic dragon motifs",
+                "long sea-dragon tail extending from the lower back",
+                "fantasy masculine swimwear with a bold dragon-like presence"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "④ 羽織・追加布",
+              "prompts": [
+                "light translucent shoulder stole or short open drape",
+                "soft flowing fabric inspired by fins and ocean currents",
+                "long fin-like waist cloth and layered aquatic fabric moving behind the body"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 装飾・アクセサリー",
+              "prompts": [
+                "sea-dragon horn motifs, scale ornaments, glowing gemstones and claw-inspired accents",
+                "dragon-themed necklace, decorative arm accessories and a small head ornament",
+                "fantasy details with a strong aquatic dragon atmosphere"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "barefoot with scale-patterned anklets",
+                "small fin-like ankle decorations and gemstone accents"
               ]
             }
           ]

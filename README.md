@@ -1,3 +1,3 @@
-# Wisteria Noble - Arcane Familiar Update
+# Wisteria Noble - Summer Collections Update
 
-新カテゴリー「Arcane Familiar」追加版です。
+女性用の Ladies’ Summer Collection と、男性用の Gentlemen’s Summer Collection を追加した完成版です。
