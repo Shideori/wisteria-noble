@@ -2,7 +2,7 @@
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "8.0.0"
+    "version": "9.0.0"
   },
   "collections": [
     {
@@ -2679,992 +2679,6 @@
       ]
     },
     {
-      "id": "arcane-familiar",
-      "name": "Arcane Familiar",
-      "englishName": "Arcane Familiar Collection",
-      "symbol": "🔮",
-      "accentColor": "#b18cff",
-      "description": "魔法使いに寄り添う幻想生物と属性モチーフを組み合わせた、使い魔プロンプトコレクション。",
-      "series": [
-        {
-          "id": "arcane-dragon",
-          "name": "Arcane Dragon",
-          "symbol": "🐉",
-          "accentColor": "#9d7be8",
-          "description": "優雅な角と大きな翼、長い尾を備えた、神秘と気品を宿す王道のドラゴン使い魔シリーズ。",
-          "motif": "角・大翼・長い尾・属性魔法",
-          "material": "鱗・宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] small arcane dragon familiar",
-                "non-human quadruped dragon",
-                "rounded horns and soft scaled body",
-                "large wings folded at the back and a long tail",
-                "gentle eyes with a cute fantasy presence"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] gemstones on the forehead and chest",
-                "small crystal ornaments on the horns and tail tip",
-                "cute jewel decorations for a familiar-like design",
-                "soft magical shine",
-                "delicate arcane fantasy details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "flame-like wing edges",
-                "ember-tipped tail",
-                "warm fire aura",
-                "small floating sparks",
-                "cute fiery markings with magical accents"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "water-like translucent fins",
-                "flowing tail accents",
-                "soft droplet aura",
-                "floating bubbles and rippling magic",
-                "clear aquatic glow with gentle details"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "feather-light wing accents",
-                "wind-swept tail shape",
-                "soft swirling air currents",
-                "floating mote effects",
-                "breezy magical patterns with light fantasy details"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "radiant wing glow",
-                "soft halo-like aura",
-                "gentle luminous particles",
-                "shining crest details",
-                "holy light motifs with warm sacred accents"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "shadowy but soft aura",
-                "dark mist effects",
-                "crescent-like horn accents",
-                "dim phantom glow",
-                "mysterious dark magic details with a familiar-like charm"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "rock-like scales",
-                "small mineral armor plating",
-                "craggy horn texture",
-                "earthy tail accents",
-                "stone crystal details with grounded fantasy motifs"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "floral ornaments around the horns",
-                "flower decoration on the chest",
-                "petal-like wing accents",
-                "blossom-tipped tail detail",
-                "graceful flower motifs with fairy-tale charm"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "lightning-like horn and wing accents",
-                "electric sparks around the body",
-                "glowing thunder markings along the scales",
-                "charged tail tip with crackling energy",
-                "storm magic motifs with bright arcane aura"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ember-drake",
-          "name": "Ember Drake",
-          "symbol": "🐲",
-          "accentColor": "#e98b62",
-          "description": "小さな翼と丸みのある体つきが愛らしい、幼さと無邪気な魔力を纏う子ドラゴン使い魔シリーズ。",
-          "motif": "小さな角・小翼・丸い体・属性魔法",
-          "material": "柔らかな鱗・小粒宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] baby drake familiar",
-                "small non-human quadruped dragon",
-                "short rounded horns and chubby scaled body",
-                "tiny wings and a short fluffy tail tip",
-                "big gentle eyes with a cute familiar presence"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] small gemstone on the forehead and chest",
-                "tiny crystal ornaments on the horns and tail tip",
-                "cute jewel decorations for a baby familiar design",
-                "soft magical shine",
-                "delicate arcane fantasy details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "tiny flame-like wing edges",
-                "ember-tipped tail",
-                "warm fire aura",
-                "small floating sparks",
-                "cute fiery markings with magical accents"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "water-like translucent fins",
-                "flowing tail accents",
-                "soft droplet aura",
-                "floating bubbles and rippling magic",
-                "clear aquatic glow with gentle details"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "feather-light wing accents",
-                "wind-swept tail shape",
-                "soft swirling air currents",
-                "floating mote effects",
-                "breezy magical patterns with light fantasy details"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "radiant wing glow",
-                "soft halo-like aura",
-                "gentle luminous particles",
-                "shining crest details",
-                "holy light motifs with warm sacred accents"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "shadowy but soft aura",
-                "dark mist effects",
-                "crescent-like horn accents",
-                "dim phantom glow",
-                "mysterious dark magic details with a cute familiar charm"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "rock-like scales",
-                "small mineral armor plating",
-                "rounded craggy horn texture",
-                "earthy tail accents",
-                "stone crystal details with grounded fantasy motifs"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "floral ornaments around the horns",
-                "flower decoration on the chest",
-                "petal-like wing accents",
-                "blossom-tipped tail detail",
-                "graceful flower motifs with fairy-tale charm"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "tiny lightning-like wing edges",
-                "small electric sparks around the body",
-                "glowing thunder markings on the scales",
-                "charged tail tip with crackling energy",
-                "cute storm magic accents"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "moon-hare",
-          "name": "Moon Hare",
-          "symbol": "🐇",
-          "accentColor": "#c8c7f2",
-          "description": "柔らかな毛並みと長い耳に幻想的な魔力を宿す、月夜の静けさと可憐さを纏うウサギ使い魔シリーズ。",
-          "motif": "長い耳・月・属性魔法",
-          "material": "柔毛・小粒宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] small magical rabbit familiar",
-                "fully non-humanoid feral rabbit",
-                "natural quadruped rabbit anatomy",
-                "standing on four paws with animal-like posture",
-                "no human body, no human hands, no clothing"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] small gemstone embedded on the forehead",
-                "tiny crystal ornaments attached to the ears",
-                "delicate jewel collar made for a small animal",
-                "soft magical crystal glow",
-                "subtle fantasy gem details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "small flame-shaped markings on the ear tips",
-                "warm ember glow around the fur",
-                "tiny floating sparks",
-                "subtle fire patterns along the back",
-                "gentle magical flame aura"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "translucent water-like accents on the ear tips",
-                "soft droplets floating around the body",
-                "small bubbles and rippling magic",
-                "fluid markings along the fur",
-                "gentle aquatic glow"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "light feather-like accents near the ears",
-                "soft wind swirling around the body",
-                "floating magical motes",
-                "slightly windswept fur",
-                "delicate breeze-shaped markings"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "soft radiant glow around the body",
-                "small crescent halo floating above the head",
-                "gentle luminous particles",
-                "shining crescent mark on the forehead",
-                "warm sacred light aura"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "soft shadow mist around the paws",
-                "dark crescent markings on the fur",
-                "dim violet magical glow",
-                "small floating shadow wisps",
-                "gentle mysterious night aura"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "small stone-like markings on the fur",
-                "tiny mineral crystals around the paws",
-                "subtle rocky texture on the ear tips",
-                "earthy magical aura",
-                "grounded stone fantasy details"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "small flowers attached around the ears",
-                "delicate blossom ornament on the chest fur",
-                "soft petals floating around the body",
-                "tiny flower at the tail base",
-                "gentle fairy-tale floral details"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "small lightning-shaped markings on the ears",
-                "soft electric glow around the body",
-                "tiny crackling sparks",
-                "crescent-like thunder aura",
-                "gentle storm magic details"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mystic-cat",
-          "name": "Mystic Cat",
-          "symbol": "🐈",
-          "accentColor": "#b694d9",
-          "description": "しなやかな姿と大きな瞳に不思議な気配を宿す、気まぐれで愛らしい魔法ネコ使い魔シリーズ。",
-          "motif": "猫耳・尾・魔法印",
-          "material": "柔毛・宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] small magical cat familiar",
-                "fully non-humanoid feral cat",
-                "natural quadruped feline anatomy",
-                "standing on four paws with animal-like posture",
-                "no human body, no human hands, no clothing"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] small gemstone embedded on the forehead",
-                "tiny crystal ornaments attached near the ears",
-                "delicate jewel collar made for a small animal",
-                "soft magical crystal glow",
-                "subtle fantasy gem details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "small flame-shaped markings on the ears and tail tip",
-                "warm ember glow around the fur",
-                "tiny floating sparks",
-                "subtle fire patterns along the back",
-                "gentle magical flame aura"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "translucent water-like accents on the ears and tail",
-                "soft droplets floating around the body",
-                "small bubbles and rippling magic",
-                "fluid markings along the fur",
-                "gentle aquatic glow"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "light feather-like accents near the ears",
-                "soft wind swirling around the body",
-                "floating magical motes",
-                "slightly windswept fur",
-                "delicate breeze-shaped markings"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "soft radiant glow around the body",
-                "small halo-like light above the head",
-                "gentle luminous particles",
-                "shining magical mark on the forehead",
-                "warm sacred light aura"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "soft shadow mist around the paws",
-                "dark magical markings on the fur",
-                "dim violet magical glow",
-                "small floating shadow wisps",
-                "gentle mysterious night aura"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "small stone-like markings on the fur",
-                "tiny mineral crystals around the paws",
-                "subtle rocky texture on the tail tip",
-                "earthy magical aura",
-                "grounded stone fantasy details"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "small flowers attached around the ears",
-                "delicate blossom ornament on the chest fur",
-                "soft petals floating around the body",
-                "tiny flower near the tail base",
-                "gentle fairy-tale floral details"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "small lightning-shaped markings on the ears and tail tip",
-                "soft electric glow around the fur",
-                "tiny crackling sparks",
-                "glowing thunder patterns along the back",
-                "gentle storm magic aura"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "rune-wolf",
-          "name": "Rune Wolf",
-          "symbol": "🐺",
-          "accentColor": "#8ea9c9",
-          "description": "力強い四肢とルーンの輝きを纏う、忠誠心と神秘的な野性を宿すオオカミ使い魔シリーズ。",
-          "motif": "ルーン・狼牙・属性魔法",
-          "material": "厚毛・結晶・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] small magical wolf familiar",
-                "fully non-humanoid feral wolf",
-                "natural quadruped canine anatomy",
-                "standing on four paws with animal-like posture",
-                "no human body, no human hands, no clothing"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] small gemstone embedded on the forehead",
-                "tiny crystal ornaments attached near the ears and neck",
-                "delicate jewel collar made for a small animal",
-                "soft magical crystal glow",
-                "subtle fantasy gem details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "small flame-shaped markings on the ears and tail tip",
-                "warm ember glow around the fur",
-                "tiny floating sparks",
-                "subtle fire patterns along the back",
-                "gentle magical flame aura"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "translucent water-like accents on the ears and tail",
-                "soft droplets floating around the body",
-                "small bubbles and rippling magic",
-                "fluid markings along the fur",
-                "gentle aquatic glow"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "light feather-like accents near the ears",
-                "soft wind swirling around the body",
-                "floating magical motes",
-                "slightly windswept fur",
-                "delicate breeze-shaped markings"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "soft radiant glow around the body",
-                "small halo-like light above the head",
-                "gentle luminous particles",
-                "shining magical mark on the forehead",
-                "warm sacred light aura"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "soft shadow mist around the paws",
-                "dark magical markings on the fur",
-                "dim violet magical glow",
-                "small floating shadow wisps",
-                "gentle mysterious night aura"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "small stone-like markings on the fur",
-                "tiny mineral crystals around the paws",
-                "subtle rocky texture on the tail tip",
-                "earthy magical aura",
-                "grounded stone fantasy details"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "small flowers attached around the ears",
-                "delicate blossom ornament on the chest fur",
-                "soft petals floating around the body",
-                "tiny flower near the tail base",
-                "gentle fairy-tale floral details"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "lightning-shaped markings on the ears and tail",
-                "soft electric aura around the fur",
-                "tiny crackling sparks",
-                "glowing rune-like thunder patterns along the back",
-                "storm magic details with familiar charm"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "astral-plume",
-          "name": "Astral Plume",
-          "symbol": "🪶",
-          "accentColor": "#7bc7d9",
-          "description": "大きな翼と流れるような長い尾羽が彩る、神鳥の優雅さと星空の幻想を纏う長尾鳥使い魔シリーズ。",
-          "motif": "大翼・長い尾羽・星空",
-          "material": "羽毛・宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] stylized fantasy bird familiar",
-                "fully non-humanoid non-realistic avian creature",
-                "natural bird anatomy with a horizontal torso",
-                "perching on a branch with both clawed feet beneath the body",
-                "wings folded naturally against the sides",
-                "small crest, large rounded wings, and a very long decorative tail",
-                "cute simplified fantasy creature design",
-                "no upright pose, no human-like stance, no anthropomorphic anatomy"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] jewel-like ornaments on the crest and chest",
-                "crystal accents on the wings and tail",
-                "gemstone motifs decorating the feathers",
-                "soft magical sparkle around the body",
-                "ornate arcane fantasy details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "flame-shaped feather tips on the wings and tail",
-                "warm ember-colored feather accents",
-                "small floating sparks around the body",
-                "soft fiery aura around the tail feathers",
-                "fantasy flame motifs with elegant bird charm"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "water-like translucent feather tips on the wings and tail",
-                "cool blue flowing accents along the feathers",
-                "floating droplets and bubbles around the body",
-                "soft rippling aura around the tail",
-                "fantasy water motifs with graceful bird charm"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "light airy feather shapes on the wings and tail",
-                "long flowing tail feathers moving like wind",
-                "soft swirling air currents around the body",
-                "floating small feathers and magical motes",
-                "fantasy wind motifs with elegant bird charm"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "soft glowing feather edges on the wings and tail",
-                "radiant light accents across the plumage",
-                "gentle luminous particles around the body",
-                "small halo-like glow above or behind the head",
-                "fantasy light motifs with sacred bird charm"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "shadow-tinted feather edges on the wings and tail",
-                "deep mysterious accents across the plumage",
-                "small floating shadow wisps around the body",
-                "soft dark aura trailing from the tail",
-                "fantasy dark motifs with mystical bird charm"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "mineral-like feather accents on the wings and tail",
-                "stone-textured decorative patterns across the plumage",
-                "small floating crystal or stone fragments around the body",
-                "earthy aura around the legs and tail",
-                "fantasy rock motifs with sturdy bird charm"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "petal-shaped feather accents on the wings and tail",
-                "flower ornaments around the crest and chest",
-                "soft petals floating around the body",
-                "blossom-like layered tail feathers",
-                "fantasy floral motifs with fairy-tale bird charm"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "lightning-shaped feather accents on the wings and tail",
-                "bright electric highlights across the plumage",
-                "small crackling sparks around the body",
-                "charged aura trailing from the tail feathers",
-                "fantasy thunder motifs with vivid bird charm"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "spirit-fox",
-          "name": "Spirit Fox",
-          "symbol": "🦊",
-          "accentColor": "#e9a36f",
-          "description": "九つの尾に神秘的な魔力を宿す、気品と妖しさ、愛らしさを併せ持つ九尾のキツネ使い魔シリーズ。",
-          "motif": "九尾・狐火・属性魔法",
-          "material": "柔毛・宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] stylized fantasy nine-tailed fox familiar",
-                "fully non-humanoid non-realistic fox",
-                "natural quadruped fox anatomy with a horizontal torso",
-                "standing on four paws with animal-like posture",
-                "large ears, fluffy chest fur, and nine long flowing tails",
-                "cute simplified creature design with mystical familiar charm",
-                "no upright pose, no human-like stance, no clothing"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] gemstone on the forehead or chest",
-                "small crystal ornaments near the ears and tail base",
-                "jewel-like markings decorating the fur and nine tails",
-                "soft magical sparkle around the body",
-                "delicate arcane fantasy details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "flame-shaped fur accents on the ears and nine tails",
-                "warm ember glow around the body",
-                "small floating sparks",
-                "fiery markings along the back and tails",
-                "gentle magical fire aura"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "water-like translucent fur accents on the ears and nine tails",
-                "soft droplets and bubbles around the body",
-                "flowing wave-like markings along the fur",
-                "cool rippling aura around the tails",
-                "graceful aquatic fantasy details"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "light airy fur accents on the ears and nine tails",
-                "long flowing tails moving like wind",
-                "soft swirling air currents around the body",
-                "floating magical motes",
-                "breezy fantasy markings with elegant charm"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "soft glowing fur edges on the ears and nine tails",
-                "radiant magical light around the body",
-                "gentle luminous particles",
-                "small halo-like glow near the head",
-                "sacred light motifs with warm fantasy charm"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "shadow-tinted fur accents on the ears and nine tails",
-                "soft dark mist around the paws and body",
-                "deep mysterious markings along the fur",
-                "small floating shadow wisps",
-                "gentle dark fantasy aura with mystical charm"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "mineral-like fur accents on the ears and nine tails",
-                "stone-textured markings along the body",
-                "small floating crystal or rock fragments",
-                "earthy aura around the paws",
-                "fantasy rock motifs with sturdy familiar charm"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "petal-like fur accents on the ears and nine tails",
-                "small flowers decorating the ears and chest fur",
-                "soft petals floating around the body",
-                "blossom-like layered tails",
-                "fantasy floral motifs with fairy-tale charm"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "lightning-shaped fur accents on the ears and nine tails",
-                "bright electric highlights across the fur",
-                "small crackling sparks around the body",
-                "charged aura trailing from the tails",
-                "fantasy thunder motifs with vivid familiar charm"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "oracle-owl",
-          "name": "Oracle Owl",
-          "symbol": "🦉",
-          "accentColor": "#c3ad76",
-          "description": "丸い体と大きな瞳に知恵の光を宿す、小さく愛らしい神秘のフクロウ使い魔シリーズ。",
-          "motif": "丸い体・大きな瞳・知恵の光",
-          "material": "柔羽・宝石・魔力光",
-          "categories": [
-            {
-              "id": "species-color",
-              "name": "① 種族＋体の色指定",
-              "prompts": [
-                "[body color] tiny chibi owl familiar",
-                "fully non-humanoid fantasy mascot creature",
-                "single round fluffy body with an oversized round head",
-                "head and body forming one compact ball-shaped silhouette",
-                "tiny folded wings attached directly to the sides",
-                "two tiny feet barely visible beneath the feathers",
-                "large cute eyes and short decorative ear tufts",
-                "sitting as a small fluffy ball, no visible legs, no human-like anatomy"
-              ]
-            },
-            {
-              "id": "gem-color",
-              "name": "② 宝石モチーフ＋宝石の色指定",
-              "prompts": [
-                "[gem color] gemstone on the forehead or chest",
-                "small crystal ornaments on the ear tufts and wing edges",
-                "jewel-like markings on the chest and tail",
-                "soft magical sparkle around the body",
-                "cute arcane fantasy details"
-              ]
-            },
-            {
-              "id": "fire",
-              "name": "③ 炎モチーフ",
-              "prompts": [
-                "flame-shaped ear tufts and wing-edge accents",
-                "warm glowing markings on the chest",
-                "small floating sparks around the body",
-                "soft ember glow on the tail feathers",
-                "cute magical fire effect"
-              ]
-            },
-            {
-              "id": "water",
-              "name": "④ 水モチーフ",
-              "prompts": [
-                "wave-shaped ear tufts and feather-edge accents",
-                "cool flowing markings on the chest",
-                "small floating droplets and bubbles around the body",
-                "soft rippling glow on the tail feathers",
-                "cute magical water effect"
-              ]
-            },
-            {
-              "id": "wind",
-              "name": "⑤ 風モチーフ",
-              "prompts": [
-                "curved airy ear tufts and light feather accents",
-                "soft spiral wind markings on the chest",
-                "small floating feathers and magical motes around the body",
-                "gentle breeze flow on the tail feathers",
-                "cute magical wind effect"
-              ]
-            },
-            {
-              "id": "light",
-              "name": "⑥ 光モチーフ",
-              "prompts": [
-                "radiant ear tufts and glowing feather edges",
-                "soft shining markings on the chest",
-                "small floating light particles around the body",
-                "gentle halo-like glow behind the head",
-                "cute magical light effect"
-              ]
-            },
-            {
-              "id": "dark",
-              "name": "⑦ 闇モチーフ",
-              "prompts": [
-                "shadow-tinted ear tufts and feather edges",
-                "deep mysterious markings on the chest",
-                "small floating shadow wisps around the body",
-                "soft dark glow on the tail feathers",
-                "cute magical dark effect"
-              ]
-            },
-            {
-              "id": "rock",
-              "name": "⑧ 岩モチーフ",
-              "prompts": [
-                "crystal-like ear tufts and angular feather accents",
-                "stone-pattern markings on the chest",
-                "small floating pebbles and crystal fragments around the body",
-                "earthy glow on the tail feathers",
-                "cute magical rock effect"
-              ]
-            },
-            {
-              "id": "flower",
-              "name": "⑨ 花モチーフ",
-              "prompts": [
-                "petal-shaped ear tufts and soft feather accents",
-                "floral markings on the chest",
-                "small floating petals and blossoms around the body",
-                "flower-like layered tail feathers",
-                "cute magical floral effect"
-              ]
-            },
-            {
-              "id": "thunder",
-              "name": "⑩ 雷モチーフ",
-              "prompts": [
-                "lightning-shaped ear tufts and jagged feather-edge accents",
-                "bright glowing thunder markings on the chest",
-                "small crackling sparks around the body",
-                "electric glow on the tail feathers",
-                "cute magical thunder effect"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ladies-summer-collection",
       "name": "Ladies’ Summer Collection",
       "englishName": "Ladies’ Summer Collection",
@@ -4920,6 +3934,2149 @@
               "prompts": [
                 "barefoot with scale-patterned anklets",
                 "small fin-like ankle decorations and gemstone accents"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ayaka-fantasy-outfits",
+      "name": "綾華幻想衣装",
+      "englishName": "Ayaka Fantasy Outfits",
+      "symbol": "🌸",
+      "accentColor": "#d99ab4",
+      "description": "女性向けの和風ファンタジー衣装を集めた、華やかで幻想的なコレクション。",
+      "series": [
+        {
+          "id": "hanaya-kimono",
+          "name": "花綾の着物",
+          "symbol": "🌸",
+          "accentColor": "#e8a6bc",
+          "description": "伝統的な着物の美しい佇まいに、幻想的な重ね布と煌めく装飾を添えた、優雅で華やかな和装シリーズ。",
+          "motif": "花・月・蝶・流水",
+          "material": "絹・シアー布・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant fantasy furisode-style kimono,",
+                "traditional Japanese kimono silhouette with long flowing sleeves,",
+                "layered formal kimono structure,",
+                "graceful wa-style fantasy outfit,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "wide overlapping kimono collar,",
+                "layered fabric in [main color] and [sub color],",
+                "long trailing sleeves with soft drape,",
+                "flowing voluminous hem,",
+                "ornate obi belt tied at the waist,",
+                "traditional kimono form preserved with a luxurious fantasy arrangement,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light translucent uchikake-inspired outer robe,",
+                "airy sheer fabric draped over the shoulders,",
+                "floating sleeve veils and long decorative back drapes,",
+                "layered translucent fabric adding a mystical and regal atmosphere without deforming the kimono silhouette,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] intricate embroidery of flowers, moons, stars, butterflies, clouds, and flowing water,",
+                "ornamental obi cords, tassels, metallic details, and glowing trims,",
+                "crystal charms, gemstone ornaments, and luminous embroidery,",
+                "highly detailed fantasy embellishments with a noble Japanese aesthetic,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornate floral hair ornaments,",
+                "gemstone kanzashi and decorative hair combs,",
+                "layered ribbon cords and hanging charms,",
+                "small magical folding fan attached to the obi,",
+                "talisman ornaments and crystal pendants,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "traditional zori sandals in [main color] and [sub color],",
+                "decorated white tabi socks,",
+                "ornamental ankle cords,",
+                "gemstone charms and tassel decorations,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tsukikage-kunoichi",
+          "name": "月影のくノ一",
+          "symbol": "🥷",
+          "accentColor": "#8f7bc7",
+          "description": "月影に紛れて戦場を駆ける、軽やかな布と繊細な装飾に彩られた、妖艶で神秘的なくノ一シリーズ。",
+          "motif": "月影・煙・蝶・忍具",
+          "material": "軽量布・金属装飾・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy kunoichi-style ninja outfit,",
+                "traditional shinobi-inspired silhouette,",
+                "sleek, feminine, slightly revealing combat design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "wrapped top with a slightly open neckline,",
+                "short kimono-inspired or detached sleeves,",
+                "high-waisted sash belt in [main color] and [sub color],",
+                "split skirt over fitted shorts,",
+                "exposed thighs with decorative straps,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light cropped shawl or mantle,",
+                "flowing translucent scarf,",
+                "layered side drapes and long back ribbons,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of smoke, moon, flowers, butterflies, feathers, flames, or wind motifs,",
+                "decorative cords, tassels, metallic ornaments, glowing trims,",
+                "gemstones, crystal charms, and ornamental armor details,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "half mask or face veil,",
+                "hair ornaments, hairpins, ninja headband,",
+                "earrings, chokers, armlets, bracelets, rings,",
+                "kunai, shuriken, or short enchanted blade,",
+                "scroll case, potion pouch, and charm tags,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "light ninja-style boots or split-toe footwear,",
+                "leg wraps, shin guards, ankle straps, and tassel charms,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kagura-miko",
+          "name": "神楽の巫女",
+          "symbol": "⛩️",
+          "accentColor": "#d65f6a",
+          "description": "神聖な白衣と緋袴に、御幣や鈴、護符の力を宿した、清らかで幻想的な巫女装束シリーズ。",
+          "motif": "御幣・鈴・護符・神紋",
+          "material": "白布・緋袴・水晶",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy shrine maiden outfit,",
+                "traditional white kosode and red hakama silhouette,",
+                "sacred ceremonial attire with a clear miko identity,",
+                "graceful Japanese fantasy priestess design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "white overlapping kosode collar,",
+                "wide shrine maiden sleeves,",
+                "flowing hakama in [main color] and [sub color],",
+                "high-waisted hakama silhouette,",
+                "decorative waist sash and sacred cords,",
+                "traditional miko form clearly preserved with a refined fantasy arrangement,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light chihaya-inspired ceremonial outer layer,",
+                "sheer shoulder drapes and sacred floating cloth,",
+                "long ribbon-like back streamers,",
+                "layered translucent fabric adding a divine and mystical atmosphere,",
+                "fantasy fabric details enhancing the shrine maiden silhouette,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of sacred flowers, divine flames, clouds, stars, moons, and holy patterns,",
+                "shrine crests, protective motifs, glowing trims, and luminous embroidery,",
+                "ornamental cords, tassels, bells, metallic details, crystal charms, and gemstone ornaments,",
+                "highly detailed sacred fantasy embellishments with a strong spiritual Japanese aesthetic,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornate floral hair ornaments, kanzashi, and ceremonial hair ribbons,",
+                "sacred bells, a decorated gohei, kagura fan, or talisman papers,",
+                "glowing ofuda charms attached to the sash,",
+                "crystal pendants, bracelets, earrings, and divine charm accessories,",
+                "luxurious mystical accessories emphasizing the fantasy shrine maiden theme,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "white tabi socks,",
+                "elegant zori sandals in [main color] and [sub color],",
+                "decorative ankle cords, bells, tassels, and gemstone charms,",
+                "refined traditional shrine maiden footwear matching the sacred fantasy attire,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "buka-samurai-princess",
+          "name": "武華の侍姫",
+          "symbol": "⚔️",
+          "accentColor": "#b35d68",
+          "description": "華やかな和装と凛々しい武具を纏い、美しさと武人の誇りを併せ持つ、気高き姫武者シリーズ。",
+          "motif": "桜・家紋・刀・甲冑",
+          "material": "絹・金属装甲・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant fantasy samurai princess outfit,",
+                "traditional Japanese female warrior silhouette,",
+                "graceful layered battle attire with a noble and powerful appearance,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "fitted kimono-style inner layer,",
+                "flowing hakama in [main color] and [sub color],",
+                "ornate obi-style battle belt,",
+                "split skirt panels for mobility,",
+                "refined silhouette balancing beauty, dignity, and combat readiness,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short decorative haori or shoulder cape,",
+                "flowing back drapes and ribbon-like battle cloth,",
+                "layered fabric panels adding a regal fantasy presence,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of cherry blossoms, clouds, flames, flowing water, moons, or family crests,",
+                "ornamental cords, tassels, engraved metallic fittings, and glowing trims,",
+                "decorative shoulder guards, wrist armor, and waist armor,",
+                "gemstone details and elegant warrior embellishments,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornate hair ornaments, kanzashi, and decorative hair cords,",
+                "elegant katana or tachi with a jeweled sheath,",
+                "protective charms, arm guards, and ceremonial waist accessories,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "armored boots or waraji-inspired footwear in [main color] and [sub color],",
+                "leg wraps, decorated shin guards, ankle cords, and tassels,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kazewatari-maiden",
+          "name": "風渡りの旅乙女",
+          "symbol": "🍃",
+          "accentColor": "#82b58d",
+          "description": "風に揺れる羽織と旅装を身につけ、未知なる土地を軽やかに巡る、自由で浪漫あふれる旅人シリーズ。",
+          "motif": "風・雲・葉・旅道具",
+          "material": "軽量布・革・水晶",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant fantasy wayfarer outfit,",
+                "traditional Japanese traveler-inspired silhouette,",
+                "light layered wa-style adventure attire,",
+                "graceful and practical design with a clear wandering traveler identity,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "kimono-style inner layer with a light and fitted silhouette,",
+                "short hakama or layered wrap skirt in [main color] and [sub color],",
+                "ornamental waist sash with practical belts and pouches,",
+                "short sleeves or neatly arranged sleeves for mobility,",
+                "balanced design combining comfort, elegance, and travel-ready functionality,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short haori or light hooded outer layer,",
+                "flowing scarf, shoulder drape, or travel mantle,",
+                "layered side cloth and soft back drapes,",
+                "airy fabric adding a romantic and mystical wandering atmosphere,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of wind patterns, clouds, flowers, leaves, stars, or flowing water motifs,",
+                "ornamental cords, tassels, metallic fittings, and glowing trims,",
+                "small crystal charms, travel ornaments, and elegant fantasy embellishments,",
+                "detailed decorations with a gentle and adventurous Japanese aesthetic,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "decorative hair ornaments, braided hair cords, and kanzashi,",
+                "small travel bag, scroll case, map pouch, and charm accessories,",
+                "ornamental belt pouches, protective amulets, and a short staff or dagger,",
+                "crystal pendants and mystical traveler accessories enhancing the fantasy theme,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "light boots or traditional traveler-style footwear in [main color] and [sub color],",
+                "leg wraps, ankle cords, small tassels, and practical decorative details,",
+                "comfortable travel-ready footwear matching the elegant fantasy wayfarer style,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reikyu-archer-lady",
+          "name": "霊弓の射手",
+          "symbol": "🏹",
+          "accentColor": "#6e9b85",
+          "description": "神秘の力を秘めた大弓を携え、風を読み遠き標的を射抜く、優美で凛々しい和弓使いシリーズ。",
+          "motif": "大弓・矢羽・風・護符",
+          "material": "木・革・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant fantasy archer outfit,",
+                "traditional Japanese kyudo-inspired silhouette,",
+                "light layered wa-style archer attire,",
+                "graceful and agile design with a strong bow-user identity,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "fitted kimono-style upper layer,",
+                "short hakama or asymmetrical skirt in [main color] and [sub color],",
+                "ornate waist sash,",
+                "one sleeve tied back or shortened for archery,",
+                "chest guard, arm bracer, and archery glove,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light short haori or shoulder drape,",
+                "flowing side cloth and long back ribbons,",
+                "airy layered fabric adding movement without hindering archery,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of feathers, arrows, wind, clouds, flowers, leaves, moons, or sacred motifs,",
+                "ornamental cords, tassels, metallic details, glowing trims,",
+                "gemstone accents and elegant fantasy embellishments,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "large decorated yumi bow as the main focus,",
+                "ornate quiver filled with arrows,",
+                "arrow ornaments, feather charms, and bow-themed accessories,",
+                "hair ornaments, talismans, and ceremonial waist accessories,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "light boots or traditional archer-style footwear in [main color] and [sub color],",
+                "leg wraps, shin guards, ankle cords, and tassels,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "miyabi-fusion-lady",
+          "name": "雅綾の和洋装",
+          "symbol": "🎴",
+          "accentColor": "#a884b8",
+          "description": "西洋ドレスの華麗なシルエットに帯や和柄を融合した、気品と幻想美あふれる和洋折衷シリーズ。",
+          "motif": "帯・和柄・薔薇・カメオ",
+          "material": "レース・ブロケード・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant Japanese-western fantasy fusion outfit,",
+                "western aristocratic dress silhouette blended with traditional Japanese elements,",
+                "graceful layered attire with a luxurious and refined appearance,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "kimono-style overlapping collar,",
+                "fitted corset bodice in [main color] and [sub color],",
+                "layered frilled dress skirt with a voluminous bustle silhouette,",
+                "front draped panels inspired by a kimono,",
+                "ornate obi-inspired waist belt combined with western ribbon details,",
+                "asymmetrical layered design clearly blending Japanese elegance and noble western fashion,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short decorative haori jacket or lace-trimmed bolero,",
+                "detached long sleeves or elegant sleeve drapes,",
+                "layered back ribbons, bustle drapes, and soft trailing fabric panels,",
+                "sheer lace fabric and translucent cloth adding a graceful fantasy atmosphere,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of flowers, butterflies, moons, stars, roses, or traditional Japanese patterns,",
+                "lace trims, frills, ribbons, ornamental cords, tassels, metallic details, and glowing accents,",
+                "gemstone ornaments, brooches, cameo details, and elegant fantasy embellishments,",
+                "highly detailed decorations with a luxurious Japanese-western aesthetic,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornate floral hair ornaments, kanzashi, ribbons, and a small mini hat or head dress,",
+                "lace choker, earrings, bracelets, rings, and crystal pendants,",
+                "decorated folding fan, jeweled brooch, charm accessories, and elegant waist ornaments,",
+                "luxurious accessories enhancing the noble fantasy fusion design,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "elegant heeled boots or heeled shoes in [main color] and [sub color],",
+                "lace details, ankle ribbons, tassels, and metallic ornaments,",
+                "refined western-style footwear with subtle Japanese decorative elements,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yumeya-wa-lolita",
+          "name": "夢綾の和ロリータ",
+          "symbol": "🎀",
+          "accentColor": "#d99fc4",
+          "description": "和服の前合わせと振袖風の袖に、幾重ものフリルやリボンを重ねた、甘く夢幻的な和ロリータシリーズ。",
+          "motif": "桜・扇・リボン・和傘",
+          "material": "レース・パール・シアー布",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] extravagant Japanese lolita fantasy outfit,",
+                "traditional Japanese upper garment blended with an extremely frilly lolita silhouette,",
+                "short voluminous bell-shaped skirt,",
+                "sweet, ornate, and highly decorative feminine design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "off-shoulder kimono-style upper garment with a traditional overlapping front,",
+                "wide neckline resting below the shoulders while preserving the Japanese robe structure,",
+                "fitted waist in [main color] and [sub color],",
+                "multiple layers of ruffled lace and tiered frills,",
+                "wide bell-shaped skirt supported by a petticoat,",
+                "short furisode-inspired sleeves or detachable flowing kimono sleeves,",
+                "ornate obi-style waist belt with an oversized back bow,",
+                "richly layered silhouette filled with ribbons, gathers, and decorative fabric,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "frilly lace capelet or short decorative haori,",
+                "sheer kimono sleeve drapes with ruffled edges,",
+                "large back ribbons and long trailing bow tails,",
+                "layered side drapes, lace panels, and floating translucent fabric,",
+                "abundant frills adding dreamy and magical volume,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of cherry blossoms, butterflies, candy flowers, moons, folding fans, and traditional Japanese patterns,",
+                "dense lace trims, ruffles, bows, rosettes, ornamental cords, tassels, and pearl chains,",
+                "gemstone buttons, heart-shaped charms, miniature bells, and glowing embroidery,",
+                "highly detailed decorations covering the collar, sleeves, obi, and skirt hem,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "large frilly head bow, lace headdress, or miniature bonnet,",
+                "flower kanzashi, ribbon hair clips, decorative combs, and hanging hair charms,",
+                "lace choker, pearl earrings, bracelets, rings, and layered necklaces,",
+                "ornate Japanese wagasa parasol decorated with lace, ribbons, tassels, and floral charms,",
+                "small embroidered handbag and abundant gemstone accessories,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "platform mary jane shoes or frilly heeled boots in [main color] and [sub color],",
+                "lace-trimmed knee-high socks or patterned tights,",
+                "large ankle bows, ruffled shoe straps, bells, pearls, and gemstone charms,",
+                "ornate footwear matching the extravagant Japanese lolita outfit,"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaeikage-fantasy-outfits",
+      "name": "雅影幻想衣装",
+      "englishName": "Gaeikage Fantasy Outfits",
+      "symbol": "🎴",
+      "accentColor": "#7d6c95",
+      "description": "男性向けの和風ファンタジー衣装を集めた、端正で幻想的なコレクション。",
+      "series": [
+        {
+          "id": "hanaya-kimono-men",
+          "name": "花綾の着物",
+          "symbol": "🌸",
+          "accentColor": "#c78fa6",
+          "description": "伝統的な男性着物の端正な佇まいに、幻想的な刺繍と重ね布を添えた、優雅で高貴な和装シリーズ。",
+          "motif": "花・月・雲・流水",
+          "material": "絹・シアー布・宝石",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant fantasy men's kimono,",
+                "traditional Japanese male kimono silhouette,",
+                "layered formal wa-style outfit,",
+                "refined, noble, and graceful masculine fantasy design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "wide overlapping kimono collar,",
+                "layered fabric in [main color] and [sub color],",
+                "straight and dignified silhouette,",
+                "long sleeves with a controlled elegant drape,",
+                "ornate obi-style belt tied firmly at the waist,",
+                "traditional men's kimono form preserved with a luxurious fantasy arrangement,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light haori-inspired outer robe or decorative shoulder layer,",
+                "flowing back drapes and layered fabric panels,",
+                "translucent inner cloth and soft trailing fabric,",
+                "additional cloth adding a regal and mystical atmosphere without breaking the kimono silhouette,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] intricate embroidery of clouds, moons, stars, flowing water, flowers, or traditional Japanese patterns,",
+                "ornamental cords, tassels, metallic details, and glowing trims,",
+                "crystal charms, gemstone ornaments, and luminous embroidery,",
+                "highly detailed fantasy embellishments with a noble Japanese aesthetic,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornamental hair cord or decorative hair accessory,",
+                "gemstone clasps, layered obi ornaments, and hanging charm accessories,",
+                "decorated folding fan, ceremonial charm tags, and crystal pendants,",
+                "luxurious fantasy accessories enhancing the refined kimono design,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "elegant traditional zori sandals or refined Japanese boots in [main color] and [sub color],",
+                "decorated tabi socks,",
+                "ornamental ankle cords, tassels, and metallic details,",
+                "traditional footwear matching the luxurious fantasy men's kimono,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tsukikage-shinobi",
+          "name": "月影の忍",
+          "symbol": "🥷",
+          "accentColor": "#665d87",
+          "description": "月夜の闇を静かに駆ける、機動的な忍装束と揺れる布を組み合わせた、精悍で神秘的な忍シリーズ。",
+          "motif": "月・煙・忍具・影",
+          "material": "黒布・金属装具・革",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy male shinobi outfit,",
+                "layered traditional Japanese ninja attire,",
+                "short sleeveless tunic over a black high-neck inner garment,",
+                "refined and mysterious masculine design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "short overlapping shinobi tunic in [main color] and [sub color],",
+                "loose voluminous sleeves,",
+                "wide cropped hakama-style balloon pants,",
+                "very loose trousers gathered below the knees,",
+                "ornate waist sash and weapon belts,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short hooded mantle or raised-collar cape,",
+                "long flowing neck scarf,",
+                "split side cloth and short back drapes,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] crescent moon, smoke, flame, cloud, or wind embroidery,",
+                "ornamental cords, tassels, metallic fittings, and subtle glowing trims,",
+                "decorative wrist guards and waist charms,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "half mask or eyepatch,",
+                "hair cord and small metallic hair ornament,",
+                "kunai, shuriken, and short blades around the waist,",
+                "scroll pouch, utility bag, talismans, and chain ornaments,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "black leg wraps,",
+                "long armored shin guards in [main color] and [sub color],",
+                "split-toe tabi sandals,",
+                "ankle cords and small tassels,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoshiyomi-onmyoji",
+          "name": "星詠の陰陽師",
+          "symbol": "☯️",
+          "accentColor": "#8a79b8",
+          "description": "星の巡りを読み、呪符と式神を操る力を秘めた、平安装束を基調とする荘厳な陰陽師シリーズ。",
+          "motif": "陰陽・星・五芒星・式神",
+          "material": "狩衣布・護符紙・水晶",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy male onmyoji outfit,",
+                "traditional Heian-style kariginu and hakama,",
+                "layered ceremonial court attire,",
+                "dignified and mystical masculine silhouette,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "wide overlapping robe collar,",
+                "loose kariginu-style upper robe in [main color] and [sub color],",
+                "large flowing sleeves with layered cuffs,",
+                "wide hakama trousers,",
+                "ornate waist sash and ritual cords,",
+                "formal silhouette emphasizing spiritual authority,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light translucent ceremonial over-robe,",
+                "long shoulder streamers flowing behind the body,",
+                "layered sleeve veils and ribbon-like back drapes,",
+                "split waist cloth and soft trailing fabric panels,",
+                "airy sacred cloth fluttering around the arms and legs,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] yin-yang symbols, pentagrams, stars, clouds, and spell-circle patterns,",
+                "glowing seals, talisman embroidery, metallic fittings, and tassels,",
+                "ornamental cords, crystal charms, and ritual bells,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "traditional black eboshi,",
+                "decorated folding fan,",
+                "multiple ofuda talismans, scrolls, and spell papers,",
+                "ritual beads, small bells, charm pendants, and a shikigami paper doll,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "white tabi socks,",
+                "traditional asagutsu-style court shoes in [main color] and [sub color],",
+                "decorative ankle cords and subtle metallic ornaments,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "buka-samurai-men",
+          "name": "武華の侍",
+          "symbol": "⚔️",
+          "accentColor": "#8e4f55",
+          "description": "優美な和装と重厚な武具を纏い、一振りの刀に誇りを託す、気高く勇壮な侍シリーズ。",
+          "motif": "刀・家紋・雲・甲冑",
+          "material": "絹・金属装甲・革",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy male samurai outfit,",
+                "asymmetrical one-shoulder warrior design,",
+                "elegant and noble Japanese fantasy silhouette,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "deep V-shaped kimono-style upper garment in [main color] and [sub color],",
+                "one shoulder covered with a decorative armor pauldron,",
+                "the other shoulder and part of the chest exposed,",
+                "fitted waist with layered belts and tassels,",
+                "long pleated hakama-style lower garment,",
+                "refined silhouette balancing beauty, strength, and fantasy elegance,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "long split outer cloth flowing from the waist,",
+                "layered side drapes and trailing fabric panels,",
+                "light decorative cloth adding a graceful and dramatic presence,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] ornate floral or cloud embroidery,",
+                "gold metallic fittings, tassels, cords, and engraved armor details,",
+                "luxurious decorative waist ornaments and subtle glowing accents,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "elegant katana with a decorated sheath,",
+                "layered waist belts, hanging tassels, and chain ornaments,",
+                "ornamental hair accessory, arm guard, and wrist armor,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "dark armored boots in [main color] and [sub color],",
+                "refined footwear matching the long hakama silhouette,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kazewatari-traveler",
+          "name": "風渡りの旅人",
+          "symbol": "🍃",
+          "accentColor": "#708e73",
+          "description": "羽織と旅道具を携え、風の導くまま各地を巡る、実用性と浪漫を兼ね備えた旅装シリーズ。",
+          "motif": "風・雲・葉・旅道具",
+          "material": "軽量布・革・金属具",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy male traveler outfit,",
+                "traditional Japanese travel-inspired silhouette,",
+                "light layered wa-style adventure attire,",
+                "refined and practical masculine fantasy design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "kimono-style inner garment in [main color] and [sub color],",
+                "short haori or travel jacket,",
+                "wide hakama-style pants or loose cropped trousers,",
+                "ornate waist sash with layered belts and pouches,",
+                "balanced silhouette emphasizing mobility, comfort, and travel-ready elegance,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "light hooded mantle or short shoulder cape,",
+                "long scarf or neck cloth,",
+                "split side drapes and soft back fabric panels,",
+                "layered cloth adding a romantic and adventurous fantasy presence,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of wind, clouds, leaves, stars, flowing water, or traditional Japanese patterns,",
+                "ornamental cords, tassels, metallic fittings, and subtle glowing trims,",
+                "small crystal charms, travel ornaments, and elegant fantasy embellishments,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "ornamental hair cord or small hair accessory,",
+                "travel bag, scroll pouch, map case, and belt pouches,",
+                "protective talismans, charm pendants, and chain ornaments,",
+                "short staff, dagger, or walking stick,",
+                "layered accessories enhancing the wandering traveler theme,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "traditional traveler boots or waraji-inspired footwear in [main color] and [sub color],",
+                "leg wraps, ankle cords, decorated shin guards, and tassels,",
+                "practical footwear matching the elegant fantasy traveler style,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reikyu-archer-men",
+          "name": "霊弓の射手",
+          "symbol": "🏹",
+          "accentColor": "#5d7d69",
+          "description": "霊力を宿した大弓を構え、静かな集中と正確な一射で敵を射抜く、端正で勇ましい和弓使いシリーズ。",
+          "motif": "大弓・矢羽・風・護符",
+          "material": "木・革・金属具",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] fantasy male archer outfit,",
+                "traditional Japanese kyudo-inspired silhouette,",
+                "light layered wa-style battle attire,",
+                "refined and agile masculine fantasy design,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "kimono-style upper garment in [main color] and [sub color],",
+                "one sleeve shortened or tied back for archery,",
+                "wide hakama-style pants or loose cropped trousers,",
+                "ornate waist sash with layered belts,",
+                "chest guard, arm bracer, and archery glove,",
+                "balanced silhouette emphasizing precision, mobility, and bow handling,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short haori or light shoulder cape,",
+                "long back drapes or flowing side cloth,",
+                "layered fabric panels adding movement without hindering archery,",
+                "airy cloth creating a noble and mystical presence,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of feathers, arrows, wind, clouds, moons, or sacred patterns,",
+                "ornamental cords, tassels, metallic fittings, and subtle glowing trims,",
+                "gemstone accents, elegant bow-themed details, and refined fantasy embellishments,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "large decorated yumi bow as the main focus,",
+                "ornate quiver clearly filled with arrows,",
+                "arrow ornaments, feather charms, and protective talismans,",
+                "hair cord or small hair accessory,",
+                "ceremonial waist ornaments and layered archery equipment,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "light boots or traditional archer-style footwear in [main color] and [sub color],",
+                "leg wraps, decorated shin guards, ankle cords, and tassels,",
+                "practical footwear matching the elegant fantasy archer style,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "miyabi-fusion-men",
+          "name": "雅綾の和洋装",
+          "symbol": "🎴",
+          "accentColor": "#7d6a91",
+          "description": "洗練された西洋上衣と伝統的な袴を組み合わせた、異国情緒と和の気品が交差する和洋折衷シリーズ。",
+          "motif": "袴・西洋上衣・家紋・カメオ",
+          "material": "ブロケード・金属装飾・レース",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] elegant Japanese-western fantasy male outfit,",
+                "western aristocratic upper garment combined with traditional Japanese hakama,",
+                "refined and luxurious masculine fusion silhouette,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "structured high-collar shirt in [main color] and [sub color],",
+                "fitted brocade vest or corset-style waistcoat,",
+                "tailored jacket with decorated lapels and fitted sleeves,",
+                "ornate sash belt layered over the waist,",
+                "wide pleated hakama trousers as the main Japanese element,",
+                "balanced silhouette with a western upper body and traditional hakama lower body,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "short aristocratic mantle or one-shoulder cape,",
+                "split coat tails flowing over the hakama,",
+                "long back ribbons and layered waist drapes,",
+                "light trailing fabric adding a dramatic fantasy presence,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] embroidery of flowers, clouds, moons, roses, or Japanese crests,",
+                "ornamental cords, tassels, engraved metallic fittings, lace trims, and gemstone brooches,",
+                "subtle glowing accents and luxurious fantasy details,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "lace cravat or jeweled neck ribbon,",
+                "gloves, earrings, rings, chain accessories, and pocket watch,",
+                "decorated folding fan, ceremonial sword, or jeweled cane,",
+                "small Japanese charms and tassels attached to the waist sash,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "elegant heeled boots in [main color] and [sub color],",
+                "metallic clasps, embroidered panels, ankle straps, and subtle Japanese motifs,",
+                "refined western footwear worn beneath the wide hakama,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yumeya-wa-prince",
+          "name": "夢綾の和王子",
+          "symbol": "🎀",
+          "accentColor": "#ae7fa4",
+          "description": "華やかな前合わせの上衣と短い袴風ボトムに、レースや宝石を飾った、可憐で優雅な和王子シリーズ。",
+          "motif": "桜・扇・リボン・王子装飾",
+          "material": "レース・ブロケード・パール",
+          "categories": [
+            {
+              "id": "basic",
+              "name": "① 衣装の基本形",
+              "prompts": [
+                "[main color] extravagant Japanese ouji lolita fantasy outfit,",
+                "western prince fashion blended with traditional Japanese details,",
+                "sweet, elegant, and highly decorative masculine silhouette,"
+              ]
+            },
+            {
+              "id": "design",
+              "name": "② 衣装デザイン",
+              "prompts": [
+                "frilled high-collar blouse in [main color] and [sub color],",
+                "fitted brocade vest with ornate buttons,",
+                "short tailored jacket with lace-trimmed sleeves,",
+                "wide pleated hakama-style short pants,",
+                "ornate obi-inspired waist sash with a large back bow,",
+                "layered silhouette filled with frills, ribbons, and decorative fabric,"
+              ]
+            },
+            {
+              "id": "cover",
+              "name": "③ 羽織・追加布",
+              "prompts": [
+                "frilly capelet or short haori-inspired mantle,",
+                "layered shoulder drapes with lace edges,",
+                "long back ribbons and flowing bow tails,",
+                "soft translucent fabric adding dreamy fantasy volume,"
+              ]
+            },
+            {
+              "id": "ornaments",
+              "name": "④ 装飾・意匠",
+              "prompts": [
+                "[accent color] cherry blossoms, fans, butterflies, moons, and traditional Japanese patterns,",
+                "dense lace trims, ruffles, bows, ornamental cords, tassels, and pearl chains,",
+                "gemstone buttons, small bells, brooches, and glowing embroidery,"
+              ]
+            },
+            {
+              "id": "accessories",
+              "name": "⑤ 小物・アクセサリー",
+              "prompts": [
+                "mini top hat or frilled prince headdress,",
+                "kanzashi-inspired hair ornament and ribbon hair clips,",
+                "lace cravat, earrings, rings, gloves, and layered necklaces,",
+                "decorated folding fan, small wagasa, or ornate handbag,",
+                "abundant pearl, ribbon, bell, and gemstone accessories,"
+              ]
+            },
+            {
+              "id": "footwear",
+              "name": "⑥ 足元",
+              "prompts": [
+                "platform prince boots in [main color] and [sub color],",
+                "lace-trimmed knee-high socks,",
+                "large ankle bows, ruffled boot cuffs, metallic clasps, and gemstone charms,"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arcane-familiar",
+      "name": "Arcane Familiar",
+      "englishName": "Arcane Familiar Collection",
+      "symbol": "🔮",
+      "accentColor": "#b18cff",
+      "description": "魔法使いに寄り添う幻想生物と属性モチーフを組み合わせた、使い魔プロンプトコレクション。",
+      "series": [
+        {
+          "id": "arcane-dragon",
+          "name": "Arcane Dragon",
+          "symbol": "🐉",
+          "accentColor": "#9d7be8",
+          "description": "優雅な角と大きな翼、長い尾を備えた、神秘と気品を宿す王道のドラゴン使い魔シリーズ。",
+          "motif": "角・大翼・長い尾・属性魔法",
+          "material": "鱗・宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] small arcane dragon familiar",
+                "non-human quadruped dragon",
+                "rounded horns and soft scaled body",
+                "large wings folded at the back and a long tail",
+                "gentle eyes with a cute fantasy presence"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] gemstones on the forehead and chest",
+                "small crystal ornaments on the horns and tail tip",
+                "cute jewel decorations for a familiar-like design",
+                "soft magical shine",
+                "delicate arcane fantasy details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "flame-like wing edges",
+                "ember-tipped tail",
+                "warm fire aura",
+                "small floating sparks",
+                "cute fiery markings with magical accents"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "water-like translucent fins",
+                "flowing tail accents",
+                "soft droplet aura",
+                "floating bubbles and rippling magic",
+                "clear aquatic glow with gentle details"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "feather-light wing accents",
+                "wind-swept tail shape",
+                "soft swirling air currents",
+                "floating mote effects",
+                "breezy magical patterns with light fantasy details"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "radiant wing glow",
+                "soft halo-like aura",
+                "gentle luminous particles",
+                "shining crest details",
+                "holy light motifs with warm sacred accents"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "shadowy but soft aura",
+                "dark mist effects",
+                "crescent-like horn accents",
+                "dim phantom glow",
+                "mysterious dark magic details with a familiar-like charm"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "rock-like scales",
+                "small mineral armor plating",
+                "craggy horn texture",
+                "earthy tail accents",
+                "stone crystal details with grounded fantasy motifs"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "floral ornaments around the horns",
+                "flower decoration on the chest",
+                "petal-like wing accents",
+                "blossom-tipped tail detail",
+                "graceful flower motifs with fairy-tale charm"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "lightning-like horn and wing accents",
+                "electric sparks around the body",
+                "glowing thunder markings along the scales",
+                "charged tail tip with crackling energy",
+                "storm magic motifs with bright arcane aura"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ember-drake",
+          "name": "Ember Drake",
+          "symbol": "🐲",
+          "accentColor": "#e98b62",
+          "description": "小さな翼と丸みのある体つきが愛らしい、幼さと無邪気な魔力を纏う子ドラゴン使い魔シリーズ。",
+          "motif": "小さな角・小翼・丸い体・属性魔法",
+          "material": "柔らかな鱗・小粒宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] baby drake familiar",
+                "small non-human quadruped dragon",
+                "short rounded horns and chubby scaled body",
+                "tiny wings and a short fluffy tail tip",
+                "big gentle eyes with a cute familiar presence"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] small gemstone on the forehead and chest",
+                "tiny crystal ornaments on the horns and tail tip",
+                "cute jewel decorations for a baby familiar design",
+                "soft magical shine",
+                "delicate arcane fantasy details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "tiny flame-like wing edges",
+                "ember-tipped tail",
+                "warm fire aura",
+                "small floating sparks",
+                "cute fiery markings with magical accents"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "water-like translucent fins",
+                "flowing tail accents",
+                "soft droplet aura",
+                "floating bubbles and rippling magic",
+                "clear aquatic glow with gentle details"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "feather-light wing accents",
+                "wind-swept tail shape",
+                "soft swirling air currents",
+                "floating mote effects",
+                "breezy magical patterns with light fantasy details"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "radiant wing glow",
+                "soft halo-like aura",
+                "gentle luminous particles",
+                "shining crest details",
+                "holy light motifs with warm sacred accents"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "shadowy but soft aura",
+                "dark mist effects",
+                "crescent-like horn accents",
+                "dim phantom glow",
+                "mysterious dark magic details with a cute familiar charm"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "rock-like scales",
+                "small mineral armor plating",
+                "rounded craggy horn texture",
+                "earthy tail accents",
+                "stone crystal details with grounded fantasy motifs"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "floral ornaments around the horns",
+                "flower decoration on the chest",
+                "petal-like wing accents",
+                "blossom-tipped tail detail",
+                "graceful flower motifs with fairy-tale charm"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "tiny lightning-like wing edges",
+                "small electric sparks around the body",
+                "glowing thunder markings on the scales",
+                "charged tail tip with crackling energy",
+                "cute storm magic accents"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moon-hare",
+          "name": "Moon Hare",
+          "symbol": "🐇",
+          "accentColor": "#c8c7f2",
+          "description": "柔らかな毛並みと長い耳に幻想的な魔力を宿す、月夜の静けさと可憐さを纏うウサギ使い魔シリーズ。",
+          "motif": "長い耳・月・属性魔法",
+          "material": "柔毛・小粒宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] small magical rabbit familiar",
+                "fully non-humanoid feral rabbit",
+                "natural quadruped rabbit anatomy",
+                "standing on four paws with animal-like posture",
+                "no human body, no human hands, no clothing"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] small gemstone embedded on the forehead",
+                "tiny crystal ornaments attached to the ears",
+                "delicate jewel collar made for a small animal",
+                "soft magical crystal glow",
+                "subtle fantasy gem details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "small flame-shaped markings on the ear tips",
+                "warm ember glow around the fur",
+                "tiny floating sparks",
+                "subtle fire patterns along the back",
+                "gentle magical flame aura"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "translucent water-like accents on the ear tips",
+                "soft droplets floating around the body",
+                "small bubbles and rippling magic",
+                "fluid markings along the fur",
+                "gentle aquatic glow"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "light feather-like accents near the ears",
+                "soft wind swirling around the body",
+                "floating magical motes",
+                "slightly windswept fur",
+                "delicate breeze-shaped markings"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "soft radiant glow around the body",
+                "small crescent halo floating above the head",
+                "gentle luminous particles",
+                "shining crescent mark on the forehead",
+                "warm sacred light aura"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "soft shadow mist around the paws",
+                "dark crescent markings on the fur",
+                "dim violet magical glow",
+                "small floating shadow wisps",
+                "gentle mysterious night aura"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "small stone-like markings on the fur",
+                "tiny mineral crystals around the paws",
+                "subtle rocky texture on the ear tips",
+                "earthy magical aura",
+                "grounded stone fantasy details"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "small flowers attached around the ears",
+                "delicate blossom ornament on the chest fur",
+                "soft petals floating around the body",
+                "tiny flower at the tail base",
+                "gentle fairy-tale floral details"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "small lightning-shaped markings on the ears",
+                "soft electric glow around the body",
+                "tiny crackling sparks",
+                "crescent-like thunder aura",
+                "gentle storm magic details"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mystic-cat",
+          "name": "Mystic Cat",
+          "symbol": "🐈",
+          "accentColor": "#b694d9",
+          "description": "しなやかな姿と大きな瞳に不思議な気配を宿す、気まぐれで愛らしい魔法ネコ使い魔シリーズ。",
+          "motif": "猫耳・尾・魔法印",
+          "material": "柔毛・宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] small magical cat familiar",
+                "fully non-humanoid feral cat",
+                "natural quadruped feline anatomy",
+                "standing on four paws with animal-like posture",
+                "no human body, no human hands, no clothing"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] small gemstone embedded on the forehead",
+                "tiny crystal ornaments attached near the ears",
+                "delicate jewel collar made for a small animal",
+                "soft magical crystal glow",
+                "subtle fantasy gem details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "small flame-shaped markings on the ears and tail tip",
+                "warm ember glow around the fur",
+                "tiny floating sparks",
+                "subtle fire patterns along the back",
+                "gentle magical flame aura"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "translucent water-like accents on the ears and tail",
+                "soft droplets floating around the body",
+                "small bubbles and rippling magic",
+                "fluid markings along the fur",
+                "gentle aquatic glow"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "light feather-like accents near the ears",
+                "soft wind swirling around the body",
+                "floating magical motes",
+                "slightly windswept fur",
+                "delicate breeze-shaped markings"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "soft radiant glow around the body",
+                "small halo-like light above the head",
+                "gentle luminous particles",
+                "shining magical mark on the forehead",
+                "warm sacred light aura"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "soft shadow mist around the paws",
+                "dark magical markings on the fur",
+                "dim violet magical glow",
+                "small floating shadow wisps",
+                "gentle mysterious night aura"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "small stone-like markings on the fur",
+                "tiny mineral crystals around the paws",
+                "subtle rocky texture on the tail tip",
+                "earthy magical aura",
+                "grounded stone fantasy details"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "small flowers attached around the ears",
+                "delicate blossom ornament on the chest fur",
+                "soft petals floating around the body",
+                "tiny flower near the tail base",
+                "gentle fairy-tale floral details"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "small lightning-shaped markings on the ears and tail tip",
+                "soft electric glow around the fur",
+                "tiny crackling sparks",
+                "glowing thunder patterns along the back",
+                "gentle storm magic aura"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rune-wolf",
+          "name": "Rune Wolf",
+          "symbol": "🐺",
+          "accentColor": "#8ea9c9",
+          "description": "力強い四肢とルーンの輝きを纏う、忠誠心と神秘的な野性を宿すオオカミ使い魔シリーズ。",
+          "motif": "ルーン・狼牙・属性魔法",
+          "material": "厚毛・結晶・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] small magical wolf familiar",
+                "fully non-humanoid feral wolf",
+                "natural quadruped canine anatomy",
+                "standing on four paws with animal-like posture",
+                "no human body, no human hands, no clothing"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] small gemstone embedded on the forehead",
+                "tiny crystal ornaments attached near the ears and neck",
+                "delicate jewel collar made for a small animal",
+                "soft magical crystal glow",
+                "subtle fantasy gem details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "small flame-shaped markings on the ears and tail tip",
+                "warm ember glow around the fur",
+                "tiny floating sparks",
+                "subtle fire patterns along the back",
+                "gentle magical flame aura"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "translucent water-like accents on the ears and tail",
+                "soft droplets floating around the body",
+                "small bubbles and rippling magic",
+                "fluid markings along the fur",
+                "gentle aquatic glow"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "light feather-like accents near the ears",
+                "soft wind swirling around the body",
+                "floating magical motes",
+                "slightly windswept fur",
+                "delicate breeze-shaped markings"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "soft radiant glow around the body",
+                "small halo-like light above the head",
+                "gentle luminous particles",
+                "shining magical mark on the forehead",
+                "warm sacred light aura"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "soft shadow mist around the paws",
+                "dark magical markings on the fur",
+                "dim violet magical glow",
+                "small floating shadow wisps",
+                "gentle mysterious night aura"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "small stone-like markings on the fur",
+                "tiny mineral crystals around the paws",
+                "subtle rocky texture on the tail tip",
+                "earthy magical aura",
+                "grounded stone fantasy details"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "small flowers attached around the ears",
+                "delicate blossom ornament on the chest fur",
+                "soft petals floating around the body",
+                "tiny flower near the tail base",
+                "gentle fairy-tale floral details"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "lightning-shaped markings on the ears and tail",
+                "soft electric aura around the fur",
+                "tiny crackling sparks",
+                "glowing rune-like thunder patterns along the back",
+                "storm magic details with familiar charm"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "astral-plume",
+          "name": "Astral Plume",
+          "symbol": "🪶",
+          "accentColor": "#7bc7d9",
+          "description": "大きな翼と流れるような長い尾羽が彩る、神鳥の優雅さと星空の幻想を纏う長尾鳥使い魔シリーズ。",
+          "motif": "大翼・長い尾羽・星空",
+          "material": "羽毛・宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] stylized fantasy bird familiar",
+                "fully non-humanoid non-realistic avian creature",
+                "natural bird anatomy with a horizontal torso",
+                "perching on a branch with both clawed feet beneath the body",
+                "wings folded naturally against the sides",
+                "small crest, large rounded wings, and a very long decorative tail",
+                "cute simplified fantasy creature design",
+                "no upright pose, no human-like stance, no anthropomorphic anatomy"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] jewel-like ornaments on the crest and chest",
+                "crystal accents on the wings and tail",
+                "gemstone motifs decorating the feathers",
+                "soft magical sparkle around the body",
+                "ornate arcane fantasy details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "flame-shaped feather tips on the wings and tail",
+                "warm ember-colored feather accents",
+                "small floating sparks around the body",
+                "soft fiery aura around the tail feathers",
+                "fantasy flame motifs with elegant bird charm"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "water-like translucent feather tips on the wings and tail",
+                "cool blue flowing accents along the feathers",
+                "floating droplets and bubbles around the body",
+                "soft rippling aura around the tail",
+                "fantasy water motifs with graceful bird charm"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "light airy feather shapes on the wings and tail",
+                "long flowing tail feathers moving like wind",
+                "soft swirling air currents around the body",
+                "floating small feathers and magical motes",
+                "fantasy wind motifs with elegant bird charm"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "soft glowing feather edges on the wings and tail",
+                "radiant light accents across the plumage",
+                "gentle luminous particles around the body",
+                "small halo-like glow above or behind the head",
+                "fantasy light motifs with sacred bird charm"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "shadow-tinted feather edges on the wings and tail",
+                "deep mysterious accents across the plumage",
+                "small floating shadow wisps around the body",
+                "soft dark aura trailing from the tail",
+                "fantasy dark motifs with mystical bird charm"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "mineral-like feather accents on the wings and tail",
+                "stone-textured decorative patterns across the plumage",
+                "small floating crystal or stone fragments around the body",
+                "earthy aura around the legs and tail",
+                "fantasy rock motifs with sturdy bird charm"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "petal-shaped feather accents on the wings and tail",
+                "flower ornaments around the crest and chest",
+                "soft petals floating around the body",
+                "blossom-like layered tail feathers",
+                "fantasy floral motifs with fairy-tale bird charm"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "lightning-shaped feather accents on the wings and tail",
+                "bright electric highlights across the plumage",
+                "small crackling sparks around the body",
+                "charged aura trailing from the tail feathers",
+                "fantasy thunder motifs with vivid bird charm"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spirit-fox",
+          "name": "Spirit Fox",
+          "symbol": "🦊",
+          "accentColor": "#e9a36f",
+          "description": "九つの尾に神秘的な魔力を宿す、気品と妖しさ、愛らしさを併せ持つ九尾のキツネ使い魔シリーズ。",
+          "motif": "九尾・狐火・属性魔法",
+          "material": "柔毛・宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] stylized fantasy nine-tailed fox familiar",
+                "fully non-humanoid non-realistic fox",
+                "natural quadruped fox anatomy with a horizontal torso",
+                "standing on four paws with animal-like posture",
+                "large ears, fluffy chest fur, and nine long flowing tails",
+                "cute simplified creature design with mystical familiar charm",
+                "no upright pose, no human-like stance, no clothing"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] gemstone on the forehead or chest",
+                "small crystal ornaments near the ears and tail base",
+                "jewel-like markings decorating the fur and nine tails",
+                "soft magical sparkle around the body",
+                "delicate arcane fantasy details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "flame-shaped fur accents on the ears and nine tails",
+                "warm ember glow around the body",
+                "small floating sparks",
+                "fiery markings along the back and tails",
+                "gentle magical fire aura"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "water-like translucent fur accents on the ears and nine tails",
+                "soft droplets and bubbles around the body",
+                "flowing wave-like markings along the fur",
+                "cool rippling aura around the tails",
+                "graceful aquatic fantasy details"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "light airy fur accents on the ears and nine tails",
+                "long flowing tails moving like wind",
+                "soft swirling air currents around the body",
+                "floating magical motes",
+                "breezy fantasy markings with elegant charm"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "soft glowing fur edges on the ears and nine tails",
+                "radiant magical light around the body",
+                "gentle luminous particles",
+                "small halo-like glow near the head",
+                "sacred light motifs with warm fantasy charm"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "shadow-tinted fur accents on the ears and nine tails",
+                "soft dark mist around the paws and body",
+                "deep mysterious markings along the fur",
+                "small floating shadow wisps",
+                "gentle dark fantasy aura with mystical charm"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "mineral-like fur accents on the ears and nine tails",
+                "stone-textured markings along the body",
+                "small floating crystal or rock fragments",
+                "earthy aura around the paws",
+                "fantasy rock motifs with sturdy familiar charm"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "petal-like fur accents on the ears and nine tails",
+                "small flowers decorating the ears and chest fur",
+                "soft petals floating around the body",
+                "blossom-like layered tails",
+                "fantasy floral motifs with fairy-tale charm"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "lightning-shaped fur accents on the ears and nine tails",
+                "bright electric highlights across the fur",
+                "small crackling sparks around the body",
+                "charged aura trailing from the tails",
+                "fantasy thunder motifs with vivid familiar charm"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "oracle-owl",
+          "name": "Oracle Owl",
+          "symbol": "🦉",
+          "accentColor": "#c3ad76",
+          "description": "丸い体と大きな瞳に知恵の光を宿す、小さく愛らしい神秘のフクロウ使い魔シリーズ。",
+          "motif": "丸い体・大きな瞳・知恵の光",
+          "material": "柔羽・宝石・魔力光",
+          "categories": [
+            {
+              "id": "species-color",
+              "name": "① 種族＋体の色指定",
+              "prompts": [
+                "[body color] tiny chibi owl familiar",
+                "fully non-humanoid fantasy mascot creature",
+                "single round fluffy body with an oversized round head",
+                "head and body forming one compact ball-shaped silhouette",
+                "tiny folded wings attached directly to the sides",
+                "two tiny feet barely visible beneath the feathers",
+                "large cute eyes and short decorative ear tufts",
+                "sitting as a small fluffy ball, no visible legs, no human-like anatomy"
+              ]
+            },
+            {
+              "id": "gem-color",
+              "name": "② 宝石モチーフ＋宝石の色指定",
+              "prompts": [
+                "[gem color] gemstone on the forehead or chest",
+                "small crystal ornaments on the ear tufts and wing edges",
+                "jewel-like markings on the chest and tail",
+                "soft magical sparkle around the body",
+                "cute arcane fantasy details"
+              ]
+            },
+            {
+              "id": "fire",
+              "name": "③ 炎モチーフ",
+              "prompts": [
+                "flame-shaped ear tufts and wing-edge accents",
+                "warm glowing markings on the chest",
+                "small floating sparks around the body",
+                "soft ember glow on the tail feathers",
+                "cute magical fire effect"
+              ]
+            },
+            {
+              "id": "water",
+              "name": "④ 水モチーフ",
+              "prompts": [
+                "wave-shaped ear tufts and feather-edge accents",
+                "cool flowing markings on the chest",
+                "small floating droplets and bubbles around the body",
+                "soft rippling glow on the tail feathers",
+                "cute magical water effect"
+              ]
+            },
+            {
+              "id": "wind",
+              "name": "⑤ 風モチーフ",
+              "prompts": [
+                "curved airy ear tufts and light feather accents",
+                "soft spiral wind markings on the chest",
+                "small floating feathers and magical motes around the body",
+                "gentle breeze flow on the tail feathers",
+                "cute magical wind effect"
+              ]
+            },
+            {
+              "id": "light",
+              "name": "⑥ 光モチーフ",
+              "prompts": [
+                "radiant ear tufts and glowing feather edges",
+                "soft shining markings on the chest",
+                "small floating light particles around the body",
+                "gentle halo-like glow behind the head",
+                "cute magical light effect"
+              ]
+            },
+            {
+              "id": "dark",
+              "name": "⑦ 闇モチーフ",
+              "prompts": [
+                "shadow-tinted ear tufts and feather edges",
+                "deep mysterious markings on the chest",
+                "small floating shadow wisps around the body",
+                "soft dark glow on the tail feathers",
+                "cute magical dark effect"
+              ]
+            },
+            {
+              "id": "rock",
+              "name": "⑧ 岩モチーフ",
+              "prompts": [
+                "crystal-like ear tufts and angular feather accents",
+                "stone-pattern markings on the chest",
+                "small floating pebbles and crystal fragments around the body",
+                "earthy glow on the tail feathers",
+                "cute magical rock effect"
+              ]
+            },
+            {
+              "id": "flower",
+              "name": "⑨ 花モチーフ",
+              "prompts": [
+                "petal-shaped ear tufts and soft feather accents",
+                "floral markings on the chest",
+                "small floating petals and blossoms around the body",
+                "flower-like layered tail feathers",
+                "cute magical floral effect"
+              ]
+            },
+            {
+              "id": "thunder",
+              "name": "⑩ 雷モチーフ",
+              "prompts": [
+                "lightning-shaped ear tufts and jagged feather-edge accents",
+                "bright glowing thunder markings on the chest",
+                "small crackling sparks around the body",
+                "electric glow on the tail feathers",
+                "cute magical thunder effect"
               ]
             }
           ]

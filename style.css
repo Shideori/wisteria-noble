@@ -1192,3 +1192,10 @@ footer {
   font-size: 0.76rem;
   line-height: 1.6;
 }
+
+/* PCでは大分類を2列表示。追加した女性用・男性用カテゴリを横並びにする。 */
+@media (min-width: 821px) {
+  .collection-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
