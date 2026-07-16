@@ -3,18 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Fantasy Outfit Builder - PixAIなどで使えるファンタジー衣装プロンプトを組み合わせてコピーできるサイト"
-  >
+  <meta name="description" content="Wisteria Noble - Fantasy Outfit Builder">
   <title>Fantasy Outfit Builder | Wisteria Noble</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
-  <link rel="stylesheet" href="./style.css?v=20260716-japanese-fantasy">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css?v=20260716-spa">
 </head>
 <body>
   <div class="background-decoration background-decoration--one" aria-hidden="true"></div>
@@ -22,7 +16,7 @@
 
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="brand" href="#" id="brandHomeLink" aria-label="Fantasy Outfit Builder トップへ">
+      <a class="brand" href="#home" aria-label="ホームへ戻る">
         <span class="brand__crest" aria-hidden="true">WN</span>
         <span class="brand__text">
           <span class="brand__project">Wisteria Noble</span>
@@ -44,56 +38,18 @@
   </header>
 
   <main class="main-content">
-    <section class="hero" aria-labelledby="heroTitle">
-      <p class="hero__eyebrow">Create your noble fantasy attire</p>
-      <h1 class="hero__title" id="heroTitle">幻想衣装を、自由に組み合わせる。</h1>
-      <p class="hero__description">
-        大分類から衣装シリーズを選び、カテゴリごとのプロンプトを組み合わせてコピーできます。
-      </p>
-    </section>
-
-    <nav class="breadcrumb" id="breadcrumb" aria-label="現在位置"></nav>
-
-    <section class="builder-section" aria-labelledby="sectionTitle">
-      <div class="section-heading">
-        <div>
-          <p class="section-heading__eyebrow" id="sectionEyebrow">Outfit Collections</p>
-          <h2 class="section-heading__title" id="sectionTitle">衣装コレクション</h2>
-        </div>
-        <p class="section-heading__note" id="sectionNote">大分類を選択してください</p>
-      </div>
-
-      <div class="status-message" id="statusMessage" role="status" aria-live="polite">
-        衣装データを読み込んでいます。
-      </div>
-
-      <div id="collectionView" class="collection-grid"></div>
-      <div id="seriesView" class="series-grid" hidden></div>
-    </section>
+    <section id="appView" class="app-view" aria-live="polite"></section>
   </main>
 
   <aside class="prompt-panel" id="promptPanel" aria-hidden="true">
     <div class="prompt-panel__backdrop" id="promptPanelBackdrop"></div>
-
-    <section
-      class="prompt-panel__dialog"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="promptPanelTitle"
-    >
+    <section class="prompt-panel__dialog" role="dialog" aria-modal="true" aria-labelledby="promptPanelTitle">
       <div class="prompt-panel__header">
         <div>
           <p class="prompt-panel__eyebrow">Prompt Composer</p>
           <h2 class="prompt-panel__title" id="promptPanelTitle">選択中のプロンプト</h2>
         </div>
-        <button
-          class="icon-button"
-          id="closePromptPanelButton"
-          type="button"
-          aria-label="プロンプトパネルを閉じる"
-        >
-          ×
-        </button>
+        <button class="icon-button" id="closePromptPanelButton" type="button" aria-label="閉じる">×</button>
       </div>
 
       <div class="prompt-panel__content">
@@ -106,22 +62,12 @@
         <div class="selected-list" id="selectedPromptList"></div>
 
         <label class="prompt-output-label" for="promptOutput">統合プロンプト</label>
-        <textarea
-          class="prompt-output"
-          id="promptOutput"
-          rows="7"
-          readonly
-          placeholder="選択したプロンプトがここに表示されます"
-        ></textarea>
+        <textarea class="prompt-output" id="promptOutput" rows="8" readonly></textarea>
       </div>
 
       <div class="prompt-panel__footer">
-        <button class="secondary-button" id="clearPromptButton" type="button">
-          すべて解除
-        </button>
-        <button class="primary-button" id="copyAllPromptButton" type="button">
-          まとめてコピー
-        </button>
+        <button class="secondary-button" id="clearPromptButton" type="button">すべて解除</button>
+        <button class="primary-button" id="copyAllPromptButton" type="button">まとめてコピー</button>
       </div>
     </section>
   </aside>
@@ -129,9 +75,9 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <footer class="site-footer">
-    <p>Wisteria Noble — Fantasy Outfit Builder<br><small>Japanese Fantasy Update 2026.07.16</small></p>
+    <p>Wisteria Noble — Fantasy Outfit Builder<br><small>SPA Update 2026.07.16</small></p>
   </footer>
 
-  <script src="./script.js?v=20260716-japanese-fantasy" defer></script>
+  <script src="./script.js?v=20260716-spa" defer></script>
 </body>
 </html>

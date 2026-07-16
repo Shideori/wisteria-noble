@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "9.0.0"
+    "version": "10.0.0"
   },
   "collections": [
     {
@@ -6086,22 +6086,14 @@ const embeddedOutfitData = {
   ]
 };
 
-const appState = {
+const state = {
   collections: [],
   selectedPrompts: new Map(),
-  activeCollectionId: null,
-  activeSeriesId: null,
+  route: { view: "home", collectionId: null, seriesId: null }
 };
 
-const elements = {
-  collectionView: document.querySelector("#collectionView"),
-  seriesView: document.querySelector("#seriesView"),
-  statusMessage: document.querySelector("#statusMessage"),
-  sectionEyebrow: document.querySelector("#sectionEyebrow"),
-  sectionTitle: document.querySelector("#sectionTitle"),
-  sectionNote: document.querySelector("#sectionNote"),
-  breadcrumb: document.querySelector("#breadcrumb"),
-  brandHomeLink: document.querySelector("#brandHomeLink"),
+const el = {
+  appView: document.querySelector("#appView"),
   selectedPromptCount: document.querySelector("#selectedPromptCount"),
   openPromptPanelButton: document.querySelector("#openPromptPanelButton"),
   closePromptPanelButton: document.querySelector("#closePromptPanelButton"),
@@ -6112,7 +6104,7 @@ const elements = {
   promptOutput: document.querySelector("#promptOutput"),
   copyAllPromptButton: document.querySelector("#copyAllPromptButton"),
   clearPromptButton: document.querySelector("#clearPromptButton"),
-  toast: document.querySelector("#toast"),
+  toast: document.querySelector("#toast")
 };
 
 let toastTimer = null;
@@ -6122,401 +6114,351 @@ document.addEventListener("DOMContentLoaded", init);
 async function init() {
   bindStaticEvents();
 
-  try {
-    let data = embeddedOutfitData;
-
-    if (location.protocol !== "file:") {
-      try {
-        const response = await fetch("./outfits.json", { cache: "no-store" });
-        if (response.ok) {
-          data = await response.json();
-        }
-      } catch (fetchError) {
-        console.warn("outfits.jsonの読み込みに失敗したため、内蔵データを使用します。", fetchError);
-      }
+  let data = embeddedOutfitData;
+  if (location.protocol !== "file:") {
+    try {
+      const response = await fetch("./outfits.json", { cache: "no-store" });
+      if (response.ok) data = await response.json();
+    } catch (error) {
+      console.warn("outfits.jsonを読み込めなかったため内蔵データを使用します。", error);
     }
-
-    if (!Array.isArray(data.collections)) {
-      throw new Error("outfits.jsonのcollections形式が正しくありません。");
-    }
-
-    appState.collections = data.collections;
-    renderCollections();
-    updateSelectedPromptUI();
-    elements.statusMessage.hidden = true;
-  } catch (error) {
-    console.error(error);
-    elements.statusMessage.hidden = false;
-    elements.statusMessage.textContent = "衣装データを表示できませんでした。";
   }
+
+  if (!Array.isArray(data.collections)) {
+    renderError("衣装データの形式が正しくありません。");
+    return;
+  }
+
+  state.collections = data.collections;
+  updateSelectedPromptUI();
+
+  if (!location.hash) {
+    history.replaceState(null, "", "#home");
+  }
+
+  routeFromHash();
 }
 
 function bindStaticEvents() {
-  elements.brandHomeLink.addEventListener("click", (event) => {
-    event.preventDefault();
-    showCollectionView();
+  window.addEventListener("hashchange", routeFromHash);
+
+  el.openPromptPanelButton.addEventListener("click", openPromptPanel);
+  el.closePromptPanelButton.addEventListener("click", closePromptPanel);
+  el.promptPanelBackdrop.addEventListener("click", closePromptPanel);
+
+  el.copyAllPromptButton.addEventListener("click", async () => {
+    const text = buildCombinedPrompt();
+    if (!text) return showToast("コピーするプロンプトがありません。");
+    await copyText(text, "統合プロンプトをコピーしました。");
   });
 
-  elements.openPromptPanelButton.addEventListener("click", openPromptPanel);
-  elements.closePromptPanelButton.addEventListener("click", closePromptPanel);
-  elements.promptPanelBackdrop.addEventListener("click", closePromptPanel);
-
-  elements.copyAllPromptButton.addEventListener("click", async () => {
-    const promptText = buildCombinedPrompt();
-
-    if (!promptText) {
-      showToast("コピーするプロンプトがありません。");
-      return;
-    }
-
-    await copyText(promptText, "統合プロンプトをコピーしました。");
-  });
-
-  elements.clearPromptButton.addEventListener("click", () => {
-    if (appState.selectedPrompts.size === 0) {
-      showToast("解除するプロンプトがありません。");
-      return;
-    }
-
-    appState.selectedPrompts.clear();
+  el.clearPromptButton.addEventListener("click", () => {
+    if (state.selectedPrompts.size === 0) return showToast("解除するプロンプトがありません。");
+    state.selectedPrompts.clear();
     updateSelectedPromptUI();
     updateAddButtons();
     showToast("選択中のプロンプトをすべて解除しました。");
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && elements.promptPanel.classList.contains("is-open")) {
+    if (event.key === "Escape" && el.promptPanel.classList.contains("is-open")) {
       closePromptPanel();
     }
   });
 }
 
-function renderCollections() {
-  elements.collectionView.innerHTML = "";
+function routeFromHash() {
+  const raw = decodeURIComponent(location.hash.replace(/^#/, "") || "home");
+  const parts = raw.split("/").filter(Boolean);
 
-  appState.collections.forEach((collection, index) => {
-    const hasSeries = Array.isArray(collection.series) && collection.series.length > 0;
-    const card = document.createElement("article");
-    card.className = `collection-card${hasSeries ? "" : " is-coming-soon"}`;
-    card.style.setProperty("--collection-accent", collection.accentColor || "#b9a3f4");
+  if (parts[0] === "collection" && parts[1]) {
+    const collection = findCollection(parts[1]);
+    if (collection) {
+      state.route = { view: "collection", collectionId: collection.id, seriesId: null };
+      renderCollectionView(collection);
+      return;
+    }
+  }
 
-    card.innerHTML = `
-      <button class="collection-card__button" type="button" aria-label="${escapeHTML(collection.name)}">
+  if (parts[0] === "series" && parts[1] && parts[2]) {
+    const collection = findCollection(parts[1]);
+    const series = collection?.series?.find((item) => item.id === parts[2]);
+    if (collection && series) {
+      state.route = { view: "series", collectionId: collection.id, seriesId: series.id };
+      renderSeriesView(collection, series);
+      return;
+    }
+  }
+
+  if (raw !== "home") history.replaceState(null, "", "#home");
+  state.route = { view: "home", collectionId: null, seriesId: null };
+  renderHomeView();
+}
+
+function findCollection(id) {
+  return state.collections.find((item) => item.id === id);
+}
+
+function navigate(hash) {
+  if (location.hash === hash) {
+    routeFromHash();
+  } else {
+    location.hash = hash;
+  }
+}
+
+function renderHomeView() {
+  const cards = state.collections.map((collection, index) => `
+    <article class="collection-card" style="--collection-accent:${escapeHTML(collection.accentColor || "#b9a3f4")}">
+      <button class="collection-card__button" type="button" data-route="#collection/${encodeURIComponent(collection.id)}">
         <span class="collection-card__symbol" aria-hidden="true">${escapeHTML(collection.symbol || "✦")}</span>
         <span class="collection-card__content">
           <span class="collection-card__number">Collection ${String(index + 1).padStart(2, "0")}</span>
           <span class="collection-card__title">${escapeHTML(collection.name)}</span>
           <span class="collection-card__english">${escapeHTML(collection.englishName || "")}</span>
           <span class="collection-card__description">${escapeHTML(collection.description || "")}</span>
-          ${
-            hasSeries
-              ? `<span class="collection-card__count">${collection.series.length} SERIES</span>`
-              : `<span class="collection-card__coming-soon">COMING SOON</span>`
-          }
+          <span class="collection-card__count">${collection.series?.length || 0} SERIES</span>
         </span>
-        <span class="collection-card__arrow" aria-hidden="true">${hasSeries ? "→" : "✦"}</span>
+        <span class="collection-card__arrow" aria-hidden="true">→</span>
       </button>
-    `;
+    </article>
+  `).join("");
 
-    card.querySelector(".collection-card__button").addEventListener("click", () => {
-      if (!hasSeries) {
-        showToast(
-          collection.comingSoonMessage ||
-          `${collection.name}は現在準備中です。公開までしばらくお待ちください。`
-        );
-        return;
-      }
+  renderPage(`
+    <section class="hero">
+      <p class="hero__eyebrow">Create your noble fantasy attire</p>
+      <h1 class="hero__title">幻想衣装を、自由に組み合わせる。</h1>
+      <p class="hero__description">コレクションを選び、シリーズとカテゴリを順番に開いてください。</p>
+    </section>
 
-      showSeriesView(collection.id);
-    });
+    <section class="builder-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">Outfit Collections</p>
+          <h2 class="section-heading__title">衣装コレクション</h2>
+        </div>
+        <p class="section-heading__note">${state.collections.length} COLLECTIONS</p>
+      </div>
+      <div class="collection-grid">${cards}</div>
+    </section>
+  `, "forward");
 
-    elements.collectionView.appendChild(card);
-  });
-
-  elements.collectionView.hidden = false;
-  elements.seriesView.hidden = true;
-  elements.sectionEyebrow.textContent = "Outfit Collections";
-  elements.sectionTitle.textContent = "衣装コレクション";
-  elements.sectionNote.textContent = "大分類を選択してください";
-  renderBreadcrumb();
+  bindRouteButtons();
 }
 
-function showCollectionView() {
-  appState.activeCollectionId = null;
-  appState.activeSeriesId = null;
-  renderCollections();
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function showSeriesView(collectionId) {
-  const collection = appState.collections.find((item) => item.id === collectionId);
-
-  if (!collection || !Array.isArray(collection.series) || collection.series.length === 0) {
-    showToast(
-      collection?.comingSoonMessage ||
-      "この衣装コレクションは現在準備中です。"
-    );
-    return;
-  }
-
-  appState.activeCollectionId = collectionId;
-  appState.activeSeriesId = null;
-  renderSeries(collection);
-  elements.collectionView.hidden = true;
-  elements.seriesView.hidden = false;
-  elements.sectionEyebrow.textContent = collection.englishName || "Outfit Series";
-  elements.sectionTitle.textContent = collection.name;
-  elements.sectionNote.textContent = collection.note || "シリーズを選ぶと衣装カテゴリが展開します";
-  renderBreadcrumb(collection);
-  window.scrollTo({ top: document.querySelector(".builder-section").offsetTop - 90, behavior: "smooth" });
-}
-
-function renderBreadcrumb(collection = null) {
-  elements.breadcrumb.innerHTML = "";
-
-  const homeButton = document.createElement("button");
-  homeButton.type = "button";
-  homeButton.className = "breadcrumb__button";
-  homeButton.textContent = "衣装コレクション";
-  homeButton.addEventListener("click", showCollectionView);
-  elements.breadcrumb.appendChild(homeButton);
-
-  if (collection) {
-    const separator = document.createElement("span");
-    separator.className = "breadcrumb__separator";
-    separator.textContent = "›";
-
-    const current = document.createElement("span");
-    current.className = "breadcrumb__current";
-    current.textContent = collection.name;
-
-    elements.breadcrumb.append(separator, current);
-  }
-}
-
-function renderSeries(collection) {
-  elements.seriesView.innerHTML = "";
-
-  collection.series.forEach((series, index) => {
-    const card = document.createElement("article");
-    card.className = "series-card";
-    card.dataset.seriesId = series.id;
-    card.style.setProperty("--series-accent", series.accentColor || collection.accentColor || "#b9a3f4");
-
-    const toggleButton = document.createElement("button");
-    toggleButton.className = "series-card__toggle";
-    toggleButton.type = "button";
-    toggleButton.setAttribute("aria-expanded", "false");
-    toggleButton.setAttribute("aria-controls", `series-content-${series.id}`);
-
-    toggleButton.innerHTML = `
-      <span class="series-card__emblem" aria-hidden="true">${escapeHTML(series.symbol || "✦")}</span>
-      <span>
-        <span class="series-card__label">Series ${String(index + 1).padStart(2, "0")}</span>
-        <h3 class="series-card__title">${escapeHTML(series.name)}</h3>
-        <p class="series-card__description">${escapeHTML(series.description || "")}</p>
-        <span class="series-card__meta">
-          <span><strong>主役モチーフ</strong>${escapeHTML(series.motif || "—")}</span>
-          <span><strong>主役素材</strong>${escapeHTML(series.material || "—")}</span>
+function renderCollectionView(collection) {
+  const cards = collection.series.map((series, index) => `
+    <article class="series-card series-card--link" style="--series-accent:${escapeHTML(series.accentColor || collection.accentColor || "#b9a3f4")}">
+      <button class="series-card__toggle series-card__toggle--link" type="button"
+        data-route="#series/${encodeURIComponent(collection.id)}/${encodeURIComponent(series.id)}">
+        <span class="series-card__emblem" aria-hidden="true">${escapeHTML(series.symbol || "✦")}</span>
+        <span>
+          <span class="series-card__label">Series ${String(index + 1).padStart(2, "0")}</span>
+          <h3 class="series-card__title">${escapeHTML(series.name)}</h3>
+          <p class="series-card__description">${escapeHTML(series.description || "")}</p>
+          <span class="series-card__meta">
+            <span><strong>主役モチーフ</strong>${escapeHTML(series.motif || "—")}</span>
+            <span><strong>主役素材</strong>${escapeHTML(series.material || "—")}</span>
+          </span>
         </span>
-      </span>
-      <span class="series-card__arrow" aria-hidden="true">⌄</span>
-    `;
-
-    const content = document.createElement("div");
-    content.className = "series-card__content";
-    content.id = `series-content-${series.id}`;
-
-    const contentInner = document.createElement("div");
-    contentInner.className = "series-card__content-inner";
-
-    const categoryGrid = document.createElement("div");
-    categoryGrid.className = "category-grid";
-
-    series.categories.forEach((category) => {
-      categoryGrid.appendChild(createCategoryCard(collection, series, category));
-    });
-
-    contentInner.appendChild(categoryGrid);
-    content.appendChild(contentInner);
-    card.append(toggleButton, content);
-    elements.seriesView.appendChild(card);
-
-    toggleButton.addEventListener("click", () => {
-      toggleSeries(series.id);
-    });
-  });
-}
-
-function createCategoryCard(collection, series, category) {
-  const categoryCard = document.createElement("section");
-  categoryCard.className = "category-card";
-
-  const promptText = normalizePrompt(category.prompts);
-  const promptKey = createPromptKey(collection.id, series.id, category.id);
-
-  categoryCard.innerHTML = `
-    <div class="category-card__top">
-      <h4 class="category-card__name">${escapeHTML(category.name)}</h4>
-    </div>
-    ${category.note ? `<p class="category-card__note">${escapeHTML(category.note)}</p>` : ""}
-    <p class="category-card__prompt">${escapeHTML(promptText)}</p>
-    <div class="category-card__actions">
-      <button
-        class="small-button"
-        type="button"
-        data-action="copy-category"
-        data-prompt-key="${promptKey}"
-      >
-        コピー
+        <span class="series-card__arrow series-card__arrow--link" aria-hidden="true">→</span>
       </button>
-      <button
-        class="small-button small-button--add"
-        type="button"
-        data-action="toggle-category"
-        data-prompt-key="${promptKey}"
-      >
-        追加
-      </button>
-    </div>
-  `;
+    </article>
+  `).join("");
 
-  categoryCard
-    .querySelector('[data-action="copy-category"]')
-    .addEventListener("click", async () => {
-      await copyText(promptText, `${series.name} / ${category.name} をコピーしました。`);
-    });
+  renderPage(`
+    <section class="page-header-card">
+      <button class="back-button" type="button" data-route="#home">← ホームへ戻る</button>
+      <p class="page-header-card__eyebrow">${escapeHTML(collection.englishName || "Outfit Collection")}</p>
+      <h1 class="page-header-card__title">${escapeHTML(collection.name)}</h1>
+      <p class="page-header-card__description">${escapeHTML(collection.description || "")}</p>
+      <span class="page-header-card__count">${collection.series.length} SERIES</span>
+    </section>
 
-  categoryCard
-    .querySelector('[data-action="toggle-category"]')
-    .addEventListener("click", () => {
-      togglePromptSelection(collection, series, category, promptText);
-    });
+    <section class="builder-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">Outfit Series</p>
+          <h2 class="section-heading__title">シリーズ一覧</h2>
+        </div>
+        <p class="section-heading__note">シリーズを選択してください</p>
+      </div>
+      <div class="series-grid">${cards}</div>
+    </section>
+  `, "forward");
 
-  return categoryCard;
+  bindRouteButtons();
 }
 
-function toggleSeries(seriesId) {
-  const cards = elements.seriesView.querySelectorAll(".series-card");
+function renderSeriesView(collection, series) {
+  const categories = series.categories.map((category) => createCategoryCardHTML(collection, series, category)).join("");
 
-  cards.forEach((card) => {
-    const isTarget = card.dataset.seriesId === seriesId;
-    const shouldOpen = isTarget && !card.classList.contains("is-open");
-    const toggleButton = card.querySelector(".series-card__toggle");
+  renderPage(`
+    <section class="page-header-card page-header-card--series">
+      <button class="back-button" type="button" data-route="#collection/${encodeURIComponent(collection.id)}">← コレクション一覧へ戻る</button>
+      <p class="page-header-card__eyebrow">${escapeHTML(collection.name)}</p>
+      <h1 class="page-header-card__title">${escapeHTML(series.symbol || "")} ${escapeHTML(series.name)}</h1>
+      <p class="page-header-card__description">${escapeHTML(series.description || "")}</p>
+      <div class="series-detail-meta">
+        <span><strong>主役モチーフ</strong>${escapeHTML(series.motif || "—")}</span>
+        <span><strong>主役素材</strong>${escapeHTML(series.material || "—")}</span>
+      </div>
+    </section>
 
-    card.classList.toggle("is-open", shouldOpen);
-    toggleButton.setAttribute("aria-expanded", String(shouldOpen));
-  });
+    <section class="builder-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">Prompt Categories</p>
+          <h2 class="section-heading__title">プロンプトカテゴリ</h2>
+        </div>
+        <p class="section-heading__note">${series.categories.length} CATEGORIES</p>
+      </div>
+      <div class="category-grid category-grid--detail">${categories}</div>
+    </section>
+  `, "forward");
 
-  appState.activeSeriesId =
-    appState.activeSeriesId === seriesId ? null : seriesId;
-}
-
-function togglePromptSelection(collection, series, category, promptText) {
-  const promptKey = createPromptKey(collection.id, series.id, category.id);
-
-  if (appState.selectedPrompts.has(promptKey)) {
-    appState.selectedPrompts.delete(promptKey);
-    showToast(`${series.name} / ${category.name} を解除しました。`);
-  } else {
-    appState.selectedPrompts.set(promptKey, {
-      key: promptKey,
-      collectionId: collection.id,
-      collectionName: collection.name,
-      seriesId: series.id,
-      seriesName: series.name,
-      categoryId: category.id,
-      categoryName: category.name,
-      prompt: promptText,
-    });
-    showToast(`${series.name} / ${category.name} を追加しました。`);
-  }
-
-  updateSelectedPromptUI();
+  bindRouteButtons();
+  bindCategoryButtons(collection, series);
   updateAddButtons();
 }
 
+function createCategoryCardHTML(collection, series, category) {
+  const promptText = normalizePrompt(category.prompts);
+  const key = makePromptKey(collection.id, series.id, category.id);
+
+  return `
+    <section class="category-card">
+      <div class="category-card__top">
+        <h3 class="category-card__name">${escapeHTML(category.name)}</h3>
+      </div>
+      ${category.note ? `<p class="category-card__note">${escapeHTML(category.note)}</p>` : ""}
+      <p class="category-card__prompt">${escapeHTML(promptText)}</p>
+      <div class="category-card__actions">
+        <button class="small-button" type="button" data-copy-key="${key}">コピー</button>
+        <button class="small-button small-button--add" type="button" data-add-key="${key}">追加</button>
+      </div>
+    </section>
+  `;
+}
+
+function bindCategoryButtons(collection, series) {
+  series.categories.forEach((category) => {
+    const key = makePromptKey(collection.id, series.id, category.id);
+    const prompt = normalizePrompt(category.prompts);
+
+    el.appView.querySelector(`[data-copy-key="${CSS.escape(key)}"]`)?.addEventListener("click", async () => {
+      await copyText(prompt, `${series.name} / ${category.name} をコピーしました。`);
+    });
+
+    el.appView.querySelector(`[data-add-key="${CSS.escape(key)}"]`)?.addEventListener("click", () => {
+      if (state.selectedPrompts.has(key)) {
+        state.selectedPrompts.delete(key);
+        showToast(`${series.name} / ${category.name} を解除しました。`);
+      } else {
+        state.selectedPrompts.set(key, {
+          key,
+          collectionName: collection.name,
+          seriesName: series.name,
+          categoryName: category.name,
+          prompt
+        });
+        showToast(`${series.name} / ${category.name} を追加しました。`);
+      }
+      updateSelectedPromptUI();
+      updateAddButtons();
+    });
+  });
+}
+
+function bindRouteButtons() {
+  el.appView.querySelectorAll("[data-route]").forEach((button) => {
+    button.addEventListener("click", () => navigate(button.dataset.route));
+  });
+}
+
+function renderPage(html, direction) {
+  el.appView.classList.remove("is-visible");
+  el.appView.classList.add("is-transitioning", `is-${direction}`);
+
+  window.setTimeout(() => {
+    el.appView.innerHTML = html;
+    el.appView.classList.remove("is-transitioning", "is-forward", "is-backward");
+    requestAnimationFrame(() => el.appView.classList.add("is-visible"));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, 130);
+}
+
+function renderError(message) {
+  el.appView.innerHTML = `<div class="status-message">${escapeHTML(message)}</div>`;
+}
+
 function updateSelectedPromptUI() {
-  const selectedItems = Array.from(appState.selectedPrompts.values());
+  const items = Array.from(state.selectedPrompts.values());
+  el.selectedPromptCount.textContent = String(items.length);
+  el.emptyPromptState.hidden = items.length > 0;
+  el.copyAllPromptButton.disabled = items.length === 0;
+  el.clearPromptButton.disabled = items.length === 0;
+  el.promptOutput.value = buildCombinedPrompt();
+  el.selectedPromptList.innerHTML = "";
 
-  elements.selectedPromptCount.textContent = String(selectedItems.length);
-  elements.emptyPromptState.hidden = selectedItems.length > 0;
-  elements.copyAllPromptButton.disabled = selectedItems.length === 0;
-  elements.clearPromptButton.disabled = selectedItems.length === 0;
-  elements.promptOutput.value = buildCombinedPrompt();
-  elements.selectedPromptList.innerHTML = "";
-
-  selectedItems.forEach((item) => {
-    const selectedItem = document.createElement("div");
-    selectedItem.className = "selected-item";
-
-    selectedItem.innerHTML = `
+  items.forEach((item) => {
+    const node = document.createElement("div");
+    node.className = "selected-item";
+    node.innerHTML = `
       <div class="selected-item__meta">
         <p class="selected-item__series">${escapeHTML(item.collectionName)} / ${escapeHTML(item.seriesName)}</p>
         <p class="selected-item__category">${escapeHTML(item.categoryName)}</p>
       </div>
-      <button
-        class="selected-item__remove"
-        type="button"
-        aria-label="${escapeHTML(item.categoryName)}を解除"
-      >
-        解除
-      </button>
+      <button class="selected-item__remove" type="button">解除</button>
     `;
-
-    selectedItem
-      .querySelector(".selected-item__remove")
-      .addEventListener("click", () => {
-        appState.selectedPrompts.delete(item.key);
-        updateSelectedPromptUI();
-        updateAddButtons();
-        showToast(`${item.seriesName} / ${item.categoryName} を解除しました。`);
-      });
-
-    elements.selectedPromptList.appendChild(selectedItem);
+    node.querySelector("button").addEventListener("click", () => {
+      state.selectedPrompts.delete(item.key);
+      updateSelectedPromptUI();
+      updateAddButtons();
+      showToast(`${item.seriesName} / ${item.categoryName} を解除しました。`);
+    });
+    el.selectedPromptList.appendChild(node);
   });
 }
 
 function updateAddButtons() {
-  const addButtons = document.querySelectorAll('[data-action="toggle-category"]');
-
-  addButtons.forEach((button) => {
-    const isSelected = appState.selectedPrompts.has(button.dataset.promptKey);
-    button.classList.toggle("is-selected", isSelected);
-    button.textContent = isSelected ? "選択中" : "追加";
-    button.setAttribute("aria-pressed", String(isSelected));
+  el.appView.querySelectorAll("[data-add-key]").forEach((button) => {
+    const selected = state.selectedPrompts.has(button.dataset.addKey);
+    button.classList.toggle("is-selected", selected);
+    button.textContent = selected ? "選択中" : "追加";
+    button.setAttribute("aria-pressed", String(selected));
   });
 }
 
 function buildCombinedPrompt() {
-  return Array.from(appState.selectedPrompts.values())
+  return Array.from(state.selectedPrompts.values())
     .map((item) => item.prompt.trim())
     .filter(Boolean)
     .join(", ");
 }
 
 function normalizePrompt(prompts) {
-  if (Array.isArray(prompts)) {
-    return prompts.map((prompt) => String(prompt).trim()).filter(Boolean).join(", ");
-  }
+  return Array.isArray(prompts)
+    ? prompts.map((item) => String(item).trim()).filter(Boolean).join(", ")
+    : String(prompts || "").trim();
+}
 
-  return String(prompts || "").trim();
+function makePromptKey(collectionId, seriesId, categoryId) {
+  return `${collectionId}:${seriesId}:${categoryId}`;
 }
 
 function openPromptPanel() {
-  elements.promptPanel.classList.add("is-open");
-  elements.promptPanel.setAttribute("aria-hidden", "false");
-  elements.openPromptPanelButton.setAttribute("aria-expanded", "true");
+  el.promptPanel.classList.add("is-open");
+  el.promptPanel.setAttribute("aria-hidden", "false");
+  el.openPromptPanelButton.setAttribute("aria-expanded", "true");
   document.body.classList.add("is-panel-open");
-  window.setTimeout(() => elements.closePromptPanelButton.focus(), 0);
 }
 
 function closePromptPanel() {
-  elements.promptPanel.classList.remove("is-open");
-  elements.promptPanel.setAttribute("aria-hidden", "true");
-  elements.openPromptPanelButton.setAttribute("aria-expanded", "false");
+  el.promptPanel.classList.remove("is-open");
+  el.promptPanel.setAttribute("aria-hidden", "true");
+  el.openPromptPanelButton.setAttribute("aria-expanded", "false");
   document.body.classList.remove("is-panel-open");
-  elements.openPromptPanelButton.focus();
 }
 
 async function copyText(text, successMessage) {
@@ -6524,32 +6466,23 @@ async function copyText(text, successMessage) {
     await navigator.clipboard.writeText(text);
     showToast(successMessage);
   } catch (error) {
-    const temporaryTextarea = document.createElement("textarea");
-    temporaryTextarea.value = text;
-    temporaryTextarea.setAttribute("readonly", "");
-    temporaryTextarea.style.position = "fixed";
-    temporaryTextarea.style.opacity = "0";
-    document.body.appendChild(temporaryTextarea);
-    temporaryTextarea.select();
-
+    const area = document.createElement("textarea");
+    area.value = text;
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
     const copied = document.execCommand("copy");
-    temporaryTextarea.remove();
+    area.remove();
     showToast(copied ? successMessage : "コピーに失敗しました。");
   }
 }
 
 function showToast(message) {
-  window.clearTimeout(toastTimer);
-  elements.toast.textContent = message;
-  elements.toast.classList.add("is-visible");
-
-  toastTimer = window.setTimeout(() => {
-    elements.toast.classList.remove("is-visible");
-  }, 2600);
-}
-
-function createPromptKey(collectionId, seriesId, categoryId) {
-  return `${collectionId}:${seriesId}:${categoryId}`;
+  clearTimeout(toastTimer);
+  el.toast.textContent = message;
+  el.toast.classList.add("is-visible");
+  toastTimer = setTimeout(() => el.toast.classList.remove("is-visible"), 2600);
 }
 
 function escapeHTML(value) {
