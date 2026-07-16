@@ -6380,12 +6380,16 @@ function renderPage(html, direction) {
   el.appView.classList.remove("is-visible");
   el.appView.classList.add("is-transitioning", `is-${direction}`);
 
-  window.setTimeout(() => {
-    el.appView.innerHTML = html;
-    el.appView.classList.remove("is-transitioning", "is-forward", "is-backward");
-    requestAnimationFrame(() => el.appView.classList.add("is-visible"));
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, 130);
+  // ボタンのイベント登録より先にDOMを生成する。
+  // 以前はsetTimeout内で生成していたため、ホームカード等が反応しない状態になっていた。
+  el.appView.innerHTML = html;
+  el.appView.classList.remove("is-transitioning", "is-forward", "is-backward");
+
+  requestAnimationFrame(() => {
+    el.appView.classList.add("is-visible");
+  });
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderError(message) {
