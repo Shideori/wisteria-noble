@@ -2,7 +2,7 @@
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "10.0.0"
+    "version": "10.1.0"
   },
   "collections": [
     {
@@ -5091,6 +5091,108 @@
                 "platform prince boots in [main color] and [sub color],",
                 "lace-trimmed knee-high socks,",
                 "large ankle bows, ruffled boot cuffs, metallic clasps, and gemstone charms,"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-outfits",
+      "name": "単発衣装",
+      "englishName": "Standalone Outfits",
+      "symbol": "🕊️",
+      "accentColor": "#efe5d1",
+      "description": "単発で使いやすい女性向け幻想衣装をまとめたコレクション。",
+      "series": [
+        {
+          "id": "ivory-blossom",
+          "name": "Ivory Blossom",
+          "symbol": "🕊️",
+          "accentColor": "#efe5d1",
+          "description": "咲き誇る花々と柔らかな光に包まれ、純白のレースと煌めく装飾で儚くも高貴な気品を纏う、幻想の花園に佇む王子のためのジュストコールシリーズ。",
+          "motif": "花園・純白レース・[flower]",
+          "material": "白レース・パール・クリスタル・金刺繍",
+          "categories": [
+            {
+              "id": "upper",
+              "name": "① 上半身",
+              "prompts": [
+                "elegant white fantasy prince outfit inspired by an 18th-century justaucorps,",
+                "fitted ivory-white long coat with a high-waisted silhouette,",
+                "structured shoulders and a sharply tailored waist,",
+                "open-front coat with long flared side and back tails,",
+                "a delicate white lace high-neck inner top,",
+                "sheer embroidered lace across the chest,",
+                "soft scalloped lace neckline,",
+                "white ruffled and lace-trimmed details,"
+              ]
+            },
+            {
+              "id": "bottom",
+              "name": "② 下半身",
+              "prompts": [
+                "slim-fitting white formal trousers,",
+                "high-waisted design with a fitted waist panel,",
+                "elegant straight silhouette,",
+                "subtle silver or champagne-gold side chain details,",
+                "no knee breeches, no stockings,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "③ 服装飾",
+              "prompts": [
+                "abundant layered white lace and ruffles,",
+                "intricate floral lace embroidery,",
+                "lace-trimmed collar, lapels, cuffs, and coat edges,",
+                "frilled jabot and cascading chest ruffles,",
+                "champagne-gold arabesque embroidery and fine gold piping,",
+                "pearl buttons, crystals, and layered silver chains,",
+                "jeweled floral corsage made of [flower],",
+                "small [flower] blossoms and petals scattered across the outfit,",
+                "luxurious pearl, ribbon, and floral decorations,",
+                "[flower] as the main accent color,"
+              ]
+            },
+            {
+              "id": "shoes",
+              "name": "④ 靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "elegant white knee-high prince boots,",
+                "slim leather silhouette,",
+                "small champagne-gold buckles,",
+                "subtle gold embroidery,",
+                "slightly raised heels,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "⑤ 背景",
+              "prompts": [
+                "surrounded by abundant blooming [flower],",
+                "large flower clusters framing the character,",
+                "flowers filling the foreground and background,",
+                "floating petals,",
+                "bright white backlight,",
+                "soft luminous pastel background,",
+                "dreamlike and ethereal floral portrait,"
+              ]
+            },
+            {
+              "id": "lighting",
+              "name": "⑥ 光・空気感・演出",
+              "prompts": [
+                "soft luminous lighting,",
+                "bright white backlight,",
+                "gentle bloom effect,",
+                "translucent atmosphere,",
+                "glowing highlights,",
+                "soft pastel reflections,",
+                "floating petals,",
+                "subtle sparkling particles,",
+                "ethereal and fragile mood,"
               ]
             }
           ]
