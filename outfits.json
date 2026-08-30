@@ -2,7 +2,7 @@
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "10.2.0"
+    "version": "10.3.0"
   },
   "collections": [
     {
@@ -2184,7 +2184,17 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "marine-fantasia",
+      "name": "Marine Fantasia",
+      "englishName": "Marine Fantasia",
+      "symbol": "🌊",
+      "accentColor": "#6fb7d8",
+      "description": "海の生き物や水中の幻想をモチーフに、女性用・男性用の衣装プロンプトを収録したマリンファンタジーコレクション。",
+      "series": [
         {
           "id": "shark-bite",
           "name": "Shark Bite",
