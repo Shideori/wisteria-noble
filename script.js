@@ -2,7 +2,7 @@ const embeddedOutfitData = {
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "10.1.0"
+    "version": "10.2.0"
   },
   "collections": [
     {
@@ -2181,6 +2181,708 @@ const embeddedOutfitData = {
                 "lemon slice earrings",
                 "citrus-themed brooch",
                 "small lemon-shaped shoulder bag"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shark-bite",
+          "name": "Shark Bite",
+          "symbol": "🦈",
+          "accentColor": "#7f6bb5",
+          "description": "鋭い牙とヒレを思わせる攻撃的なシルエットに、黒銀の光沢と紫の差し色を重ねた、危うくスタイリッシュなサメモチーフシリーズ。",
+          "motif": "サメ・牙・ヒレ",
+          "material": "光沢生地・メタル・チェーン",
+          "categories": [
+            {
+              "id": "female-hood",
+              "name": "① 女性用｜フード",
+              "prompts": [
+                "dramatic shark-mouth hood,",
+                "oversized structured hood collar,",
+                "sharp white shark teeth lining,",
+                "black and gunmetal outer fabric,",
+                "deep purple inner lining,",
+                "sleek angular silhouette,",
+                "fashionable marine predator design,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "glossy black cropped top,",
+                "exposed midriff,",
+                "high-waisted fitted black shorts,",
+                "asymmetrical metallic silver waist panel,",
+                "shark-fin-like layered side panels,",
+                "black silver and purple color scheme,",
+                "sleek futuristic marine fashion,"
+              ]
+            },
+            {
+              "id": "female-shoes",
+              "name": "③ 女性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "glossy black thigh-high boots,",
+                "slim fitted silhouette,",
+                "sharp pointed toes,",
+                "high stiletto heels,",
+                "silver metallic details,",
+                "multiple straps and buckles,",
+                "small shark-fin accents,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "large shark tail attached at the lower back,",
+                "large dorsal fin on the back,",
+                "small fin decorations on the hips,",
+                "shark teeth motifs,",
+                "silver chains and metal rings,",
+                "black garter straps and belts,",
+                "purple accent details,"
+              ]
+            },
+            {
+              "id": "male-hood",
+              "name": "⑤ 男性用｜フード",
+              "prompts": [
+                "dramatic shark-mouth hood,",
+                "wide shark-like hood shape,",
+                "white outer fabric,",
+                "deep purple inner lining,",
+                "sleek angular silhouette,",
+                "sharp marine predator design,",
+                "fashionable rather than mascot-like,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "glossy black fitted sleeveless top,",
+                "masculine fitted upper body,",
+                "short shark-inspired coat,",
+                "open-front cropped outer layer,",
+                "slim black fitted trousers,",
+                "black silver and purple color scheme,",
+                "sleek futuristic marine fashion,"
+              ]
+            },
+            {
+              "id": "male-shoes",
+              "name": "⑦ 男性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "glossy black knee-high boots,",
+                "slim masculine silhouette,",
+                "sharp pointed toes,",
+                "thick raised heels,",
+                "silver metallic details,",
+                "multiple straps and buckles,",
+                "small shark-fin accents,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "large shark tail attached at the lower back,",
+                "large dorsal fin on the back,",
+                "small fin decorations on the hips,",
+                "shark teeth motifs,",
+                "silver chains and metal rings,",
+                "black belts and harness straps,",
+                "purple accent details,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jelly-veil",
+          "name": "Jelly Veil",
+          "symbol": "🪼",
+          "accentColor": "#a9d6ea",
+          "description": "透き通るヴェールと柔らかく揺れる触手のような装飾が、水中を漂うクラゲの幻想的な美しさを映し出すシリーズ。",
+          "motif": "クラゲ・ヴェール・触手",
+          "material": "シアー素材・オーガンジー・パール",
+          "categories": [
+            {
+              "id": "female-veil",
+              "name": "① 女性用｜ヴェール",
+              "prompts": [
+                "long translucent veil,",
+                "delicate jellyfish pattern,",
+                "soft flowing sheer fabric,",
+                "pale aqua and lavender gradients,",
+                "iridescent glossy highlights,",
+                "fine luminous jellyfish motifs,",
+                "dreamy underwater veil design,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "delicate jellyfish-themed fantasy outfit,",
+                "fitted elegant top with translucent fabric,",
+                "bell-shaped skirt inspired by a jellyfish body,",
+                "layered rounded skirt silhouette,",
+                "white aqua and lavender color scheme,",
+                "soft luminous ocean fantasy fashion,",
+                "jellyfish bell used as the skirt,"
+              ]
+            },
+            {
+              "id": "female-shoes",
+              "name": "③ 女性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "elegant translucent knee-high boots,",
+                "slim feminine silhouette,",
+                "soft glossy texture,",
+                "pearl and crystal details,",
+                "pale aqua and lavender accents,",
+                "light ethereal marine style,",
+                "delicate fantasy design,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "long fluttering jellyfish tentacle-like ribbons,",
+                "soft frilled streamers hanging from the skirt,",
+                "floating translucent ruffles,",
+                "pearl chains and crystal ornaments,",
+                "glowing bubble-like decorations,",
+                "soft sparkling details,",
+                "graceful drifting underwater aesthetic,"
+              ]
+            },
+            {
+              "id": "male-veil",
+              "name": "⑤ 男性用｜ヴェール",
+              "prompts": [
+                "long translucent veil,",
+                "delicate jellyfish pattern,",
+                "soft flowing sheer fabric,",
+                "pale aqua and lavender gradients,",
+                "iridescent glossy highlights,",
+                "fine luminous jellyfish motifs,",
+                "dreamy underwater veil design,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "elegant jellyfish-themed fantasy outfit,",
+                "fitted translucent top with a masculine silhouette,",
+                "short open-front coat with soft frilled edges,",
+                "rounded waist drape inspired by a jellyfish bell,",
+                "slim fitted trousers,",
+                "white aqua and lavender color scheme,",
+                "soft luminous ocean fantasy fashion,"
+              ]
+            },
+            {
+              "id": "male-shoes",
+              "name": "⑦ 男性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "elegant translucent knee-high boots,",
+                "slim masculine silhouette,",
+                "soft glossy texture,",
+                "pearl and crystal details,",
+                "pale aqua and lavender accents,",
+                "light ethereal marine style,",
+                "delicate fantasy design,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "long fluttering jellyfish tentacle-like ribbons,",
+                "soft frilled streamers flowing from the waist,",
+                "floating translucent ruffles,",
+                "pearl chains and crystal ornaments,",
+                "glowing bubble-like decorations,",
+                "soft sparkling details,",
+                "graceful drifting underwater aesthetic,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "orca-strike",
+          "name": "Orca Strike",
+          "symbol": "🖤",
+          "accentColor": "#d9dde4",
+          "description": "深く影を落とす黒のフードと鮮明な白黒のコントラストで、シャチの力強さと静かな威圧感を洗練された装いへ落とし込んだシリーズ。",
+          "motif": "シャチ・フード・背びれ",
+          "material": "モノトーン生地・メタル・チェーン",
+          "categories": [
+            {
+              "id": "female-hood",
+              "name": "① 女性用｜フード",
+              "prompts": [
+                "deep oversized black hood,",
+                "hood pulled low over the eyes,",
+                "smooth rounded silhouette,",
+                "face partially shadowed,",
+                "white inner lining,",
+                "minimal sleek design,",
+                "mysterious orca-inspired look,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "black cropped outer jacket,",
+                "white fitted inner top,",
+                "high-waisted white fitted shorts,",
+                "black layered side panels,",
+                "clean black and white color blocking,",
+                "sleek streamlined silhouette,",
+                "elegant orca-themed fashion,"
+              ]
+            },
+            {
+              "id": "female-shoes",
+              "name": "③ 女性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "glossy black thigh-high boots,",
+                "slim feminine silhouette,",
+                "smooth streamlined design,",
+                "black monochrome finish,",
+                "high heels,",
+                "subtle silver hardware,",
+                "minimal fin-like accents,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "large orca tail at the lower back,",
+                "tall dorsal fin on the back,",
+                "small rounded fin accents,",
+                "orca marking motifs,",
+                "silver chains and metal rings,",
+                "black belts and garter straps,",
+                "powerful graceful marine aesthetic,"
+              ]
+            },
+            {
+              "id": "male-hood",
+              "name": "⑤ 男性用｜フード",
+              "prompts": [
+                "deep oversized black hood,",
+                "hood pulled low over the eyes,",
+                "smooth rounded silhouette,",
+                "face partially shadowed,",
+                "white inner lining,",
+                "minimal sleek design,",
+                "mysterious orca-inspired look,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "black short outer jacket,",
+                "white fitted inner top,",
+                "slim white fitted trousers,",
+                "black layered side panels,",
+                "clean black and white color blocking,",
+                "long streamlined masculine silhouette,",
+                "elegant orca-themed fashion,"
+              ]
+            },
+            {
+              "id": "male-shoes",
+              "name": "⑦ 男性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "glossy black knee-high boots,",
+                "slim masculine silhouette,",
+                "smooth streamlined design,",
+                "black monochrome finish,",
+                "slightly raised heels,",
+                "subtle silver hardware,",
+                "minimal fin-like accents,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "large orca tail at the lower back,",
+                "tall dorsal fin on the back,",
+                "small rounded fin accents,",
+                "orca marking motifs,",
+                "silver chains and metal rings,",
+                "black belts and harness straps,",
+                "powerful graceful marine aesthetic,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "angel-drift",
+          "name": "Angel Drift",
+          "symbol": "👼🏻",
+          "accentColor": "#f3efe8",
+          "description": "純白の衣に鮮やかな橙のコルセットを添え、翼足のような透き通る装飾とともに海中を舞う、クリオネの神秘を纏うシリーズ。",
+          "motif": "クリオネ・翼足・天使",
+          "material": "透け布・クリスタル・パール",
+          "categories": [
+            {
+              "id": "female-head",
+              "name": "① 女性用｜頭飾り",
+              "prompts": [
+                "clione-inspired horn-like tiara,",
+                "delicate translucent tiara,",
+                "soft curved horn motifs,",
+                "white and translucent color scheme,",
+                "pearl and crystal details,",
+                "light ethereal marine design,",
+                "angelic fantasy appearance,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "white clione-themed mermaid dress,",
+                "long fitted mermaid silhouette,",
+                "bright orange corset,",
+                "soft translucent fabric,",
+                "light fluttering layers,",
+                "pure white main color,",
+                "elegant airy ocean fantasy fashion,"
+              ]
+            },
+            {
+              "id": "female-feet",
+              "name": "③ 女性用｜足元",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "bare feet,",
+                "no shoes,",
+                "translucent legs and feet,",
+                "soft glossy skin-like texture,",
+                "slightly transparent appearance,",
+                "subtle orange tinted toes,",
+                "delicate ethereal marine look,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "wing-like back ornaments,",
+                "soft fluttering translucent fins,",
+                "light ribbon-like flowing parts,",
+                "pearl chains and crystal ornaments,",
+                "subtle sparkling particles,",
+                "graceful drifting underwater aesthetic,",
+                "clione-inspired angelic silhouette,"
+              ]
+            },
+            {
+              "id": "male-head",
+              "name": "⑤ 男性用｜頭飾り",
+              "prompts": [
+                "clione-inspired horn-like tiara,",
+                "delicate translucent tiara,",
+                "soft curved horn motifs,",
+                "white and translucent color scheme,",
+                "pearl and crystal details,",
+                "light ethereal marine design,",
+                "angelic fantasy appearance,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "white clione-themed fantasy outfit,",
+                "masculine fitted upper body,",
+                "long elegant silhouette,",
+                "bright orange corset,",
+                "soft translucent fabric,",
+                "pure white main color,",
+                "light airy ocean fantasy fashion,"
+              ]
+            },
+            {
+              "id": "male-feet",
+              "name": "⑦ 男性用｜足元",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "standing barefoot,",
+                "both legs extended straight down,",
+                "both knees fully straight,",
+                "both feet planted on the ground,",
+                "translucent legs and feet,",
+                "subtle orange tinted toes,",
+                "no sitting, no crouching, no raised knees,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "wing-like back ornaments,",
+                "soft fluttering translucent fins,",
+                "light ribbon-like flowing parts,",
+                "pearl chains and crystal ornaments,",
+                "subtle sparkling particles,",
+                "ornaments gently floating around the body,",
+                "upright standing silhouette,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coral-bloom",
+          "name": "Coral Bloom",
+          "symbol": "🪸",
+          "accentColor": "#f2b0b6",
+          "description": "ふわふわのレースとフリルに、花咲く枝サンゴや真珠を散りばめた、海底の花園を思わせる華やかで可憐なロリータシリーズ。",
+          "motif": "枝サンゴ・真珠・ロリータ",
+          "material": "レース・フリル・パール",
+          "categories": [
+            {
+              "id": "female-head",
+              "name": "① 女性用｜頭飾り",
+              "prompts": [
+                "coral-themed lolita head dress,",
+                "frilly lace headpiece,",
+                "small coral branch ornaments,",
+                "pearls and crystal beads,",
+                "white and coral pink color scheme,",
+                "cute elegant silhouette,",
+                "sweet marine fantasy design,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "coral-inspired sweet lolita dress,",
+                "fitted bodice,",
+                "layered bell-shaped skirt,",
+                "abundant frills and ruffles,",
+                "soft lace and translucent fabric,",
+                "white and coral pink main color,",
+                "cute and beautiful silhouette,"
+              ]
+            },
+            {
+              "id": "female-shoes",
+              "name": "③ 女性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "coral pink lolita heels,",
+                "rounded toe design,",
+                "delicate ankle straps,",
+                "pearl decorations,",
+                "small coral branch accents,",
+                "glossy refined finish,",
+                "sweet elegant marine style,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "small branching coral motifs,",
+                "flower and shell decorations,",
+                "pearls and crystal ornaments,",
+                "soft ribbon details,",
+                "delicate gold chains,",
+                "scattered gemstone accents,",
+                "bright blooming reef aesthetic,"
+              ]
+            },
+            {
+              "id": "male-head",
+              "name": "⑤ 男性用｜頭飾り",
+              "prompts": [
+                "coral-themed ouji head dress,",
+                "frilled lace mini hat,",
+                "small coral branch ornaments,",
+                "pearls and crystal beads,",
+                "white and coral pink color scheme,",
+                "cute elegant silhouette,",
+                "sweet marine fantasy design,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "coral-inspired ouji lolita outfit,",
+                "fitted short jacket,",
+                "frilled blouse with lace details,",
+                "high-waisted short trousers,",
+                "abundant ruffles and layered fabric,",
+                "white and coral pink main color,",
+                "cute and elegant prince silhouette,"
+              ]
+            },
+            {
+              "id": "male-shoes",
+              "name": "⑦ 男性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "coral pink knee-high boots,",
+                "slim masculine silhouette,",
+                "rounded toe design,",
+                "small decorative buckles,",
+                "pearl and ribbon details,",
+                "small coral branch accents,",
+                "sweet elegant marine style,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "small branching coral motifs,",
+                "coral-shaped embroidery,",
+                "flower and shell decorations,",
+                "pearls and crystal ornaments,",
+                "soft ribbon details,",
+                "delicate gold chains,",
+                "bright blooming reef aesthetic,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dolphin-splash",
+          "name": "Dolphin Splash",
+          "symbol": "🐬",
+          "accentColor": "#95d7ee",
+          "description": "淡い水色の軽やかな装いに、ヒレや水しぶきのリボンを躍らせた、イルカの爽やかさと躍動感を映すスポーティーなシリーズ。",
+          "motif": "イルカ・ヒレ・水しぶき",
+          "material": "スポーティ生地・クリスタル・パール",
+          "categories": [
+            {
+              "id": "female-head",
+              "name": "① 女性用｜頭飾り",
+              "prompts": [
+                "dolphin-inspired hair ornament,",
+                "smooth curved fin-shaped accessory,",
+                "clear water droplet crystals,",
+                "silver and pale aqua blue details,",
+                "small pearl decorations,",
+                "rounded playful silhouette,",
+                "bright aquatic fantasy design,"
+              ]
+            },
+            {
+              "id": "female-outfit",
+              "name": "② 女性用｜その他服",
+              "prompts": [
+                "cute sporty dolphin-themed fantasy outfit,",
+                "smooth fitted pale aqua blue top,",
+                "short layered sporty skirt with rounded fin-like panels,",
+                "soft silver-blue gradient fabric,",
+                "curved flowing cut lines,",
+                "front-facing outfit presentation,",
+                "light active aquatic silhouette,"
+              ]
+            },
+            {
+              "id": "female-shoes",
+              "name": "③ 女性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "pale aqua blue ankle boots,",
+                "smooth rounded silhouette,",
+                "transparent glossy heels,",
+                "silver wave-like details,",
+                "small fin-shaped decorations,",
+                "water droplet crystals,",
+                "light sporty fantasy design,"
+              ]
+            },
+            {
+              "id": "female-decor",
+              "name": "④ 女性用｜その他装飾",
+              "prompts": [
+                "dolphin fin ornaments visible from the front angle,",
+                "small side fin-like ornaments,",
+                "dolphin tail-shaped ornament visible from the side,",
+                "flowing splash-shaped ribbons,",
+                "clear bubble and water droplet crystals,",
+                "silver and pearl accessories,",
+                "front-facing cheerful jumping-dolphin aesthetic,"
+              ]
+            },
+            {
+              "id": "male-head",
+              "name": "⑤ 男性用｜頭飾り",
+              "prompts": [
+                "dolphin-inspired hair ornament,",
+                "smooth curved fin-shaped accessory,",
+                "clear water droplet crystals,",
+                "silver and pale aqua blue details,",
+                "small pearl decorations,",
+                "rounded playful silhouette,",
+                "bright aquatic fantasy design,"
+              ]
+            },
+            {
+              "id": "male-outfit",
+              "name": "⑥ 男性用｜その他服",
+              "prompts": [
+                "sporty dolphin-themed fantasy outfit,",
+                "smooth fitted pale aqua blue top,",
+                "short sporty outer layer with curved fin-like panels,",
+                "soft silver-blue gradient fabric,",
+                "curved flowing cut lines,",
+                "front-facing outfit presentation,",
+                "light active aquatic silhouette,"
+              ]
+            },
+            {
+              "id": "male-shoes",
+              "name": "⑦ 男性用｜靴",
+              "note": "足元を映したくない、腰上構図の時は入れない",
+              "prompts": [
+                "pale aqua blue knee-high boots,",
+                "smooth rounded silhouette,",
+                "sleek sporty design,",
+                "silver wave-like details,",
+                "small fin-shaped decorations,",
+                "water droplet crystals,",
+                "light sporty fantasy design,"
+              ]
+            },
+            {
+              "id": "male-decor",
+              "name": "⑧ 男性用｜その他装飾",
+              "prompts": [
+                "dolphin fin ornaments visible from the front angle,",
+                "small side fin-like ornaments,",
+                "dolphin tail-shaped ornament visible from the side,",
+                "flowing splash-shaped ribbons,",
+                "clear bubble and water droplet crystals,",
+                "silver and pearl accessories,",
+                "front-facing cheerful jumping-dolphin aesthetic,"
               ]
             }
           ]

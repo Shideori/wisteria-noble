@@ -1,6 +1,6 @@
-# Wisteria Noble - Single Outfit Update
+# Wisteria Noble - Fruit Marine Update
 
-- 新コレクション「単発衣装」を追加
-- シリーズ「Ivory Blossom」を追加
-- 靴カテゴリに注意書きを追加
-- SPA画面切り替え不具合修正を含む
+- フルーツプロンプトに海モチーフ6シリーズを追加
+- 各新シリーズを ①〜④ 女性用 / ⑤〜⑧ 男性用 で構成
+- ③と⑦に靴の注意書きを追加
+- SPAナビゲーション修正を維持
