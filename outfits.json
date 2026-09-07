@@ -2,7 +2,7 @@
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "10.3.0"
+    "version": "10.4.0"
   },
   "collections": [
     {
@@ -5815,7 +5815,7 @@
       "englishName": "Standalone Outfits",
       "symbol": "🕊️",
       "accentColor": "#efe5d1",
-      "description": "単発で使いやすい女性向け幻想衣装をまとめたコレクション。",
+      "description": "単発で使いやすい幻想衣装・構図・演出プロンプトをまとめたコレクション。",
       "series": [
         {
           "id": "ivory-blossom",
@@ -5905,6 +5905,788 @@
                 "floating petals,",
                 "subtle sparkling particles,",
                 "ethereal and fragile mood,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jewel-butterfly-fantasy",
+          "name": "宝石蝶の幻想衣装",
+          "symbol": "🦋",
+          "accentColor": "#c2c8ff",
+          "description": "オーロラ色の薄布と宝石の煌めきを纏い、蝶の翅のように幻想的に舞う衣装。",
+          "motif": "蝶翅・宝石・ステンドグラス",
+          "material": "オーロラシアー・クリスタル・シルバーチェーン",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "luxurious jewel butterfly fantasy outfit,",
+                "layered iridescent sheer fabric,",
+                "aurora-colored translucent drapes,",
+                "elegant asymmetrical silhouette,",
+                "large faceted gemstone on the chest,",
+                "butterfly wing-shaped shoulder ornaments,",
+                "delicate stained-glass butterfly wing patterns,",
+                "crystal beads and fine silver chains,",
+                "glittering jewel embroidery,",
+                "flowing translucent sleeves,",
+                "layered long coat tails,",
+                "shimmering hem resembling butterfly scales,",
+                "scattered iridescent sparkles,",
+                "opal, amethyst and sapphire accents,",
+                "dreamlike luminous colors,",
+                "ethereal, elegant, intricate fantasy fashion,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marionette-stage-costume",
+          "name": "操り人形の舞台衣装",
+          "symbol": "🪅",
+          "accentColor": "#8a3d4d",
+          "description": "ボルドーと黒の燕尾服に金の関節飾りと鎖を添えた、妖しく華麗な操り人形の舞台衣装。",
+          "motif": "操り人形・燕尾服・関節装飾",
+          "material": "ベルベット・ゴールドチェーン・アンティーク金具",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "luxurious marionette stage costume,",
+                "burgundy and black tailcoat,",
+                "fitted black waistcoat,",
+                "high collar,",
+                "ornate gold embroidery,",
+                "decorative golden joint ornaments on shoulders, elbows and wrists,",
+                "thin puppet-string-like golden chains hanging from the wrists,",
+                "asymmetrical sleeves,",
+                "one elaborate layered frilled sleeve,",
+                "one fitted formal sleeve,",
+                "dramatic ruffled cuffs,",
+                "black fitted trousers,",
+                "burgundy waist sash,",
+                "gold buttons and antique brooches,",
+                "long split coat tails,",
+                "theatrical gothic design,",
+                "antique puppet aesthetic,",
+                "elegant, mysterious, highly detailed,",
+                "visible ball-jointed doll motifs, articulated joint decorations,",
+                "delicate suspended strings,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunar-eclipse-military",
+          "name": "月蝕の礼装軍服",
+          "symbol": "🌒",
+          "accentColor": "#6e6a7b",
+          "description": "月の満ち欠けを刻んだ銀飾りと影のような黒布を纏う、荘厳な月蝕の礼装軍服。",
+          "motif": "月蝕・軍服・月相",
+          "material": "黒布・銀装飾・レザー",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "formal lunar eclipse military uniform,",
+                "jet-black high-collared military jacket,",
+                "structured fitted silhouette,",
+                "asymmetrical ornate epaulettes,",
+                "one black epaulette and one silver epaulette,",
+                "silver chains engraved with moon phase symbols,",
+                "crescent moon brooch on the chest,",
+                "subtle eclipse-shaped embroidery,",
+                "polished silver buttons,",
+                "black leather belt with lunar ornaments,",
+                "elegant black gloves,",
+                "fitted black trousers,",
+                "long translucent black waist drapes,",
+                "sheer fabric flowing like a half-cape from the waist,",
+                "silver trim,",
+                "obsidian and dark crimson accents,",
+                "regal ceremonial attire,",
+                "dark aristocratic military fashion,",
+                "solemn, majestic, highly detailed,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "star-devouring-sorcerer",
+          "name": "星喰いの魔術師衣装",
+          "symbol": "🌟",
+          "accentColor": "#4c4e7e",
+          "description": "星雲を閉じ込めた夜空色のコートが黒煙へ溶けていく、神秘的で禍々しい魔術師衣装。",
+          "motif": "星喰い・星図・黒煙",
+          "material": "夜空色コート・暗色クリスタル・銀チェーン",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "star-devouring sorcerer outfit,",
+                "midnight blue long coat,",
+                "high collar,",
+                "fitted waist,",
+                "dramatic layered coat tails,",
+                "galaxy-patterned inner lining,",
+                "glowing nebula patterns inside the coat,",
+                "black and deep violet color scheme,",
+                "metallic armillary sphere ornament,",
+                "small celestial rings orbiting a dark gemstone,",
+                "star map embroidery,",
+                "silver constellation chains,",
+                "dark crystal accessories,",
+                "wide mystical sleeves,",
+                "sleeve cuffs dissolving into black smoke,",
+                "coat hem dissolving into swirling shadowy smoke,",
+                "tiny stars being swallowed by the darkness,",
+                "subtle cosmic glow,",
+                "celestial gothic fantasy fashion,",
+                "mysterious, ominous, elegant, highly detailed,",
+                "(black smoke emerging only from the sleeve cuffs and coat hem:1.3),"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sheer-ghost",
+          "name": "シア―ゴースト",
+          "symbol": "👻",
+          "accentColor": "#f5f5f5",
+          "description": "純白のレースと透ける薄布で全身を覆い、長いヴェールやリボンを幽玄に漂わせる、儚くも妖艶な亡霊のゴシック葬送衣装。",
+          "motif": "亡霊・ヴェール・葬送ゴシック",
+          "material": "白レース・シフォン・シアーリボン",
+          "categories": [
+            {
+              "id": "male-body",
+              "name": "① 男性の身体指定",
+              "prompts": [
+                "adult man, male body, clearly masculine anatomy,",
+                "slender masculine physique, tall and lean proportions,",
+                "broad structured shoulders, narrow hips, straight waistline,",
+                "flat masculine chest, long limbs, subtly defined muscles,",
+                "elegant masculine posture, refined androgynous facial features,",
+                "delicate but unmistakably male physique,"
+              ]
+            },
+            {
+              "id": "female-body",
+              "name": "② 女性の体指定",
+              "prompts": [
+                "adult woman, clearly feminine anatomy,",
+                "slender feminine physique, naturally feminine body proportions,",
+                "narrow shoulders, defined feminine waist, gently rounded hips,",
+                "subtle hourglass silhouette, feminine chest, long slender legs,",
+                "soft feminine curves, elegant feminine posture, mature female body,",
+                "delicate androgynous facial features, unmistakably female physique,"
+              ]
+            },
+            {
+              "id": "outfit",
+              "name": "③ 衣装プロンプト",
+              "prompts": [
+                "pure white ghostly gothic outfit, pale monochrome gothic fashion,",
+                "luminous white lace, icy white sheer chiffon, white translucent fabric,",
+                "pure white ribbons, delicate silver ornament details,",
+                "high lace neckline, face-covered translucent white veil,",
+                "sheer white veil softly obscuring the eyes and mouth, elaborate lace headdress,",
+                "layered white chiffon and gothic lace, bandage-like white ribbon wraps, long trailing white ribbons,",
+                "long layered waist drapes, flowing translucent fabric,",
+                "all visible skin modestly covered with sheer white lace,",
+                "long sheer lace gloves, soft see-through lace covering the waist and legs,",
+                "full-length white lace stockings, concealed skin, elegant transparency, covered yet subtly alluring,",
+                "body-following tailored garment beneath the layered fabric,",
+                "graceful fitted silhouette, fully covered hips,",
+                "layered chiffon concealing the contours without erasing the natural body shape,",
+                "delicate silver chains, pale silver accents, subtle cross motifs, occult gothic ornaments,",
+                "dangling ornaments, butterfly motifs, ribbon accessories,",
+                "abundant layered chiffon, translucent frills, floating fabric,",
+                "extra flowing ribbons, long trailing veil, spectral aura,",
+                "phantom-like presence, otherworldly atmosphere, ethereal mist, haunted atmosphere,",
+                "mourning gothic aesthetic, funereal elegance, melancholic beauty, elegant sensuality, modest but sensual,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "④ 墓地で寝転んでいる構図指定",
+              "prompts": [
+                "BREAK",
+                "reclining pose, lying naturally on the ground,",
+                "relaxed side-lying pose, body resting fully on the ground,",
+                "shoulders, waist, hips and legs grounded,",
+                "gentle side-facing body line, legs placed naturally together,",
+                "one knee softly bent, the other leg relaxed, feet resting naturally,",
+                "one arm placed under or near the head, the other hand resting in front of the body,",
+                "flowing hair spread out, veil spread around the head,",
+                "ribbons and translucent fabric draped around the body,",
+                "long trailing fabric spread across the ground, full outfit clearly visible,",
+                "slightly top-down view, balanced composition,",
+                "calm and haunting pose, elegant posture, soft dramatic atmosphere,",
+                "BREAK",
+                "gothic graveyard, old cemetery, moonlit graveyard, weathered tombstones,",
+                "stone crosses, withered roses, cold mist, ethereal fog, haunted atmosphere,",
+                "dark elegant scenery, old stone ground, pale moonlight, floating dust particles,",
+                "funereal mood, white outfit standing out against the dark background, full body,",
+                "reclining pose, lying on the ground, elegant sideways pose, slightly curled posture,",
+                "flowing hair spread out, veil spread around the head,",
+                "ribbons and translucent fabric draped around the body,",
+                "long trailing fabric spread across the ground, calm and haunting expression,",
+                "graceful hand pose, dramatic silhouette, full outfit clearly visible,",
+                "slightly top-down view, balanced composition,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lilac-fantasy-dress",
+          "name": "ライラックの幻想ドレス",
+          "symbol": "🪻",
+          "accentColor": "#b9a3df",
+          "description": "淡い紫の薄布に小さなライラックの花房を咲かせた、春の香りを纏う優美な幻想ドレス。",
+          "motif": "ライラック・花房・春の薄布",
+          "material": "ラベンダーシフォン・白レース・アメジスト",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "lilac flower-themed fantasy dress,",
+                "elegant lavender and white color scheme,",
+                "fitted corset bodice,",
+                "sweetheart neckline,",
+                "off-shoulder translucent puff sleeves,",
+                "layered flowing long skirt,",
+                "soft lavender gradient fabric,",
+                "white lace and sheer chiffon,",
+                "clusters of tiny four-petaled lilac blossoms,",
+                "dense lilac flower clusters decorating the neckline and waist,",
+                "cascading lilac blossoms along the skirt,",
+                "delicate green leaves,",
+                "lilac-shaped embroidery,",
+                "lavender crystal beads,",
+                "pearl chains,",
+                "small amethyst ornaments,",
+                "flower petal-shaped ruffles,",
+                "translucent overskirt resembling delicate petals,",
+                "long flowing lavender ribbons,",
+                "subtle floral fragrance mist,",
+                "scattered tiny lilac petals,",
+                "romantic spring fantasy fashion,",
+                "graceful, dreamy, ethereal,",
+                "intricate floral details,",
+                "lilac flower crown,",
+                "clusters of tiny lilac blossoms in the hair,",
+                "lilac and pearl earrings,",
+                "delicate floral choker,",
+                "lavender crystal hair ornaments,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "blacktide-captain",
+          "name": "Blacktide Captain",
+          "symbol": "⚓",
+          "accentColor": "#c9a65a",
+          "description": "漆黒のロングコートに煌びやかな金刺繍と宝飾を重ね、荒波と財宝を従えて大海原を渡る、威厳と浪漫に満ちた海賊船長のための豪華な衣装シリーズ。",
+          "motif": "海賊船長・三角帽・黄金装飾",
+          "material": "黒コート・金刺繍・レザー",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "BREAK",
+                "pirate captain outfit,",
+                "luxury pirate attire,",
+                "black tricorn hat,",
+                "【色指定】 feathers,",
+                "skull emblem,",
+                "ornate black coat,",
+                "gold embroidery,",
+                "gold trim,long coat tails,",
+                "ruffled white shirt,",
+                "open chest,",
+                "victorian shirt,",
+                "multiple belts,",
+                "leather straps,",
+                "【色指定】 sash,",
+                "【色指定】 waist cloth,",
+                "skull accessories,",
+                "anchor charm,",
+                "gold chains,",
+                "pendant necklace,",
+                "earrings,",
+                "fantasy pirate,",
+                "highly detailed clothing,",
+                "rich decorations,",
+                "adventurer aesthetic"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "② 構図プロンプト",
+              "prompts": [
+                "BREAK",
+                "sitting on the bow of a wooden pirate ship,",
+                "one leg raised,resting elbow on knee,",
+                "wooden deck,",
+                "ship rigging,",
+                "tall masts,",
+                "sailing ship,",
+                "age of sail,",
+                "pirate vessel,",
+                "ocean breeze,",
+                "looking down at viewer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rogue-voyager",
+          "name": "Rogue Voyager",
+          "symbol": "☠️",
+          "accentColor": "#b88d4e",
+          "description": "使い込まれた布地と革のベルトに金貨や髑髏の装飾を無造作に纏い、未知の海と財宝を求めて自由に航海する冒険者たちを描いた海賊衣装シリーズ。",
+          "motif": "海賊船員・バンダナ・財宝",
+          "material": "風化布・レザー・金貨装飾",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "BREAK",
+                "pirate accessories,",
+                "dagger sheath,",
+                "waist pouch,",
+                "feather ornament,",
+                "skull charm,",
+                "gold coins,",
+                "treasure tags,",
+                "multiple necklaces,",
+                "pirate crew outfit,",
+                "open-collar shirt,",
+                "white shirt,",
+                "sleeveless vest,",
+                "multiple belts,",
+                "pirate sash,",
+                "layered waist cloth,",
+                "crossbody strap,",
+                "【色指定】 bandana headband,",
+                "bandana tied around forehead,",
+                "side knot,",
+                "long trailing ribbons,",
+                "tassel earrings,",
+                "leather bracers,",
+                "weathered fabric,",
+                "adventurer outfit,",
+                "swashbuckler style,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "② 構図指定",
+              "prompts": [
+                "BREAK",
+                "sitting on ship railing,",
+                "looking back at viewer,",
+                "low angle,",
+                "wind blowing hair,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chrome-allure",
+          "name": "Chrome Allure",
+          "symbol": "🪩",
+          "accentColor": "#aab0bf",
+          "description": "漆黒のレザーハーネスに冷たく煌めくシルバーの金具とチェーンを巡らせ、ネオンが揺れる夜のステージで妖艶かつ大胆な美しさを放つアヴァンギャルドなダンサー衣装シリーズ。",
+          "motif": "レザーハーネス・ダンスポール・ネオン",
+          "material": "ブラックレザー・クローム金具・チェーン",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "BREAK",
+                "all-black futuristic harness outfit,",
+                "sleeveless cropped harness top,",
+                "harness top only,",
+                "no jacket,",
+                "no coat,",
+                "no blazer,",
+                "no outerwear,",
+                "open shoulders,",
+                "cutout chest design,",
+                "cross-neck straps,",
+                "black leather harness,",
+                "multiple silver buckles,",
+                "silver chains,",
+                "silver rings,",
+                "chrome hardware,",
+                "waist straps,",
+                "decorative belts,",
+                "thigh straps,",
+                "black low-rise pants,",
+                "sleeveless,",
+                "luxury gothic menswear,",
+                "avant-garde fashion,",
+                "high fashion editorial,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "② 構図プロンプト",
+              "prompts": [
+                "BREAK",
+                "natural seated pose,",
+                "body angled sideways,",
+                "legs crossed,",
+                "sitting on draped fabric,",
+                "one arm resting casually,",
+                "elegant posture,",
+                "thigh up,",
+                "three-quarter portrait,",
+                "focus on upper body,",
+                "holding a shiny silver dance pole,",
+                "one hand gripping the pole,",
+                "leaning against the pole,",
+                "dynamic pole dance pose,",
+                "looking at viewer,",
+                "calm expression,",
+                "calm alluring gaze,",
+                "half-lidded eyes,",
+                "gentle confident smile,",
+                "confident stage presence,",
+                "neon nightclub stage,",
+                "purple and blue lighting,",
+                "dramatic reflections,",
+                "soft cinematic lighting,",
+                "luxury atmosphere,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desert-veil",
+          "name": "Desert Veil",
+          "symbol": "🌙",
+          "accentColor": "#d9c59f",
+          "description": "柔らかなヴェールと流れるシルクに黄金の装飾を散りばめ、月明かりに照らされた幻想の砂漠で神秘的な舞を披露する踊り子たちのための衣装シリーズ。",
+          "motif": "砂漠の踊り子・ヴェール・黄金装飾",
+          "material": "シルク・ベール・ゴールドジュエリー",
+          "categories": [
+            {
+              "id": "male",
+              "name": "① 男性用",
+              "prompts": [
+                "male desert dancer costume,",
+                "male dancer attire,",
+                "male torso,",
+                "bare midriff,",
+                "white face veil,",
+                "hooded veil,",
+                "gold jewelry,",
+                "body chains,",
+                "gold arm cuffs,",
+                "coin ornaments,",
+                "flowing silk fabrics,",
+                "floating veils,",
+                "fantasy desert aesthetic"
+              ]
+            },
+            {
+              "id": "female",
+              "name": "② 女性用",
+              "prompts": [
+                "female desert dancer costume,",
+                "female dancer attire,",
+                "bare midriff,",
+                "slender waist,",
+                "white face veil,",
+                "hooded veil,",
+                "gold jewelry,",
+                "body chains,",
+                "gold arm cuffs,",
+                "coin ornaments,",
+                "flowing silk fabrics,",
+                "floating veils,",
+                "fantasy desert aesthetic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nocturne-maid",
+          "name": "Nocturne Maid",
+          "symbol": "🕯️",
+          "accentColor": "#e6e6e6",
+          "description": "漆黒のジャカードと白いレースを端正に重ね、銀の刺繍とクラシカルな装飾で静謐な気品を纏う、古き洋館に仕える上品で優雅なメイド衣装シリーズ。",
+          "motif": "ヴィクトリアンメイド・白黒・洋館",
+          "material": "黒ジャカード・白レース・シルバー刺繍",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "BREAK",
+                "classic Victorian maid dress,",
+                "elegant masculine maid outfit,",
+                "high-class servant,",
+                "classic European fashion,",
+                "vintage aesthetic,",
+                "long-sleeved black dress,",
+                "high neckline,",
+                "black fitted bodice,",
+                "corset-inspired waist,",
+                "floor-length skirt,",
+                "white lace apron,",
+                "white lace collar,",
+                "white frilled cuffs,",
+                "lace headband,",
+                "small white maid headdress,",
+                "black jacquard fabric,",
+                "embroidered floral patterns,",
+                "silver embroidery,",
+                "velvet ribbon,",
+                "silver waist chain,",
+                "pocket watch chain,",
+                "refined gothic elegance,",
+                "dark gothic elegance,",
+                "graceful silhouette,",
+                "luxurious fabric,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "golden-deal",
+          "name": "Golden Deal",
+          "symbol": "♦️",
+          "accentColor": "#d4af37",
+          "description": "端正なシャツと仕立ての良いベストにゴールドの装飾とカードモチーフを添え、華やかなカジノの夜を鮮やかに取り仕切るディーラーをイメージしたスタイリッシュな衣装シリーズ。",
+          "motif": "カジノディーラー・トランプ・ゴールド",
+          "material": "シャツ・テーラードベスト・ゴールドチェーン",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "BREAK",
+                "casino dealer outfit,",
+                "magician uniform,",
+                "white dress shirt,",
+                "【色指定】 necktie,",
+                "(elbow cutouts:1.3),",
+                "(open elbow sleeves:1.3),",
+                "(thigh straps:1.2),",
+                "(leather garter straps:1.2),",
+                "black tailored vest,",
+                "gold trim,",
+                "long tailcoat vest,",
+                "decorative gold chain,",
+                "black slacks,",
+                "leather thigh straps,",
+                "black gloves,",
+                "open elbow sleeves,",
+                "playing card motif,",
+                "luxury uniformm"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "② 構図プロンプト",
+              "prompts": [
+                "BREAK",
+                "luxury casino interior,",
+                "floating playing cards,",
+                "cards swirling around him,",
+                "flying poker chips,",
+                "hand extended toward viewer,",
+                "inviting gesture,",
+                "mischievous grin,",
+                "playful smile,",
+                "slightly lowered eyelids,",
+                "half-lidded eyes,",
+                "knowing smile,",
+                "teasing expression",
+                "looking at viewer,",
+                "golden rim light,",
+                "luxury chandelier lighting,",
+                "volumetric light,",
+                "cinematic lighting,",
+                "rich atmosphere,",
+                "high-class casino,",
+                "sparkling highlights,",
+                "golden rim light,",
+                "warm golden ambient lighting,",
+                "crystal chandelier,",
+                "volumetric light rays,",
+                "sparkling particles,",
+                "rich highlights,",
+                "dramatic contrast,",
+                "luxury reflections,",
+                "opulent atmosphere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sweetheart-diner",
+          "name": "Sweetheart Diner",
+          "symbol": "🍒",
+          "accentColor": "#d76475",
+          "description": "クリームホワイトのストライプシャツに鮮やかなアクセントカラーを合わせ、どこか懐かしいアメリカンダイナーの賑やかでポップな空気を楽しめるレトロユニフォームシリーズ。",
+          "motif": "アメリカンダイナー・チェリー・レトロ接客",
+          "material": "ピンストライプシャツ・エプロン・ローファー",
+          "categories": [
+            {
+              "id": "shirt",
+              "name": "① シャツ＿共通",
+              "prompts": [
+                "American diner uniform,",
+                "cream white main shirt,",
+                "short sleeve shirt,",
+                "cream white shirt with vertical pinstripes,",
+                "thin muted color pinstripes,",
+                "[色指定] sleeves,",
+                "[色指定] sleeve cuffs,",
+                "[色指定] collar,",
+                "button-up shirt,",
+                "slightly fitted uniform shirt,",
+                "long necktie,",
+                "matching visor cap,",
+                "name tag,",
+                "waist apron,"
+              ]
+            },
+            {
+              "id": "long-pants",
+              "name": "② 長ズボン",
+              "prompts": [
+                "straight long pants,",
+                "neat trousers,",
+                "white apron,",
+                "retro waiter uniform,",
+                "loafers,"
+              ]
+            },
+            {
+              "id": "half-pants",
+              "name": "③ ハーフパンツ",
+              "prompts": [
+                "high-waist bermuda shorts,",
+                "knee-length bermuda shorts,",
+                "long shorts reaching the knees,",
+                "hem exactly at knee level,",
+                "relaxed-fit silhouette,",
+                "slightly wide leg openings,",
+                "white apron,",
+                "retro diner waiter uniform,",
+                "white socks,",
+                "loafers,"
+              ]
+            },
+            {
+              "id": "short-pants",
+              "name": "④ ショートパンツ",
+              "prompts": [
+                "high-waist shorts,",
+                "mid-thigh shorts,",
+                "loose-fitting shorts,",
+                "relaxed-fit silhouette,",
+                "slightly wide leg openings,",
+                "white apron,",
+                "cute sporty waitress uniform,",
+                "sneakers,",
+                "white ankle socks,"
+              ]
+            },
+            {
+              "id": "skirt",
+              "name": "⑤ スカート",
+              "prompts": [
+                "high-waist flared skirt,",
+                "knee-length skirt,",
+                "frilled skirt hem,",
+                "ruffled hem,",
+                "white apron,",
+                "frilled apron,",
+                "cute waitress uniform,",
+                "Mary Jane shoes,",
+                "white ankle socks,"
+              ]
+            },
+            {
+              "id": "service-composition",
+              "name": "⑥ サービス中の構図",
+              "prompts": [
+                "retro American diner interior,",
+                "checkerboard floor,",
+                "classic diner counter,",
+                "booth seats,",
+                "menu boards,",
+                "soft daylight,",
+                "clean and cozy atmosphere,",
+                "vintage diner decor,",
+                "soft retro color palette,",
+                "standing pose,",
+                "facing viewer,",
+                "relaxed posture,",
+                "holding a serving tray with one hand,",
+                "the other hand lightly on the waist,",
+                "friendly and welcoming expression,",
+                "natural service pose,",
+                "full body,",
+                "full outfit visible,",
+                "center composition"
+              ]
+            },
+            {
+              "id": "stylish-composition",
+              "name": "⑦ オシャレな構図",
+              "prompts": [
+                "retro American diner interior,",
+                "neon sign in the background,",
+                "checkerboard floor,",
+                "counter area,",
+                "glossy furniture,",
+                "soft glowing lights,",
+                "stylish diner atmosphere,",
+                "colorful but calm retro palette,",
+                "leaning lightly against the counter,",
+                "one elbow resting on the counter,",
+                "relaxed posture,",
+                "facing viewer,",
+                "casual and charming pose,",
+                "full body,",
+                "center composition"
+              ]
+            },
+            {
+              "id": "cute-service-composition",
+              "name": "⑧ 可愛い接客中の構図",
+              "prompts": [
+                "inside a retro American diner,",
+                "standing in front of the diner counter,",
+                "checkerboard floor,",
+                "counter stools,",
+                "menu board in the background,",
+                "clean and cozy interior,",
+                "soft retro colors,",
+                "slightly leaning forward,",
+                "hands gently presenting a tray or menu,",
+                "friendly and welcoming posture,",
+                "facing viewer,",
+                "polite service pose,",
+                "thigh up,",
+                "outfit details visible"
               ]
             }
           ]

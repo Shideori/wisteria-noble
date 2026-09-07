@@ -1,17 +1,21 @@
-# Wisteria Noble - Marine Fantasia Update
+# Wisteria Noble - Single Outfit Expansion
 
 ## 変更内容
 
-- フルーツプロンプトから以下6シリーズを削除
-  - Shark Bite
-  - Jelly Veil
-  - Orca Strike
-  - Angel Drift
-  - Coral Bloom
-  - Dolphin Splash
-
-- 新カテゴリー「Marine Fantasia」を追加
-- ①〜④は女性用
-- ⑤〜⑧は男性用
-- ③・⑦には「足元を映したくない、腰上構図の時は入れない」の注意書きを表示
-- Arcane Familiarはホーム画面の最後を維持
+- 単発衣装コレクションに新規シリーズを追加
+  - 宝石蝶の幻想衣装
+  - 操り人形の舞台衣装
+  - 月蝕の礼装軍服
+  - 星喰いの魔術師衣装
+  - シア―ゴースト
+  - ライラックの幻想ドレス
+  - Blacktide Captain
+  - Rogue Voyager
+  - Chrome Allure
+  - Desert Veil
+  - Nocturne Maid
+  - Golden Deal
+  - Sweetheart Diner
+- Ivory Blossomは維持
+- Marine Fantasia コレクションも含めた最新構成を同梱
+- SPA画面切り替え構成を維持
