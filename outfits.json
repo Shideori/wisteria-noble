@@ -2,7 +2,7 @@
   "site": {
     "projectName": "Wisteria Noble",
     "siteName": "Fantasy Outfit Builder",
-    "version": "10.4.0"
+    "version": "10.5.0"
   },
   "collections": [
     {
@@ -6687,6 +6687,947 @@
                 "polite service pose,",
                 "thigh up,",
                 "outfit details visible"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nomad-fantasy",
+      "name": "ノマドファンタジー",
+      "englishName": "Nomad Fantasy",
+      "symbol": "🧭",
+      "accentColor": "#b59163",
+      "description": "砂海や荒野、遺跡を渡り歩く旅人たちの衣装・装飾・構図・背景をまとめた放浪者ファンタジーコレクション。",
+      "series": [
+        {
+          "id": "sand-sea-traveler",
+          "name": "砂海の旅人",
+          "symbol": "🧭",
+          "accentColor": "#c9a36c",
+          "description": "果てしなく続く砂海を渡るため、風を受け流す軽やかな布と使い込まれた革装具を重ねた、自由な放浪者の旅装。",
+          "motif": "砂海・旅人・大判スカーフ",
+          "material": "軽量布・風化レザー・金属装具",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy traveler outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory loose shirt,",
+                "soft draped neckline,",
+                "large sand-colored scarf,",
+                "brown wide pants,",
+                "layered waist cloth,",
+                "wide leather belt,",
+                "leather arm guards,",
+                "dark brown boots,",
+                "earth-tone color palette,",
+                "lightweight layered fabrics,",
+                "flowing yet practical silhouette,",
+                "modest body line,",
+                "balanced androgynous styling,",
+                "desert wanderer aesthetic,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "small leather pouches,",
+                "belt straps,",
+                "hanging cords,",
+                "tassels,",
+                "fringed fabric details,",
+                "antique metal ornaments,",
+                "simple pendant,",
+                "weathered leather accessories,",
+                "wrapped wrist cords,",
+                "travel gear details,",
+                "subtle decorative layers,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "one hand adjusting the scarf,",
+                "one hand resting near the belt,",
+                "slightly turned sideways,",
+                "calm wandering atmosphere,",
+                "wind gently lifting the scarf and hem,",
+                "fashion-style character showcase,",
+                "clear view of the whole outfit,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "desert dunes,",
+                "sunlit sandy landscape,",
+                "dry wind atmosphere,",
+                "distant rocky ruins,",
+                "faint heat haze,",
+                "soft golden sky,",
+                "fantasy desert travel setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "evening-lantern-guide",
+          "name": "宵灯りの案内人",
+          "symbol": "🏮",
+          "accentColor": "#d29b5e",
+          "description": "夕闇に沈む旅路を古びた灯籠の光で照らし、迷える旅人を静かに導く、幾重もの布を纏った神秘的な案内人の衣装。",
+          "motif": "灯籠・夕闇・案内人",
+          "material": "重ね布・アンティーク金属・レザー",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy guide outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "long layered ivory tunic,",
+                "soft draped fabrics,",
+                "dark brown shoulder shawl,",
+                "large wrapped stole,",
+                "asymmetrical sleeves,",
+                "one loose sleeve,",
+                "one fitted sleeve for easier movement,",
+                "layered long hem,",
+                "fringed edges,",
+                "rope waist tie,",
+                "wide leather belt,",
+                "utility belt,",
+                "lantern hook at the waist,",
+                "brown leather gloves,",
+                "brown leather boots,",
+                "flowing layered silhouette,",
+                "warm earth-tone colors,",
+                "modest and androgynous styling,",
+                "practical guide clothing,",
+                "mysterious traveler aesthetic,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "antique hand lantern,",
+                "small hanging bells,",
+                "multiple tassels,",
+                "ornamental cords,",
+                "beaded charms,",
+                "bronze accessories,",
+                "small waist pouches,",
+                "aged metal details,",
+                "lantern hook,",
+                "lantern chain,",
+                "travel ornaments,",
+                "subtle decorative layers,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "holding an antique lantern in one hand,",
+                "the other hand lightly gathering the shawl,",
+                "gentle welcoming gesture,",
+                "cloth and tassels softly swaying,",
+                "calm and mysterious atmosphere,",
+                "fashion-style character showcase,",
+                "clear view of the whole outfit,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "twilight desert road,",
+                "old stone pathway,",
+                "dim evening light,",
+                "small floating dust particles,",
+                "ruined archways,",
+                "warm lantern glow,",
+                "quiet fantasy travel route,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wandering-cartographer",
+          "name": "放浪の地図師",
+          "symbol": "🗺️",
+          "accentColor": "#b89661",
+          "description": "まだ誰も知らない道を地図へ刻みながら世界を巡り、巻物や羅針盤、測量道具を携えて歩く放浪の地図師の旅装。",
+          "motif": "地図・羅針盤・測量道具",
+          "material": "羊皮紙・レザー・真鍮",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy cartographer outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory loose tunic,",
+                "soft draped neckline,",
+                "layered brown scarf,",
+                "long asymmetrical vest,",
+                "loose sleeves,",
+                "brown wide pants,",
+                "layered waist cloth,",
+                "wide leather utility belt,",
+                "multiple narrow leather straps,",
+                "crossbody map case strap,",
+                "leather bracers,",
+                "dark brown boots,",
+                "earth-tone color palette,",
+                "lightweight layered fabrics,",
+                "practical traveler silhouette,",
+                "scholar-like adventurer aesthetic,",
+                "modest and androgynous styling,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "rolled maps,",
+                "leather scroll case,",
+                "old parchment,",
+                "antique compass,",
+                "small notebook,",
+                "ink vial,",
+                "quill holder,",
+                "measuring tools,",
+                "small glass bottles,",
+                "multiple leather pouches,",
+                "map tube,",
+                "hanging keys,",
+                "aged brass charms,",
+                "small navigation instruments,",
+                "weathered paper tags,",
+                "travel gear details,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "holding an unfolded map with both hands,",
+                "slightly looking down at the map,",
+                "one corner of the map fluttering in the wind,",
+                "calm and focused expression,",
+                "natural explorer posture,",
+                "cloth and scarf gently swaying,",
+                "clear view of waist accessories and scroll case,",
+                "fashion-style character showcase,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "desert crossroads,",
+                "ancient stone waymarkers,",
+                "weathered signposts,",
+                "distant rocky mountains,",
+                "scattered ruins,",
+                "wind-blown sand,",
+                "old travel route,",
+                "wide open sky,",
+                "soft warm sunlight,",
+                "fantasy expedition setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruin-explorer",
+          "name": "遺跡探索者",
+          "symbol": "🏺",
+          "accentColor": "#9a7952",
+          "description": "砂に埋もれた古代遺跡へ踏み入り、革の装具と探索道具を身につけて失われた秘宝や文明の痕跡を追う冒険者の衣装。",
+          "motif": "古代遺跡・秘宝・探索道具",
+          "material": "レザー・青銅・石片",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy ruin explorer outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory lace-up shirt,",
+                "soft draped collar,",
+                "short layered shoulder cloth,",
+                "brown loose explorer pants,",
+                "layered waist cloth,",
+                "wide leather utility belt,",
+                "crossbody leather harness,",
+                "leather bracers,",
+                "reinforced knee wraps,",
+                "dark brown boots,",
+                "asymmetrical fabric layers,",
+                "light protective leather details,",
+                "earth-tone color palette,",
+                "rugged traveler silhouette,",
+                "practical expedition clothing,",
+                "modest and androgynous styling,",
+                "ancient ruin adventurer aesthetic,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "ancient relic fragments,",
+                "ornamental keys,",
+                "small artifact charms,",
+                "aged bronze buckles,",
+                "weathered leather pouches,",
+                "small digging tools,",
+                "rope coils,",
+                "utility straps,",
+                "stone amulets,",
+                "old metal tags,",
+                "broken tablet fragments,",
+                "small satchel,",
+                "dust-covered accessories,",
+                "travel gear details,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "dynamic standing pose,",
+                "one foot placed on a broken stone,",
+                "one hand holding an ancient relic,",
+                "the other hand resting near the utility belt,",
+                "slightly leaning forward,",
+                "alert explorer posture,",
+                "wind gently moving the layered cloth,",
+                "clear view of the harness and waist accessories,",
+                "slightly low angle,",
+                "adventurer fashion showcase,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "ancient desert ruins,",
+                "massive broken stone pillars,",
+                "collapsed archways,",
+                "sand-covered stone floor,",
+                "half-buried statues,",
+                "scattered ancient relics,",
+                "weathered carvings,",
+                "sunlight streaming through ruined structures,",
+                "floating dust particles,",
+                "mysterious archaeological fantasy setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wind-falconer",
+          "name": "風渡りの鷹匠",
+          "symbol": "🪶",
+          "accentColor": "#8f9c70",
+          "description": "大空を舞う鷹とともに荒野を渡り、風にはためくケープと軽やかな旅装を纏った、空と大地を友とする鷹匠の衣装。",
+          "motif": "鷹・風・短いケープ",
+          "material": "軽量布・レザー・羽根",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy falconer outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory loose shirt,",
+                "soft open neckline,",
+                "lightweight layered shoulder cloth,",
+                "draped shoulder stole,",
+                "short wind-swept cape,",
+                "asymmetrical brown shawl,",
+                "fitted forearm sleeves,",
+                "long leather falconry glove,",
+                "single leather shoulder guard,",
+                "layered waist cloth,",
+                "wide leather belt,",
+                "slim straight brown pants,",
+                "wrapped lower legs,",
+                "dark brown travel boots,",
+                "earth-tone color palette,",
+                "lightweight breathable fabrics,",
+                "streamlined traveler silhouette,",
+                "practical clothing for handling birds,",
+                "modest and androgynous styling,",
+                "wind-worn nomad aesthetic,",
+                "highly detailed clothing,",
+                "short wind-swept cape,",
+                "light shoulder cape,",
+                "split-back travel cape,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "falconry glove ornaments,",
+                "feather charms,",
+                "small feather clusters,",
+                "braided leather cords,",
+                "bird-shaped metal charms,",
+                "small leather pouches,",
+                "hanging tassels,",
+                "aged bronze buckles,",
+                "wrapped wrist cords,",
+                "thin belt straps,",
+                "small whistle,",
+                "falconry jesses,",
+                "decorative bird anklet straps,",
+                "weathered leather accessories,",
+                "wind-blown ribbons,",
+                "travel gear details,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing on elevated ground,",
+                "one arm raised horizontally,",
+                "falcon perched on the leather-gloved forearm,",
+                "the other hand lightly holding the trailing scarf,",
+                "body turned slightly sideways,",
+                "gazing toward the distant horizon,",
+                "confident and calm posture,",
+                "strong wind lifting the scarf and layered cloth,",
+                "feathers and ribbons fluttering in the wind,",
+                "slightly low angle,",
+                "clear view of the whole outfit,",
+                "dynamic fantasy character showcase,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "vast windswept highlands,",
+                "towering desert cliffs,",
+                "rocky plateau,",
+                "dry golden grass,",
+                "distant mountain ridges,",
+                "wide open sky,",
+                "large drifting clouds,",
+                "strong wind sweeping across the landscape,",
+                "birds soaring in the distance,",
+                "warm sunlight,",
+                "vast fantasy frontier atmosphere,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "caravan-merchant",
+          "name": "隊商の商人",
+          "symbol": "🐪",
+          "accentColor": "#c18b53",
+          "description": "遥かな土地を結ぶ隊商とともに旅をし、異国の宝石や香料、金貨を華やかな装飾として纏う、裕福な旅商人の衣装。",
+          "motif": "隊商・金貨・香料",
+          "material": "重ね布・宝石・金属装飾",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy caravan merchant outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory layered tunic,",
+                "soft draped neckline,",
+                "rich brown outer robe,",
+                "layered shoulder cloth,",
+                "decorative draped stole,",
+                "ornate waist sash,",
+                "layered cloth panels,",
+                "wide leather belt,",
+                "multiple narrow belts,",
+                "loose brown pants,",
+                "dark brown boots,",
+                "earth-tone color palette,",
+                "flowing layered fabrics,",
+                "luxurious traveler silhouette,",
+                "modest and androgynous styling,",
+                "wealthy wandering merchant aesthetic,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "gold coins,",
+                "gemstone ornaments,",
+                "perfume bottles,",
+                "decorative keys,",
+                "multiple necklaces,",
+                "dangling chains,",
+                "beaded tassels,",
+                "ornate pouches,",
+                "small treasure charms,",
+                "rings,",
+                "bracelets,",
+                "trade tags,",
+                "small bottles of spices,",
+                "aged metal ornaments,",
+                "travel goods accessories,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "one hand holding a small perfume bottle or a string of coins,",
+                "the other hand lightly spreading the outer robe,",
+                "calm confident expression,",
+                "graceful merchant-like posture,",
+                "cloth and ornaments gently swaying,",
+                "fashion-style character showcase,",
+                "clear view of the whole outfit,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "desert market,",
+                "caravan tents,",
+                "stacked trade crates,",
+                "hanging fabrics,",
+                "scattered pottery,",
+                "warm lantern light,",
+                "camel caravan atmosphere,",
+                "busy fantasy trading post setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "oasis-water-bearer",
+          "name": "オアシスの水運び",
+          "symbol": "💧",
+          "accentColor": "#75b6b6",
+          "description": "乾いた砂漠に命を届ける水を運び、白く軽やかな布と清涼な青緑の装飾を纏った、オアシスを行き交う水運びの衣装。",
+          "motif": "水瓶・オアシス・水滴",
+          "material": "薄布・ターコイズ・銀装飾",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy water bearer outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory airy tunic,",
+                "soft draped neckline,",
+                "light layered shoulder stole,",
+                "flowing white outer cloth,",
+                "loose sleeves,",
+                "layered waist cloth,",
+                "brown leather waist belt,",
+                "light brown wide pants,",
+                "wrapped lower legs,",
+                "simple leather sandals,",
+                "turquoise accent details,",
+                "lightweight breathable fabrics,",
+                "soft flowing silhouette,",
+                "modest and androgynous styling,",
+                "refreshing oasis traveler aesthetic,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "decorative water jug,",
+                "small glass water bottles,",
+                "turquoise beads,",
+                "blue-green stone charms,",
+                "silver water-drop ornaments,",
+                "woven cords,",
+                "small leather pouches,",
+                "delicate tassels,",
+                "shell-like ornaments,",
+                "thin metal chains,",
+                "ceramic bottle charms,",
+                "wrapped wrist cords,",
+                "travel water containers,",
+                "subtle oasis-inspired accessories,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "holding a decorative water jug in one arm,",
+                "the other hand lightly holding the shoulder stole,",
+                "relaxed natural posture,",
+                "gentle calm expression,",
+                "light breeze moving the loose fabrics,",
+                "soft flowing cloth movement,",
+                "clear view of the water jug and outfit,",
+                "fashion-style character showcase,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "lush desert oasis,",
+                "clear turquoise water pool,",
+                "palm trees,",
+                "sunlit stone path,",
+                "soft desert greenery,",
+                "small flowing spring,",
+                "warm sand surrounding the oasis,",
+                "gentle sunlight reflecting on the water,",
+                "distant desert dunes,",
+                "peaceful fantasy oasis atmosphere,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruined-city-lamplighter",
+          "name": "廃都の灯守",
+          "symbol": "🕯️",
+          "accentColor": "#5f554d",
+          "description": "崩れゆく廃都にただ一人灯火を絶やさず、煤けた黒布と朽ちたフードを纏いながら静かに夜を巡る灯守の衣装。",
+          "motif": "廃都・灯火・朽ちたフード",
+          "material": "煤け布・風化レザー・古金属",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy ruined-city lamplighter outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "black and charcoal layered clothing,",
+                "faded dark brown accents,",
+                "large weathered hood,",
+                "hooded tattered mantle,",
+                "ragged black shoulder cloth,",
+                "long distressed tunic,",
+                "layered asymmetrical fabric panels,",
+                "loose weathered sleeves,",
+                "frayed edges,",
+                "uneven torn hems,",
+                "hanging strips of black fabric,",
+                "wide worn leather belt,",
+                "utility belt,",
+                "lantern hook at the waist,",
+                "aged leather bracers,",
+                "dark rugged boots,",
+                "soot-stained fabrics,",
+                "ash-stained cloth,",
+                "burnt fabric edges,",
+                "flowing ragged silhouette,",
+                "dark mysterious traveler aesthetic,",
+                "modest and androgynous styling,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "antique hand lantern,",
+                "small candles,",
+                "soot-stained cloth,",
+                "aged metal ornaments,",
+                "small keys,",
+                "dangling chains,",
+                "fringed fabric details,",
+                "worn leather pouches,",
+                "old charms,",
+                "burnt fabric details,",
+                "dust-covered accessories,",
+                "weathered belt straps,",
+                "subtle decorative layers,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "holding an antique lantern in one hand,",
+                "the other hand lightly gathering the shawl,",
+                "slightly lowered gaze,",
+                "quiet solemn posture,",
+                "soft lantern glow illuminating the outfit,",
+                "cloth and tassels gently swaying,",
+                "clear view of the whole outfit,",
+                "fashion-style character showcase,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "abandoned ruined city,",
+                "broken stone streets,",
+                "collapsed buildings,",
+                "crumbling archways,",
+                "dim foggy air,",
+                "floating dust and ash,",
+                "faint warm lantern glow,",
+                "scattered debris,",
+                "dark cloudy sky,",
+                "melancholic fantasy ruin setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wind-minstrel",
+          "name": "風の楽師",
+          "symbol": "🎻",
+          "accentColor": "#b28a5f",
+          "description": "風にはためく長いケープと煌めく装飾を纏い、旅先で奏でる音色とともに光を振りまく華やかな放浪楽師の衣装。",
+          "motif": "民族楽器・長いケープ・煌めき",
+          "material": "軽量布・クリスタルビーズ・金属刺繍",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "nomad fantasy minstrel outfit,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "ivory loose tunic,",
+                "soft open neckline,",
+                "layered shoulder shawl,",
+                "long flowing cape,",
+                "draped decorative stole,",
+                "lightweight layered fabrics,",
+                "loose sleeves,",
+                "layered waist cloth,",
+                "wide leather belt,",
+                "soft brown wide pants,",
+                "dark brown boots,",
+                "earth-tone color palette,",
+                "flowing elegant silhouette,",
+                "shimmering fabric details,",
+                "subtle glitter accents,",
+                "delicate jewel ornaments,",
+                "metallic embroidery,",
+                "sparkling decorative trim,",
+                "ornate traveler aesthetic,",
+                "modest and androgynous styling,",
+                "highly detailed clothing,",
+                "glimmering fabrics,",
+                "iridescent details,",
+                "sparkling beadwork,",
+                "luminous ornamentation,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "ethnic musical instrument,",
+                "small lute,",
+                "decorative flute,",
+                "instrument case,",
+                "tassels,",
+                "fringed fabric details,",
+                "braided cords,",
+                "beaded ornaments,",
+                "small bells,",
+                "coin charms,",
+                "multiple necklaces,",
+                "wrapped wrist cords,",
+                "ornamental earrings,",
+                "gem charms,",
+                "crystal beads,",
+                "shimmering chains,",
+                "sparkling accessories,",
+                "travel pouches,",
+                "subtle decorative layers,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "standing pose,",
+                "one hand resting near the belt or harness,",
+                "the other hand slightly extended as if calming or guiding a beast,",
+                "confident and calm posture,",
+                "sharp watchful expression,",
+                "cloth and ornaments lightly swaying,",
+                "wild and mysterious atmosphere,",
+                "fashion-style character showcase,",
+                "clear view of the whole outfit,",
+                "detailed costume presentation,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "rocky wilderness,",
+                "dry grassland,",
+                "weathered stone ruins,",
+                "windswept terrain,",
+                "distant cliffs,",
+                "scattered bones and stones,",
+                "open sky,",
+                "fantasy frontier atmosphere,",
+                "untamed beast-tamer setting,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beast-tamer",
+          "name": "魔獣使い",
+          "symbol": "🐾",
+          "accentColor": "#5f5043",
+          "description": "獣骨や牙のお守りを全身に携え、荒々しい黒布と革装具を纏いながら、巨大な狼の魔獣と荒野を渡る孤高の魔獣使いの衣装。",
+          "motif": "魔獣・獣骨・牙",
+          "material": "黒布・風化レザー・骨装飾",
+          "categories": [
+            {
+              "id": "outfit",
+              "name": "① 衣装プロンプト",
+              "prompts": [
+                "dark nomad fantasy beast tamer outfit,",
+                "human character,",
+                "unisex design,",
+                "suitable for both male and female characters,",
+                "fully human appearance,",
+                "black and dark brown layered clothing,",
+                "weathered ivory inner tunic,",
+                "ragged shoulder mantle,",
+                "dark draped stole,",
+                "torn asymmetrical cloth panels,",
+                "rough layered waist cloth,",
+                "wide worn leather belt,",
+                "multiple leather straps,",
+                "crossbody harness,",
+                "heavy leather bracers,",
+                "dark loose pants,",
+                "wrapped lower legs,",
+                "rugged leather boots,",
+                "distressed fabrics,",
+                "frayed edges,",
+                "wild and intimidating traveler aesthetic,",
+                "modest and androgynous styling,",
+                "highly detailed clothing,"
+              ]
+            },
+            {
+              "id": "decorations",
+              "name": "② 追加装飾プロンプト",
+              "prompts": [
+                "beast fang accessories,",
+                "animal bone ornaments,",
+                "small skull fragments,",
+                "claw charms,",
+                "bone necklaces,",
+                "bone beads,",
+                "small horn ornaments,",
+                "weathered feathers,",
+                "fur trims,",
+                "bone talismans,",
+                "carved animal teeth,",
+                "braided leather cords,",
+                "aged metal rings,",
+                "hanging bone decorations,",
+                "multiple amulets,",
+                "worn leather pouches,",
+                "dark tribal-inspired accessories,"
+              ]
+            },
+            {
+              "id": "composition",
+              "name": "③ 構図プロンプト",
+              "prompts": [
+                "full body,",
+                "human beast tamer standing beside a wolf-like magical beast,",
+                "separate human character and beast companion,",
+                "large dark wolf beast at the character's side,",
+                "one hand holding a leather leash or harness,",
+                "the other hand resting near the belt,",
+                "confident and calm posture,",
+                "sharp watchful expression,",
+                "wolf beast looking forward,",
+                "wind pulling at torn cloth and fur,",
+                "bone ornaments visibly hanging from the outfit,",
+                "slightly low angle,",
+                "dynamic fantasy character showcase,",
+                "clear view of both character and beast,"
+              ]
+            },
+            {
+              "id": "background",
+              "name": "④ 背景プロンプト",
+              "prompts": [
+                "dark rocky wasteland,",
+                "windswept barren ground,",
+                "jagged cliffs,",
+                "dead grass,",
+                "scattered animal bones,",
+                "weathered stone ruins,",
+                "heavy cloudy sky,",
+                "dust-filled air,",
+                "faint cold light,",
+                "dark fantasy frontier atmosphere,",
+                "untamed wilderness setting,"
               ]
             }
           ]
